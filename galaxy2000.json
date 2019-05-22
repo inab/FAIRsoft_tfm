@@ -1,0 +1,93 @@
+[
+    {
+        "host": "toolshed.g2.bx.psu.edu",
+        "name": "blast2go",
+        "nmsp": "galaxy",
+        "type": "workflow",
+        "version": "0.0.9"
+    },
+    {
+        "host": "toolshed.g2.bx.psu.edu",
+        "name": "chipseeker",
+        "nmsp": "galaxy",
+        "type": "workflow",
+        "version": "1.14.2.1"
+    },
+    {
+        "host": "toolshed.g2.bx.psu.edu",
+        "name": "cufflinks",
+        "nmsp": "galaxy",
+        "type": "workflow",
+        "version": "2.2.1.2"
+    },
+    {
+        "host": "toolshed.g2.bx.psu.edu",
+        "name": "cutadapt",
+        "nmsp": "galaxy",
+        "type": "workflow",
+        "version": "1.16.1"
+    },
+    {
+        "host": "toolshed.g2.bx.psu.edu",
+        "name": "dexseq",
+        "nmsp": "galaxy",
+        "type": "workflow",
+        "version": "1.24.0.0"
+    },
+    {
+        "host": "toolshed.g2.bx.psu.edu",
+        "name": "diffbind",
+        "nmsp": "galaxy",
+        "type": "workflow",
+        "version": "2.6.6.4"
+    },
+    {
+        "host": "toolshed.g2.bx.psu.edu",
+        "name": "goseq",
+        "nmsp": "galaxy",
+        "type": "workflow",
+        "version": "1.26.0"
+    },
+    {
+        "host": "toolshed.g2.bx.psu.edu",
+        "name": "msgfplus",
+        "nmsp": "galaxy",
+        "type": "workflow",
+        "version": "0.5"
+    },
+    {
+        "host": "toolshed.g2.bx.psu.edu",
+        "name": "morpheus",
+        "nmsp": "galaxy",
+        "type": "workflow",
+        "version": "2.255.0"
+    },
+    {
+        "host": "toolshed.g2.bx.psu.edu",
+        "name": "quast",
+        "nmsp": "galaxy",
+        "type": "workflow",
+        "version": "4.6.3"
+    },
+    {
+        "host": "toolshed.g2.bx.psu.edu",
+        "name": "varscan",
+        "nmsp": "galaxy",
+        "type": "workflow",
+        "version": "2.4.2"
+    },
+    {
+        "host": "toolshed.g2.bx.psu.edu",
+        "name": "segemehl",
+        "nmsp": "galaxy",
+        "type": "workflow",
+        "version": "0.2.0.3"
+    },
+    {
+        "host": "toolshed.g2.bx.psu.edu",
+        "name": "snippy",
+        "nmsp": "galaxy",
+        "type": "workflow",
+        "version": "3.2"
+    }
+]

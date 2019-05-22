@@ -1,0 +1,14 @@
+Database portal	163
+Plug-in	17
+Suite	21
+None	1
+Script	20
+Desktop application	220
+Web API	25
+Web application	606
+Workbench	19
+Library	595
+Web service	37
+SPARQL endpoint	2
+Workflow	16
+Command-line tool	1651
