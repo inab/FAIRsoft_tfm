@@ -1,0 +1,115 @@
+[
+  {
+    "name": "gaml",
+    "documentation": [
+      [
+        "General",
+        "https://github.com/usamec/gaml"
+      ]
+    ],
+    "dependencies": [],
+    "output": [],
+    "description": [
+      "Prototype genome assembly tool based on maximizing likelihood of the assembly in a model encompaasing error rate, insert length and other features of indvidual sequencing technologies."
+    ],
+    "authors": [
+      "Tomáš Vinař",
+      "Broňa Brejová"
+    ],
+    "publication": 1,
+    "version": null,
+    "test": false,
+    "src": [],
+    "type": "Command-line tool",
+    "contribPolicy": false,
+    "repository": [],
+    "links": [],
+    "source": [
+      "biotools"
+    ],
+    "inst_instr": false,
+    "download": [],
+    "termsUse": false,
+    "input": [],
+    "os": [
+      "Linux",
+      "Windows",
+      "Mac"
+    ],
+    "license": []
+  },
+  {
+    "name": "catapult",
+    "documentation": [
+      [
+        "General",
+        "http://www.marcottelab.org/index.php/Catapult"
+      ]
+    ],
+    "dependencies": [],
+    "output": [],
+    "description": [
+      "Combining dATa Across species using Positive-Unlabeled Learning Techniques, is a supervised machine learning method that uses a biased support vector machine where the features are derived from walks in a heterogeneous gene-trait network."
+    ],
+    "authors": [
+      "Edward Marcotte"
+    ],
+    "publication": 1,
+    "version": null,
+    "test": false,
+    "src": [],
+    "type": "Command-line tool",
+    "contribPolicy": false,
+    "repository": [],
+    "links": [],
+    "source": [
+      "biotools"
+    ],
+    "inst_instr": false,
+    "download": [],
+    "termsUse": false,
+    "input": [],
+    "os": [
+      "Linux"
+    ],
+    "license": []
+  },
+  {
+    "name": "galaxyweb",
+    "documentation": [
+      [
+        "General",
+        "http://galaxy.seoklab.org/cgi-bin/help.cgi"
+      ]
+    ],
+    "dependencies": [],
+    "output": [],
+    "description": [
+      "GalaxyWeb is a webserver for predicting protein structure from sequence by template based modeling. It refines loop or terminus regions by ab initio modeling"
+    ],
+    "authors": [
+      "GalaxyWEB Support"
+    ],
+    "publication": 1,
+    "version": null,
+    "test": false,
+    "src": [],
+    "type": "Web application",
+    "contribPolicy": false,
+    "repository": [],
+    "links": [],
+    "source": [
+      "biotools"
+    ],
+    "inst_instr": false,
+    "download": [],
+    "termsUse": false,
+    "input": [],
+    "os": [
+      "Linux",
+      "Windows",
+      "Mac"
+    ],
+    "license": []
+  }
+]

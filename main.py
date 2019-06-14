@@ -2,6 +2,8 @@ import FI_FAIR as FI
 import FI_FAIR_stats as FI_stats
 import json
 import sys
+import argparse
+import munch
 
 
 if __name__ == '__main__':
@@ -9,6 +11,7 @@ if __name__ == '__main__':
     conffile = sys.argv[1]
     import importlib
     config = importlib.import_module(conffile)
+
     ######----------- Data restructuring and integration ------------------------------------##########
 
     allSets = []
@@ -48,6 +51,8 @@ if __name__ == '__main__':
     if config.INTEGRATION_OUT == True:
         with open(config.INTEGRATED_TOOLS_PATH, 'w') as outfile:
             json.dump(instToWrite, outfile)
+
+
 
     ######-------------- Statistics ---------------------------------------------------------########
 
