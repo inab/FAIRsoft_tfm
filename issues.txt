@@ -1,0 +1,1 @@
+en el schema, download and documentation should be nested, the list format can potentially lead to errors

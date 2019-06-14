@@ -1,88 +1,124 @@
 import FI_FAIR as FI
 import FI_FAIR_stats as FI_stats
 import json
-
+import sys
 
 
 if __name__ == '__main__':
 
-    # Bioconductor
-    bioconductor2000raw = FI.loadJSON('bioconductor2000.json')
-    bioconductInts = FI.bioconductorToolsGenerator(bioconductor2000raw).instSet
-    # bioconda
-    bioconda2000raw = FI.loadJSON('bioconda2000.json')
-    biocondaInts = FI.biocondaToolsGenerator(bioconda2000raw).instSet
-    # biotools
-    biotools2000raw = FI.loadJSON('biotools2000.json')
-    biotoInts = FI.biotoolsToolsGenerator(biotools2000raw).instSet
-    # galaxyConfig
-    shedXML2000raw = FI.loadJSON('shedXML2000.json')
-    shedXMLInts = FI.galaxyConfigToolsGenerator(shedXML2000raw).instSet
-    # galaxyConfig
-    shed2000raw = FI.loadJSON('shed2000.json')
-    shedInts = FI.galaxyShedToolsGenerator(shed2000raw).instSet
+    conffile = sys.argv[1]
+    import importlib
+    config = importlib.import_module(conffile)
+    ######----------- Data restructuring and integration ------------------------------------##########
 
-    allSets = [bioconductInts, biocondaInts, biotoInts, shedXMLInts, shedInts]
+    allSets = []
+
+    # Bioconductor
+    if config.BIOCONTUCTOR_TOOLS:
+        bioconductor2000raw = FI.loadJSON(config.BIOCONTUCTOR_TOOLS)
+        allSets.append(FI.bioconductorToolsGenerator(bioconductor2000raw).instSet)
+
+    # bioconda
+    if config.BIOCONDA_TOOLS:
+        bioconda2000raw = FI.loadJSON(config.BIOCONDA_TOOLS)
+        allSets.append(FI.biocondaToolsGenerator(bioconda2000raw).instSet)
+
+    # biotools
+    if config.BIOTOOLS_TOOLS:
+        biotools2000raw = FI.loadJSON(config.BIOTOOLS_TOOLS)
+        allSets.append(FI.biotoolsToolsGenerator(biotools2000raw).instSet)
+
+    # galaxyConfig
+    if config.GALAXY_XML_TOOLS:
+        shedXML2000raw = FI.loadJSON(config.GALAXY_XML_TOOLS)
+        allSets.append(FI.galaxyConfigToolsGenerator(shedXML2000raw).instSet)
+
+    # galaxy
+    if config.GALAXY_TOOLS:
+        shed2000raw = FI.loadJSON(config.GALAXY_TOOLS)
+        allSets.append(FI.galaxyShedToolsGenerator(shed2000raw).instSet)
+
     mergedSet = FI.integrateInstances(allSets)
     canonicalMerged = FI.generateCanonicalSet(mergedSet)
 
     instances = [canon.instances for canon in canonicalMerged.canonicals] # [[],[],[]]
     instances = [item for sublist in instances for item in sublist]
+    instToWrite = [ vars(item) for item in instances]
 
-    #print([inst.input for inst in instances])
+    if config.INTEGRATION_OUT == True:
+        with open(config.INTEGRATED_TOOLS_PATH, 'w') as outfile:
+            json.dump(instToWrite, outfile)
+
+    ######-------------- Statistics ---------------------------------------------------------########
+
+    if config.STATS_CALC == True:
+
+        # WRITTING REPORTS
+        # Features per source
+        S = [instances, biotoInts.instances, biocondaInts.instances, bioconductInts.instances,shedInts.instances, shedXMLInts.instances]
+        FI_stats.repFeatsPerSource(instances, 'stats/features.txt', S)
+        FI_stats.featuresBarPlot(FI_stats.dfFeatures('stats/features.txt'), 'images/featuresBarPlot.png')
+
+        # Sources per instance
+        FI_stats.repSourcesPerInstance(instances, 'stats/sources.txt')
+        FI_stats.nSourcesBarPlot(FI_stats.dfNSources('stats/sources.txt'), 'images/sourcesBarPlot.png')
+        FI_stats.pie( FI_stats.dfNSources('stats/sources.txt'), 'images/sourcesPerInstPie.png')
+
+        #Types per canonical
+        FI_stats.repTypesPerCanon(instances, 'stats/typesPerCanon.txt', canonicalMerged )
+
+        #Frequency of types in instances
+        FI_stats.typesInInstances(instances, 'stats/typesInInstances.txt')
+        d = FI_stats.dfTypes('stats/typesInInstances.txt')
+        FI_stats.pieF(d, 'images/typesInInstPie.png')
+        FI_stats.typesBarPlot(d, 'images/typesBarPlot.png', (5, 7))
+
+        #Features in canonicals
+        FI_stats.featuresInCanonicals(instances, 'stats/featsCanon.txt', canonicalMerged)
+
+        #Number of versions in canonicals
+        FI_stats.versionsCanon(instances, 'stats/versionsCanon.txt', canonicalMerged)
+
+        #Types of versions in instances
+        FI_stats.typesVersions(instances, 'stats/typesVersions.txt')
+        FI_stats.pieF(FI_stats.dfTypes('stats/typesVersions.txt'), 'images/typeVerSPie.png')
+
+        #Types of licenses
+        FI_stats.typesLicenses(instances, 'stats/typesLicenses.txt')
+        d = FI_stats.dfTypes('stats/typesLicenses.txt')
+        FI_stats.pieF(d, 'images/typeLicPie.png')
+        FI_stats.typesBarPlot(d, 'images/typeLicBarPlot.pdf', (5, 6))
+
+        # Different licenses per canon
+        FI_stats.diffLicenses(instances, 'stats/diffLicenses.txt', canonicalMerged)
+
+        # Operating systems
+        FI_stats.repOSystems(instances, 'stats/OStypes.txt', 'stats/OSfreqs.txt')
+        FI_stats.pieF(FI_stats.dfTypes('stats/OStypes.txt'), 'images/OStypes.png')
+        FI_stats.nSourcesBarPlot(FI_stats.dfTypes('stats/OSfreqs.txt'), 'images/OSfreqs.pdf')
+
+        # input/output data formats
+        FI_stats.repDataformats(instances, 'stats/inputExistenceOfFormats.txt', 'stats/inputFreqsFormats.txt')
+        FI_stats.pieF(FI_stats.dfTypes('stats/inputExistenceOfFormats.txt'), 'images/inputExistenceOfFormats.png')
+        df = FI_stats.dfTypes('stats/inputFreqsFormats.txt')
+        FI_stats.typesBarPlot(df, 'images/inputFreqsFormats.png', (6, 15))
 
 
-##################---------------------------- STATISTICS --------------------------------------###########################
+    if config.METRICS_CALC == True:
+        ##### ---------------- FAIRness ---------------------------------------------------#########################
+        # instances FAIRness
+        FI.prepFAIRcomp(instances)
+        print("Preapared for FAIRsoft measurement")
+        print("Calculating instances FAIRsoft metrics and scores ...")
+        outnameInst = config.INSTANCES_SCORES_OUT_PATH + config.INSTANCES_SCORES_OUT_NAME + '.txt'
+        FI_stats.computeFAIRinsts(canonicalMerged, outnameInst, config.METRICS_OUT, config.SCORES_CALC, config.METRICS_OUT_PATH)
+        print("Instances FAIRsoft metrics and scores obtained")
+        FI_stats.FAIRviolinPlot(outnameInst, config.INSTANCES_SCORES_OUT_PATH + '/FAIRinsts.png')
 
-# WRITTING REPORTS
-# Features per source
-S = [instances, biotoInts.instances, biocondaInts.instances, bioconductInts.instances,shedInts.instances, shedXMLInts.instances]
-FI_stats.repFeatsPerSource(instances, 'stats/features.txt', S)
-FI_stats.featuresBarPlot(FI_stats.dfFeatures('stats/features.txt'), 'images/featuresBarPlot.pdf')
-
-# Sources per instance
-FI_stats.repSourcesPerInstance(instances, 'stats/sources.txt')
-FI_stats.nSourcesBarPlot(FI_stats.dfNSources('stats/sources.txt'), 'images/sourcesBarPlot.pdf')
-FI_stats.pie( FI_stats.dfNSources('stats/sources.txt'), 'images/sourcesPerInstPie.pdf')
-
-#Types per canonical
-FI_stats.repTypesPerCanon(instances, 'stats/typesPerCanon.txt', canonicalMerged )
-
-#Frequency of types in instances
-FI_stats.typesInInstances(instances, 'stats/typesInInstances.txt')
-d = FI_stats.dfTypes('stats/typesInInstances.txt')
-FI_stats.pie(d, 'images/typesInInstPie.pdf')
-FI_stats.typesBarPlot(d, 'images/typesBarPlot.pdf')
-
-#Features in canonicals
-FI_stats.featuresInCanonicals(instances, 'stats/featsCanon.txt', canonicalMerged)
-
-#Number of versions in canonicals
-FI_stats.versionsCanon(instances, 'stats/versionsCanon.txt', canonicalMerged)
-
-#Types of versions in instances
-FI_stats.typesVersions(instances, 'stats/typesVersions.txt')
-FI_stats.pie(FI_stats.dfTypes('stats/typesVersions.txt'), 'images/typeVerSPie.pdf')
-
-#Types of licenses
-FI_stats.typesLicenses(instances, 'stats/typesLicenses.txt')
-d = FI_stats.dfTypes('stats/typesLicenses.txt')
-FI_stats.pie(d, 'images/typeLicPie.pdf')
-FI_stats.typesBarPlot(d, 'images/typeLicBarPlot.pdf')
-
-# Different licenses per canon
-FI_stats.diffLicenses(instances, 'stats/diffLicenses.txt', canonicalMerged)
-
-# Operating systems
-
-
-
-# -------------------------------------------------- FAIRness ---------------------------------------#########################
-# instances FAIRness
-FI.prepFAIRcomp(instances)
-FI_stats.computeFAIRinsts(instances, 'scores/FAIRinsts.txt')
-FI_stats.FAIRviolinPlot('scores/FAIRinsts.txt', 'images/FAIRinsts.pdf')
-
-# canonicals FAIRness
-FI_stats.computeFAIRcanon(canonicalMerged, 'scores/FAIRcanon.txt')
-FI_stats.FAIRviolinPlot('scores/FAIRcanon.txt', 'images/FAIRcanon.pdf')
+    if config.SCORES_CALC == True:
+        # canonicals FAIRness
+        print("Calculating canonical tools FAIRsoft metrics and scores ...")
+        outnameCan = config.CANONICAL_SCORES_OUT_PATH + config.CANONICAL_SCORES_OUT_NAME + '.txt'
+        FI_stats.computeFAIRcanon(canonicalMerged, outnameCan )
+        print("Instances FAIRsoft metrics and scores obtained")
+        FI_stats.FAIRviolinPlot(outnameCan, config.CANONICAL_SCORES_OUT_PATH + '/FAIRcanon.png')

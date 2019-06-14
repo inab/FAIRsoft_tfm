@@ -419,14 +419,6 @@ class instance(object):
         self.metrics.R4_3 = False # By now
 
 
-
-
-
-
-
-
-
-
 class FAIRmetrics(object):
 
     def __init__(self):
@@ -495,10 +487,11 @@ class canonicalSet(object):
 
 class canonicalTool(object):
 
-    def __init__(self, name, instances, sources):
+    def __init__(self, name, instances, sources, types):
         self.name = name
         self.instances = instances
         self.sources = sources
+        self.types = types
 
     def computeFAIRmetrics(self):
         self.F = max([ins.F for ins in self.instances])
@@ -1020,13 +1013,11 @@ def integrateInstances(setsOfInsts):
     totalNames = []
     names = []
     for s in setsOfInsts:
-        print('instances in ' + s.source + ': '+ str(len(s.instances)))
-        print('names in ' + str(len(set([a.name for a in s.instances]))))
+        print('instances from ' + s.source + ': '+ str(len(s.instances)))
+        print('names from ' + s.source + ': ' + str(len(set([a.name for a in s.instances]))))
 
         names.append(set([a.name for a in s.instances]))
         totalNames = totalNames + [ a.name for a in s.instances ]
-
-    print(names[0].difference(names[2]))
 
     groupInst = {}
 
@@ -1060,7 +1051,7 @@ def integrateInstances(setsOfInsts):
     #print(len(groupInst))
     # Creating the integrated instances
     finalSet = {}
-    print('Integrating instances')
+    print('\nIntegrating metadata from different sources ... \n')
     for name in totalNames:
         finalSet[name] = []
         for version in groupInst[name].keys():
@@ -1213,8 +1204,9 @@ def generateCanonicalSet(instsctDist):
     newCanonSet  = canonicalSet()
     for name in instsctDist.keys():
         instances = instsctDist[name]
-        sources = [item for sublist in instances for item in sublist.source]
-        newCanon = canonicalTool(name, instances, sources)
+        sources = list(set([item for sublist in instances for item in sublist.source]))
+        types = list(set([inst.type for inst in instances if inst.type != None ]))
+        newCanon = canonicalTool(name, instances, sources, types)
         newCanonSet.addCanononical(newCanon)
     return(newCanonSet)
 

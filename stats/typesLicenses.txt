@@ -1,11 +1,11 @@
-GPL	1012
-None	1558
-apache	70
-artistic	391
 CeCILL	7
-other	79
 BSD	53
 AGPL	15
+artistic	391
+GPL	1012
 CC	31
-LGPL	62
+apache	70
+None	1558
 MIT	146
+LGPL	62
+other	79

@@ -1,3 +1,5 @@
+import json
+
 def repFeatsPerSource(instances, outfile, S):
     stats1 = open(outfile,'w')
     stats1.write('instances\tfeature\tsource\n')
@@ -506,6 +508,19 @@ def pie(df, fname):
     labs = df.columns.values.tolist()
     f, ax = plt.subplots(figsize=(10, 4))
     plt.pie(values, labels = labs)
+    plt.tight_layout()
+    p=plt.gcf()
+    my_circle=plt.Circle( (0,0), 0.5, color='white')
+    p.gca().add_artist(my_circle)
+
+    f.savefig(fname, bbox_inches='tight')
+
+def pieF(df, fname):
+    import matplotlib.pyplot as plt
+    values = df['value'].tolist()
+    labs = df['type'].tolist()
+    f, ax = plt.subplots(figsize=(10, 4))
+    plt.pie(values, labels = labs, data = df)
     p=plt.gcf()
     my_circle=plt.Circle( (0,0), 0.5, color='white')
     p.gca().add_artist(my_circle)
@@ -516,140 +531,202 @@ def pie(df, fname):
 def dfTypes(file):
     dtaf = open(file, 'r')
     rows = []
-    colnames = []
     c=0
     for line in dtaf:
         if line.strip():
-            colnames.append(line.strip().split('\t')[0])
-            rows.append(int(line.strip().split('\t')[1]))
-    df = DataFrame([rows], columns = colnames)
+            type_ = line.strip().split('\t')[0]
+            value = int(line.strip().split('\t')[1])
+            rows.append([type_, value])
+    df = DataFrame(rows, columns = ['type', 'value'])
     return(df)
 
-def typesBarPlot(d, outname):
+def typesBarPlot(d, outname, figsize):
     import matplotlib.pyplot as plt
     import seaborn as sns
-    f, ax = plt.subplots(figsize=(10, 4))
+    f, ax = plt.subplots(figsize = figsize)
     #sns.set_color_codes("pastel")
-    g = sns.barplot(y= d.columns.values.tolist(),x= d.values[0])
+    d = d.sort_values(by="value", ascending=False)
+    print(d)
+    sns.barplot(x= "value",y= "type", data = d, ci = None)
     ax.get_xaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
     ax.yaxis.grid(False) # I olny want the vertical grid
-    ax.xaxis.grid(b=True, which='major', color='grey', linewidth=1.0)
-    ax.xaxis.grid(b=True, which='minor', color='grey', linewidth=0.5)
+    ax.set_axisbelow(True)
+    ax.xaxis.grid(b=True, which='major', color='grey', linewidth=0.7)
+    ax.xaxis.grid(b=True, which='minor', color='grey', linewidth=0.2)
+
     f.savefig(outname, bbox_inches='tight')
+
+
+def repOSystems(instances, outfile1, outfile2):
+    oss = {'Linux':0,'Windows':0, 'Mac':0}
+    nOs = {'0':0, '1':0, '2':0, '3':0}
+    for inst in instances:
+        for o in inst.os:
+            oss[o] += 1
+        nOs[str(len(inst.os))] += 1
+    # output to file
+    row = '%s\t%d\n'
+    file1 = open(outfile1, 'w')
+    for a in oss.keys():
+        file1.write(row%(a, oss[a]))
+    file1.close()
+
+    file2 = open(outfile2, 'w')
+    for e in nOs.keys():
+        file2.write(row%(e, nOs[e]))
+    file2.close()
+
+
+def repDataformats(instances, outfile1, outfile2):
+    formats = []
+    specified = { 'Yes': 0 , 'No': 0}
+    formats = {}
+    for inst in instances:
+        if len(inst.input) == 0:
+            specified['No'] += 1
+        else:
+            specified['Yes'] += 1
+            for f in inst.input:
+                if 'format' in f.keys():
+                    if f['format']['term'].lower().lstrip() not in formats.keys():
+                        print(f['format']['term'].lower().lstrip())
+                        formats[f['format']['term'].lower().lstrip()] = 1
+                    else:
+                        formats[f['format']['term'].lower().lstrip()] += 1
+
+
+
+    row = '%s\t%d\n'
+    fout1 = open(outfile1, 'w')
+    for a in specified.keys():
+        fout1.write(row%(a, specified[a]))
+
+    fout2 = open(outfile2, 'w')
+    for a in formats.keys():
+        fout2.write(row%(a, formats[a]))
+
+    print(specified)
+    print(formats)
+
 
 
 def FAIRviolinPlot(infile, outname):
     import seaborn as sns
     import matplotlib.pyplot as plt
     from pandas import read_csv
+    import pandas as pd
     data = read_csv(infile, sep='\t', header = None)
-    data.columns = ['score', 'principle','tool']
-    g = sns.catplot(x="principle", y="score", kind="violin", data=data)
+    data.columns = ['name', 'F', 'A', 'I', 'R', 'nSources' ,  'nTypes']
+    scores = data['F'].astype(float).tolist()+data['A'].astype(float).tolist()+data['I'].astype(float).tolist()+data['R'].astype(float).tolist()
+    labels = ['F']*len(data['F']) + ['A']*len(data['A'])+['I']*len(data['I'])+['R']*len(data['R'])
+    #print('scores len: ' + str(len(scores)))
+    #print('labels lenght: ' + str(len(labels)))
+    d = {'score':scores,'principle': labels}
+    dat = DataFrame(d)
+    #print(dat)
+    g = sns.catplot(x='principle', y= 'score' , kind="violin", data=dat)
     g.savefig(outname, bbox_inches='tight')
 
 
-def computeFAIRinsts(instances, filename):
+def computeFAIRinsts(canonicals, filename, metrics_out, scores_calc, metrics_out_path):
     F = []
-    Ft = []
     A = []
-    At = []
     I = []
-    It = []
     R = []
-    Rt = []
+    names = []
+    out_inst_metrics = []
 
-    stats5 = open(filename, 'w')
+
     name_form = '{}/{}/{}'
-    for ins in instances:
-        ins.generateFAIRMetrics()
-        ins.FAIRscores()
-        n = name_form.format(ins.name, ins.version, ins.type)
-        F.append(ins.F)
-        Ft.append(n)
-        A.append(ins.A)
-        At.append(n)
-        I.append(ins.I)
-        It.append(n)
-        R.append(ins.R)
-        Rt.append(n)
+    for can in canonicals.canonicals:
+        for ins in can.instances:
+            ins.generateFAIRMetrics()
+            if  metrics_out== True:
+                dic = ins.metrics.__dict__
+                # name, version, type are needed to identify the instance
+                dic['name'] = ins.name
+                dic['type'] = ins.type
+                dic['version'] = ins.version
+                out_inst_metrics.append(dic)
+            if scores_calc == True:
+                ins.FAIRscores()
+                n = name_form.format(ins.name, ins.version, ins.type)
+                F.append(ins.F)
+                names.append(n)
+                A.append(ins.A)
+                I.append(ins.I)
+                R.append(ins.R)
 
-    sF=0
-    sA=0
-    sI=0
-    sR=0
-    for i in range(len(F)):
-        stats5.write('%f\t%s\t%s\n'%(F[i], 'F', Ft[i]))
-        sF += F[i]
-    for i in range(len(F)):
-        stats5.write('%f\t%s\t%s\n'%(A[i], 'A', At[i]))
-        sA += A[i]
-    for i in range(len(F)):
-        stats5.write('%f\t%s\t%s\n'%(I[i], 'I', It[i]))
-        sI += I[i]
-    for i in range(len(F)):
-        stats5.write('%f\t%s\t%s\n'%(R[i], 'R', Rt[i]))
-        sR += R[i]
+    if metrics_out == True:
+        with open(metrics_out_path, 'w') as outfile:
+            json.dump(out_inst_metrics, outfile)
 
-    print('av_sF:%f'%(sF/len(instances)))
-    print('av_sA:%f'%(sA/len(instances)))
-    print('av_sI:%f'%(sI/len(instances)))
-    print('av_sR:%f'%(sR/len(instances)))
+    if scores_calc == True:
+        sF=0
+        sA=0
+        sI=0
+        sR=0
 
+        stats5 = open(filename, 'w')
+        for i in range(len(F)):
+            stats5.write('%s\t%f\t%f\t%f\t%f\t%s\t%s\n'%(names[i], F[i], A[i], I[i], R[i], 'NA', 'NA'))
+            sF += F[i]
+            sA += A[i]
+            sI += I[i]
+            sR += R[i]
+
+
+
+        print('av_sF:%f'%(sF/len(F)))
+        print('av_sA:%f'%(sA/len(A)))
+        print('av_sI:%f'%(sI/len(I)))
+        print('av_sR:%f'%(sR/len(R)))
 
 
 def computeFAIRcanon(canonicalMerged, filename):
     Fc = []
-    Ftc = []
+    names = []
     Ac = []
-    Atc = []
     Ic = []
-    Itc = []
     Rc = []
-    Rtc = []
+    nSources = []
+    nTypes = []
 
-
-    stats6 = open(filename, 'w')
 
     for can in canonicalMerged.canonicals:
         can.computeFAIRmetrics()
         Fc.append(can.F)
-        Ftc.append(can.name)
+        names.append(can.name)
         Ac.append(can.A)
-        Atc.append(can.name)
         Ic.append(can.I)
-        Itc.append(can.name)
         Rc.append(can.R)
-        Rtc.append(can.name)
+        nSources.append((len(can.sources)))
+        nTypes.append(len(can.types))
 
     cF=0
     cA=0
     cI=0
     cR=0
 
+    stats6 = open(filename, 'w')
     for i in range(len(Fc)):
-        stats6.write('%f\t%s\t%s\n'%(Fc[i], 'F', Ftc[i]))
+        stats6.write('%s\t%f\t%f\t%f\t%f\t%f\t%f\n'%(names[i], Fc[i], Ac[i], Ic[i], Rc[i], nSources[i], nTypes[i]))
         cF += Fc[i]
-    for i in range(len(Fc)):
-        stats6.write('%f\t%s\t%s\n'%(Ac[i], 'A', Atc[i]))
         cA += Ac[i]
-    for i in range(len(Fc)):
-        stats6.write('%f\t%s\t%s\n'%(Ic[i], 'I', Itc[i]))
         cI += Ic[i]
-    for i in range(len(Fc)):
-        stats6.write('%f\t%s\t%s\n'%(Rc[i], 'R', Rtc[i]))
         cR += Rc[i]
 
     import numpy as np
 
-
-    def stats(cF, Fc):
-        print('av_cF:%f'%(cF/len(Fc)))
-        print('perc:')
+    def stats(letter, cF, Fc):
+        print(letter + ':\n')
+        print('mean = %f'%(cF/len(canonicalMerged.canonicals)))
+        print('percentiles = ')
         print(np.percentile(Fc, [25, 50, 75]))
-        print(min(Fc))
-        print(max(Fc))
+        print('min = ' + str(min(Fc)))
+        print('max = ' + str(max(Fc)))
 
-    stats(cF, Fc)
-    stats(cA, Ac)
-    stats(cI, Ic)
-    stats(cR, Rc)
+    stats('Findability scores', cF, Fc)
+    stats('Accessibility scores', cA, Ac)
+    stats('Interoperability scores', cI, Ic)
+    stats('Reusability scores', cR, Rc)
