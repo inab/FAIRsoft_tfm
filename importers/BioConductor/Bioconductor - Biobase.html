@@ -1,0 +1,683 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" prefix="og: http://ogp.me/ns#" lang="en-US"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Language" content="en-us">
+  <meta name="robots" content="all">
+  
+
+  <meta property="og:title" content="Biobase">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Bioconductor">
+  <meta property="og:description" content="Functions that are needed by many other packages or which replace R functions.">
+  <meta property="og:url" content="http://bioconductor.org/packages/Biobase/">
+  <meta property="og:image" content="http://bioconductor.org/images/logo/jpg/bioconductor_logo_rgb.jpg">
+
+
+
+  
+  
+  
+    <script type="text/javascript" async="" src="Bioconductor%20-%20Biobase_files/ga.js"></script><script type="text/javascript" src="Bioconductor%20-%20Biobase_files/jquery_002.js"></script>
+    <script type="text/javascript">
+        if (!window.location.href.match(/bioconductor\.org|\/\/localhost/i)) {
+            var mirror = true;
+            document.write('<base href="//www.bioconductor.org"/>\n');
+        } 
+    </script>
+  
+  
+  <script src="Bioconductor%20-%20Biobase_files/jquery_004.js"></script>
+
+  
+  
+  <title>Bioconductor - Biobase</title>
+  <link rel="stylesheet" type="text/css" href="Bioconductor%20-%20Biobase_files/bioconductor.css" media="screen">
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="https://www.bioconductor.org/favicon.ico">
+  <link rel="ICON" type="image/x-icon" href="https://www.bioconductor.org/favicon.ico">
+  <script type="text/javascript" src="Bioconductor%20-%20Biobase_files/bioconductor.js"></script>
+ 
+  <script type="text/javascript" src="Bioconductor%20-%20Biobase_files/jquery.js"></script>
+  <script type="text/javascript" src="Bioconductor%20-%20Biobase_files/jquery_003.js"></script>
+  <script type="text/javascript" src="Bioconductor%20-%20Biobase_files/bioc-style.js"></script>
+  <script type="text/javascript" src="Bioconductor%20-%20Biobase_files/versions.js"></script>
+
+  <!-- Google Analytics script -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-9338486-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+
+  <body>
+    <a name="top"></a>
+
+<!-- a few hooks for screen readers -->
+<a href="#site-navigation" title="Jump to site nav"></a>
+
+<a href="#site-map" title="Jump to site map"></a>
+
+
+    <div id="SiteContainer" class="SiteContainer">
+      
+      <div id="PageContent" class="PageContent WithRightRail">
+      
+
+
+	
+	  <div id="PageBreadcrumbs" class="PageBreadcrumbs">
+  <ul>
+    
+    
+    
+      
+	  	
+        <li><a href="https://www.bioconductor.org/">Home</a></li>
+      
+    
+    
+      
+	  	
+        <li><a href="https://www.bioconductor.org/packages/3.8/BiocViews.html">Bioconductor 3.8</a></li>
+      
+    
+    
+      
+	  	
+        <li><a href="https://www.bioconductor.org/packages/3.8/bioc">Software Packages</a></li>
+      
+    
+    
+      
+        <li>Biobase</li>
+      
+    
+  </ul>
+</div>
+
+	
+
+	
+	
+	    <h1>Biobase</h1>
+
+  
+
+    
+
+    <table border="0">
+    <tbody><tr>
+
+      
+      
+	 
+	 
+	     
+	 
+      
+
+      <td>
+      <span class="do_not_rebase"><a href="#archives"><img src="Bioconductor%20-%20Biobase_files/Biobase_003.svg" title="Whether the package is available on all platforms; click for details." border="0"></a></span>
+      </td>
+      
+
+
+      
+      <td>
+      
+      
+      
+	   <a href="http://bioconductor.org/packages/stats/bioc/Biobase/"><img src="Bioconductor%20-%20Biobase_files/Biobase.svg" title="Ranking by number of downloads. A lower number means the package is downloaded more frequently. Determined within a package type (software, experiment, annotation, workflow) and uses the number of distinct IPs for the last 12 months." border="0"></a>
+      
+      </td>
+      
+
+
+      
+      <td>
+      
+      
+	  <a href="https://support.bioconductor.org/t/biobase/"><img src="Bioconductor%20-%20Biobase_files/Biobase_005.svg" title="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." border="0"></a>
+      
+      </td>
+      
+
+
+      
+      
+      
+	  <td>
+	  <span class="do_not_rebase"><a href="#since"><img src="Bioconductor%20-%20Biobase_files/Biobase_006.svg" title="How long since the package was first in a released Bioconductor version (or is it in devel only)." border="0"></a></span>
+	  </td>
+	  </tr><tr>
+
+      
+
+
+      
+      
+      
+	  <td>
+	  
+	  
+	      <a href="http://bioconductor.org/checkResults/release/bioc-LATEST/Biobase/"><img src="Bioconductor%20-%20Biobase_files/Biobase_004.svg" title="build results; click for full report" border="0"></a>
+	  
+	  </td>
+	  
+      
+
+     
+     
+	 <td>
+	 
+	 
+	     <a href="http://bioconductor.org/checkResults/release/bioc-LATEST/Biobase/"><img src="Bioconductor%20-%20Biobase_files/Biobase_002.svg" title="time since last commit. possible values: today, &lt; 1 week, &lt; 1 month, &lt; 3 months, since release, before release" border="0"></a>
+	 
+	 </td>
+	 
+     
+
+
+    </tr>
+    </tbody></table>
+  
+
+
+
+
+<div class="do_not_rebase">
+
+    
+        DOI: <a title="DOI for use in publications, etc., will always redirect to current release version (or devel if package is not in release yet)." href="https://doi.org/doi:10.18129/B9.bioc.Biobase">10.18129/B9.bioc.Biobase</a> &nbsp;
+    
+<a title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbioconductor.org%2Fpackages%2F3.8%2Fbioc%2Fhtml%2FBiobase.html"><img src="Bioconductor%20-%20Biobase_files/facebook.png" width="16" height="16"></a> &nbsp;
+<a title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fbioconductor.org%2Fpackages%2F3.8%2Fbioc%2Fhtml%2FBiobase.html&amp;text=Biobase:Biobase:%20Base%20functions%20for%20Bioconductor"><img src="Bioconductor%20-%20Biobase_files/twitter.png" width="16" height="16"></a>
+
+   
+
+   
+
+   
+
+    <h2>Biobase: Base functions for Bioconductor</h2>
+
+    <p>
+	Bioconductor version: Release (3.8)
+    </p>
+
+    <p>Functions that are needed by many other packages or which replace R functions.</p>
+
+    <p>Author: R. Gentleman, V. Carey, M. Morgan, S. Falcon </p>
+
+    <p>Maintainer: Bioconductor Package Maintainer &lt;maintainer at bioconductor.org&gt; </p>
+
+
+   <div id="bioc_citation_outer" style="display: block;">
+    <p>Citation (from within R,
+      enter <code>citation("Biobase")</code>):</p>
+      <div id="bioc_citation" class="bioc_citation"><p>Huber W, Carey 
+VJ, Gentleman R, Anders S, Carlson M, Carvalho BS, Bravo HC, Davis S, 
+Gatto L, Girke T, Gottardo R, Hahne F, Hansen KD, Irizarry RA, Lawrence 
+M, Love MI, MacDonald J, Obenchain V, Ole's AK, Pag'es H, Reyes A, 
+Shannon P, Smyth GK, Tenenbaum D, Waldron L, Morgan M (2015).
+“Orchestrating high-throughput genomic analysis with Bioconductor.”
+<em>Nature Methods</em>, <b>12</b>(2), 115–121.
+<a href="http://www.nature.com/nmeth/journal/v12/n2/full/nmeth.3252.html">http://www.nature.com/nmeth/journal/v12/n2/full/nmeth.3252.html</a>. 
+</p>
+</div>
+    </div>
+
+    <h3>Installation</h3>
+
+    <p>To install this package, start R (version
+    "3.5") and enter:
+    </p>
+
+    <pre>if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("Biobase")</pre>
+
+    <p>For older versions of R, please refer to the appropriate
+	<a href="https://www.bioconductor.org/about/release-announcements/">Bioconductor release</a>.
+    </p>
+
+    <h3>Documentation</h3>
+
+
+  
+<p>To view documentation for the version of this package installed
+    in your system, start R and enter:
+</p>
+<pre>browseVignettes("Biobase")</pre>
+    <p>&nbsp;</p>
+
+
+
+    <table>
+	
+	
+	
+	    
+		
+		
+		<tbody><tr class="row_odd">
+		    <td class="docFixedWidth">
+			
+			<a onclick="javascript: pageTracker._trackPageview('../vignettes/Biobase/inst/doc/ExpressionSetIntroduction.pdf'); " href="https://www.bioconductor.org/packages/release/bioc/vignettes/Biobase/inst/doc/ExpressionSetIntroduction.pdf">PDF</a>
+			
+		    </td>
+		    <td class="docFixedWidth">
+			
+			<a onclick="javascript: pageTracker._trackPageview('../vignettes/Biobase/inst/doc/ExpressionSetIntroduction.R'); " href="https://www.bioconductor.org/packages/release/bioc/vignettes/Biobase/inst/doc/ExpressionSetIntroduction.R">R Script</a>
+			
+		    </td>
+		    <td>An introduction to Biobase and ExpressionSets</td>
+		</tr>
+
+	    
+		
+		
+		<tr class="row_even">
+		    <td class="docFixedWidth">
+			
+			<a onclick="javascript: pageTracker._trackPageview('../vignettes/Biobase/inst/doc/esApply.pdf'); " href="https://www.bioconductor.org/packages/release/bioc/vignettes/Biobase/inst/doc/esApply.pdf">PDF</a>
+			
+		    </td>
+		    <td class="docFixedWidth">
+			
+			<a onclick="javascript: pageTracker._trackPageview('../vignettes/Biobase/inst/doc/esApply.R'); " href="https://www.bioconductor.org/packages/release/bioc/vignettes/Biobase/inst/doc/esApply.R">R Script</a>
+			
+		    </td>
+		    <td>esApply Introduction</td>
+		</tr>
+
+	    
+		
+		
+		<tr class="row_odd">
+		    <td class="docFixedWidth">
+			
+			<a onclick="javascript: pageTracker._trackPageview('../vignettes/Biobase/inst/doc/BiobaseDevelopment.pdf'); " href="https://www.bioconductor.org/packages/release/bioc/vignettes/Biobase/inst/doc/BiobaseDevelopment.pdf">PDF</a>
+			
+		    </td>
+		    <td class="docFixedWidth">
+			
+			<a onclick="javascript: pageTracker._trackPageview('../vignettes/Biobase/inst/doc/BiobaseDevelopment.R'); " href="https://www.bioconductor.org/packages/release/bioc/vignettes/Biobase/inst/doc/BiobaseDevelopment.R">R Script</a>
+			
+		    </td>
+		    <td>Notes for eSet developers</td>
+		</tr>
+
+	    
+	
+
+
+	    
+
+	    
+	    <tr class="row_even">
+		<td class="docFixedWidth">
+		    <a onclick="javascript: pageTracker._trackPageview('../manuals/Biobase/man/Biobase.pdf'); " href="https://www.bioconductor.org/packages/release/bioc/manuals/Biobase/man/Biobase.pdf">PDF</a>
+		</td>
+		<td class="docFixedWidth">&nbsp;</td>
+		<td>Reference Manual</td>
+		
+	    </tr>
+	    
+
+	    
+
+
+	    
+		
+		<tr class="row_odd">
+		    <td class="docFixedWidth">
+			<a href="https://www.bioconductor.org/packages/release/bioc/news/Biobase/NEWS">Text</a>
+		    </td>
+		    <td class="docFixedWidth">&nbsp;</td>
+		    <td>NEWS</td>
+		</tr>
+		
+	    
+
+
+	    
+
+
+	    
+
+	    
+
+    </tbody></table>
+
+    <h3>Details</h3>
+    
+    <table class="details">
+	<tbody><tr class="row_odd">
+	    <td>biocViews</td>
+	    <td><a href="https://www.bioconductor.org/packages/release/BiocViews.html#___Infrastructure">Infrastructure</a>, <a href="https://www.bioconductor.org/packages/release/BiocViews.html#___Software">Software</a></td>
+	</tr>
+
+	<tr class="row_even">
+	    <td>Version</td>
+	    <td>2.42.0</td>
+	</tr>
+
+	
+	    <tr id="since" class="row_odd">
+		<td>In Bioconductor since</td>
+		<td>BioC 1.6 (R-2.1) or earlier (&gt; 14 years)</td>
+	    </tr>
+	
+
+
+
+	<tr class="row_even">
+	    <td>License</td>
+	    <td>Artistic-2.0</td>
+	</tr>
+
+	<tr class="row_odd">
+	    <td>Depends</td>
+	    <td>R (&gt;= 2.10), <a href="https://www.bioconductor.org/packages/release/bioc/html/BiocGenerics.html">BiocGenerics</a>(&gt;= 0.27.1), utils</td>
+	</tr>
+
+	<tr class="row_even">
+	    <td>Imports</td>
+	    <td>methods</td>
+	</tr>
+
+	<tr class="row_odd">
+	    <td>LinkingTo</td>
+	    <td></td>
+	</tr>
+
+	<tr class="row_even">
+	    <td>Suggests</td>
+	    <td>tools, <a href="https://www.bioconductor.org/packages/release/bioc/html/tkWidgets.html">tkWidgets</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/ALL.html">ALL</a>, <a class="cran_package" href="http://cran.rstudio.com/web/packages/RUnit/index.html">RUnit</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/golubEsets.html">golubEsets</a></td>
+	</tr>
+
+	<tr class="row_odd">
+	    <td>SystemRequirements</td>
+	    <td></td>
+	</tr>
+
+	<tr class="row_even">
+	    <td>Enhances</td>
+	    <td></td>
+	</tr>
+
+	<tr class="row_odd">
+	    <td>URL</td>
+	    <td><a href=""></a> </td>
+	</tr>
+
+	
+
+	<tr class="row_even">
+	    <td>Depends On Me</td>
+	    <td><a href="https://www.bioconductor.org/packages/release/bioc/html/a4Base.html">a4Base</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/a4Core.html">a4Core</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ACME.html">ACME</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/affy.html">affy</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/affycomp.html">affycomp</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/affycompData.html">affycompData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/affyContam.html">affyContam</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/affycoretools.html">affycoretools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/affyPLM.html">affyPLM</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/affyQCReport.html">affyQCReport</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/AGDEX.html">AGDEX</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/AgiMicroRna.html">AgiMicroRna</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/AIMS.html">AIMS</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/ALL.html">ALL</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/altcdfenvs.html">altcdfenvs</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/annaffy.html">annaffy</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/AnnotationDbi.html">AnnotationDbi</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/AnnotationForge.html">AnnotationForge</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/antiProfilesData.html">antiProfilesData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ArrayExpress.html">ArrayExpress</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/arrayMvout.html">arrayMvout</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ArrayTools.html">ArrayTools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BAGS.html">BAGS</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/bcellViper.html">bcellViper</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/beadarray.html">beadarray</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/beadarrayExampleData.html">beadarrayExampleData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/beadarraySNP.html">beadarraySNP</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/bgx.html">bgx</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BicARE.html">BicARE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/bigmelon.html">bigmelon</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BiocCaseStudies.html">BiocCaseStudies</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/bioDist.html">bioDist</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BioMVCClass.html">BioMVCClass</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BioQC.html">BioQC</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/birta.html">birta</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/bladderbatch.html">bladderbatch</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BLMA.html">BLMA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BrainStars.html">BrainStars</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/brgedata.html">brgedata</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CAMERA.html">CAMERA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/cancerclass.html">cancerclass</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/cancerdata.html">cancerdata</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/casper.html">casper</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Category.html">Category</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/categoryCompare.html">categoryCompare</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/CCl4.html">CCl4</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CCPROMISE.html">CCPROMISE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/cellHTS2.html">cellHTS2</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/ceu1kg.html">ceu1kg</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/ceuhm3.html">ceuhm3</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CGHbase.html">CGHbase</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CGHcall.html">CGHcall</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CGHregions.html">CGHregions</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/charm.html">charm</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/chimera.html">chimera</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/chroGPS.html">chroGPS</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/clippda.html">clippda</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/CLL.html">CLL</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/clusterStab.html">clusterStab</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CMA.html">CMA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/cn.farms.html">cn.farms</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/codelink.html">codelink</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/colonCA.html">colonCA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/convert.html">convert</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/copa.html">copa</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/covEB.html">covEB</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/covRNA.html">covRNA</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/CRCL18.html">CRCL18</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/curatedBreastData.html">curatedBreastData</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/curatedMetagenomicData.html">curatedMetagenomicData</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/davidTiling.html">davidTiling</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/DESeq.html">DESeq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/DEXSeq.html">DEXSeq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/DFP.html">DFP</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/diggit.html">diggit</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/diggitdata.html">diggitdata</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/DLBCL.html">DLBCL</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/doppelgangR.html">doppelgangR</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/dressCheck.html">dressCheck</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/dsQTL.html">dsQTL</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/DSS.html">DSS</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/dualKS.html">dualKS</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/dyebias.html">dyebias</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/EBarrays.html">EBarrays</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/EDASeq.html">EDASeq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/edge.html">edge</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/EGSEA.html">EGSEA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/eisa.html">eisa</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/epigenomix.html">epigenomix</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/epivizrData.html">epivizrData</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/etec16s.html">etec16s</a>, <a href="https://www.bioconductor.org/packages/release/data/annotation/html/EuPathDB.html">EuPathDB</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ExiMiR.html">ExiMiR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ExpressionAtlas.html">ExpressionAtlas</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/fabia.html">fabia</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/fabiaData.html">fabiaData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/factDesign.html">factDesign</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/fastseg.html">fastseg</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/fibroEset.html">fibroEset</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/flowBeads.html">flowBeads</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/frma.html">frma</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/gaga.html">gaga</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/gaschYHS.html">gaschYHS</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/gCMAPWeb.html">gCMAPWeb</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GeneAnswers.html">GeneAnswers</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GeneExpressionSignature.html">GeneExpressionSignature</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GeneMeta.html">GeneMeta</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/geneplotter.html">geneplotter</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/geneRecommender.html">geneRecommender</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GeneRegionScan.html">GeneRegionScan</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GeneSelectMMD.html">GeneSelectMMD</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GeneSelector.html">GeneSelector</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/geNetClassifier.html">geNetClassifier</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GEOquery.html">GEOquery</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/GGdata.html">GGdata</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GOexpress.html">GOexpress</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GOFunction.html">GOFunction</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/golubEsets.html">golubEsets</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/goProfiles.html">goProfiles</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GOstats.html">GOstats</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/GSE62944.html">GSE62944</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GSEABase.html">GSEABase</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GSEABenchmarkeR.html">GSEABenchmarkeR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GSEAlm.html">GSEAlm</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/GSVAdata.html">GSVAdata</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GWASTools.html">GWASTools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/hapFabia.html">hapFabia</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/harbChIP.html">harbChIP</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/HELP.html">HELP</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/Hiiragi2013.html">Hiiragi2013</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/hmyriB36.html">hmyriB36</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/hopach.html">hopach</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/HTqPCR.html">HTqPCR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/htSeqTools.html">htSeqTools</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/HumanAffyData.html">HumanAffyData</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/humanStemCell.html">humanStemCell</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/HybridMTest.html">HybridMTest</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/iBMQ.html">iBMQ</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/iCheck.html">iCheck</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/IdeoViz.html">IdeoViz</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/idiogram.html">idiogram</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/InPAS.html">InPAS</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/INSPEcT.html">INSPEcT</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/isobar.html">isobar</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/iterativeBMA.html">iterativeBMA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/IVAS.html">IVAS</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/Iyer517.html">Iyer517</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/kidpack.html">kidpack</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/leeBamViews.html">leeBamViews</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/leukemiasEset.html">leukemiasEset</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/LMGene.html">LMGene</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/lumi.html">lumi</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/lumiBarnes.html">lumiBarnes</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/lungExpression.html">lungExpression</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/macat.html">macat</a>, <a href="https://www.bioconductor.org/packages/release/workflows/html/maEndToEnd.html">maEndToEnd</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/mAPKL.html">mAPKL</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/MAQCsubset.html">MAQCsubset</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/MAQCsubsetAFX.html">MAQCsubsetAFX</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/MAQCsubsetILM.html">MAQCsubsetILM</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/massiR.html">massiR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MEAL.html">MEAL</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MergeMaid.html">MergeMaid</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/metabomxtr.html">metabomxtr</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/metagenomeFeatures.html">metagenomeFeatures</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/metagenomeSeq.html">metagenomeSeq</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/MetaGxBreast.html">MetaGxBreast</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/MetaGxOvarian.html">MetaGxOvarian</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/MetaGxPancreas.html">MetaGxPancreas</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/metavizr.html">metavizr</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MethPed.html">MethPed</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/methyAnalysis.html">methyAnalysis</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/methylumi.html">methylumi</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Mfuzz.html">Mfuzz</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MiChip.html">MiChip</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/mimager.html">mimager</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MIMOSA.html">MIMOSA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MineICA.html">MineICA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MiRaGE.html">MiRaGE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/miRcomp.html">miRcomp</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/miRNATarget.html">miRNATarget</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MLInterfaces.html">MLInterfaces</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MMDiff2.html">MMDiff2</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MmPalateMiRNA.html">MmPalateMiRNA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/monocle.html">monocle</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/msd16s.html">msd16s</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MSnbase.html">MSnbase</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Mulcom.html">Mulcom</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MultiDataSet.html">MultiDataSet</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/multtest.html">multtest</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/mvoutData.html">mvoutData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/NanoStringDiff.html">NanoStringDiff</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/Neve2006.html">Neve2006</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/NOISeq.html">NOISeq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/nondetects.html">nondetects</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/normalize450K.html">normalize450K</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/NormqPCR.html">NormqPCR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/oligo.html">oligo</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/omicRexposome.html">omicRexposome</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/OrderedList.html">OrderedList</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/OTUbase.html">OTUbase</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/OutlierD.html">OutlierD</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/PADOG.html">PADOG</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/pandaR.html">pandaR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/panp.html">panp</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/pcaMethods.html">pcaMethods</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/pcot2.html">pcot2</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/pdInfoBuilder.html">pdInfoBuilder</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/pepStat.html">pepStat</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/PGSEA.html">PGSEA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/phenoTest.html">phenoTest</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/PLPE.html">PLPE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/plrs.html">plrs</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/prada.html">prada</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/PREDA.html">PREDA</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/PREDAsampledata.html">PREDAsampledata</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/ProData.html">ProData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/pRolocGUI.html">pRolocGUI</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/PROMISE.html">PROMISE</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/prostateCancerCamcap.html">prostateCancerCamcap</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/prostateCancerGrasso.html">prostateCancerGrasso</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/prostateCancerStockholm.html">prostateCancerStockholm</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/prostateCancerTaylor.html">prostateCancerTaylor</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/prostateCancerVarambally.html">prostateCancerVarambally</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/prot2D.html">prot2D</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/pumadata.html">pumadata</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/qpcrNorm.html">qpcrNorm</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/qPLEXanalyzer.html">qPLEXanalyzer</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/R453Plus1Toolbox.html">R453Plus1Toolbox</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/RbcBook1.html">RbcBook1</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/rbsurv.html">rbsurv</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/rcellminer.html">rcellminer</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/rcellminerData.html">rcellminerData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ReadqPCR.html">ReadqPCR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/reb.html">reb</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/RefPlus.html">RefPlus</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/rexposome.html">rexposome</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/rHVDM.html">rHVDM</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Ringo.html">Ringo</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Risa.html">Risa</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Rmagpie.html">Rmagpie</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/rMAT.html">rMAT</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/RNAinteract.html">RNAinteract</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/rnaSeqMap.html">rnaSeqMap</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Rnits.html">Rnits</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Roleswitch.html">Roleswitch</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/RpsiXML.html">RpsiXML</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/RTCA.html">RTCA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/RTopper.html">RTopper</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/RUVnormalizeData.html">RUVnormalizeData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/RUVSeq.html">RUVSeq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/safe.html">safe</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SCAN.UPC.html">SCAN.UPC</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SeqGSEA.html">SeqGSEA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/sigaR.html">sigaR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SigCheck.html">SigCheck</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/siggenes.html">siggenes</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/simpleaffy.html">simpleaffy</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/simulatorZ.html">simulatorZ</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/singleCellTK.html">singleCellTK</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SpeCond.html">SpeCond</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SPEM.html">SPEM</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/SpikeInSubset.html">SpikeInSubset</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/spkTools.html">spkTools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/splicegear.html">splicegear</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/spliceSites.html">spliceSites</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/splineTimeR.html">splineTimeR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/STROMA4.html">STROMA4</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html">SummarizedExperiment</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/TCGAcrcmiRNA.html">TCGAcrcmiRNA</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/TCGAcrcmRNA.html">TCGAcrcmRNA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/TDARACNE.html">TDARACNE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/tigre.html">tigre</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/tilingArray.html">tilingArray</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/topGO.html">topGO</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/TPP.html">TPP</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/tRanslatome.html">tRanslatome</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/tspair.html">tspair</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/tweeDEseqCountData.html">tweeDEseqCountData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/twilight.html">twilight</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/UNDO.html">UNDO</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/variancePartition.html">variancePartition</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/VegaMC.html">VegaMC</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/viper.html">viper</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/vsn.html">vsn</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/wateRmelon.html">wateRmelon</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/waveTiling.html">waveTiling</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/webbioc.html">webbioc</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/xcms.html">xcms</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/XDE.html">XDE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/XINA.html">XINA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/yarn.html">yarn</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/yeastCC.html">yeastCC</a></td>
+	</tr>
+
+	<tr class="row_odd">
+	    <td>Imports Me</td>
+	    <td><a href="https://www.bioconductor.org/packages/release/bioc/html/ABarray.html">ABarray</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ACE.html">ACE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/aCGH.html">aCGH</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/adSplit.html">adSplit</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/affyILM.html">affyILM</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/affyQCReport.html">affyQCReport</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/AgiMicroRna.html">AgiMicroRna</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/AnalysisPageServer.html">AnalysisPageServer</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ANF.html">ANF</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/annmap.html">annmap</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/annotate.html">annotate</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/AnnotationHubData.html">AnnotationHubData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/annotationTools.html">annotationTools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ArrayExpressHTS.html">ArrayExpressHTS</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/arrayQualityMetrics.html">arrayQualityMetrics</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ArrayTools.html">ArrayTools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/attract.html">attract</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ballgown.html">ballgown</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BayesKnockdown.html">BayesKnockdown</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BgeeDB.html">BgeeDB</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/biobroom.html">biobroom</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/bioCancer.html">bioCancer</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/biocViews.html">biocViews</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BioNet.html">BioNet</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BioSeqClass.html">BioSeqClass</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/biosigner.html">biosigner</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/biosvd.html">biosvd</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/birte.html">birte</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BiSeq.html">BiSeq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/blima.html">blima</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/BloodCancerMultiOmics2017.html">BloodCancerMultiOmics2017</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BrainStars.html">BrainStars</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/bsseq.html">bsseq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BubbleTree.html">BubbleTree</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CAFE.html">CAFE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CAMTHC.html">CAMTHC</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/canceR.html">canceR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Cardinal.html">Cardinal</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CATALYST.html">CATALYST</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/ccTutorial.html">ccTutorial</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CellScore.html">CellScore</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CellTrails.html">CellTrails</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/ceu1kgv.html">ceu1kgv</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/cgdv17.html">cgdv17</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CGHnormaliter.html">CGHnormaliter</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/charm.html">charm</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ChIPpeakAnno.html">ChIPpeakAnno</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ChIPQC.html">ChIPQC</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ChIPXpress.html">ChIPXpress</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ChromHeatMap.html">ChromHeatMap</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/chromswitch.html">chromswitch</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/cicero.html">cicero</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/clipper.html">clipper</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/cn.mops.html">cn.mops</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/COCOA.html">COCOA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/coexnet.html">coexnet</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/cogena.html">cogena</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ConsensusClusterPlus.html">ConsensusClusterPlus</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/consensusDE.html">consensusDE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/consensusOV.html">consensusOV</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/coRdon.html">coRdon</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/crlmm.html">crlmm</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/crossmeta.html">crossmeta</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/cummeRbund.html">cummeRbund</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/cycle.html">cycle</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/cydar.html">cydar</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/cytofkit.html">cytofkit</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CytoML.html">CytoML</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ddCt.html">ddCt</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/DEGreport.html">DEGreport</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/DESeq2.html">DESeq2</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/DeSousa2013.html">DeSousa2013</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/destiny.html">destiny</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/diffloop.html">diffloop</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/discordant.html">discordant</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/DOQTL.html">DOQTL</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/easyRNASeq.html">easyRNASeq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/EBarrays.html">EBarrays</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ecolitk.html">ecolitk</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/EGAD.html">EGAD</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ensembldb.html">ensembldb</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/erma.html">erma</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/esetVis.html">esetVis</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ExiMiR.html">ExiMiR</a>, <a href="https://www.bioconductor.org/packages/release/workflows/html/ExpressionNormalizationWorkflow.html">ExpressionNormalizationWorkflow</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/farms.html">farms</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ffpe.html">ffpe</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/FindMyFriends.html">FindMyFriends</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/Fletcher2013a.html">Fletcher2013a</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/flowClust.html">flowClust</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/flowCore.html">flowCore</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/flowFP.html">flowFP</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/flowMatch.html">flowMatch</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/flowMeans.html">flowMeans</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/flowStats.html">flowStats</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/flowType.html">flowType</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/flowUtils.html">flowUtils</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/flowViz.html">flowViz</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/flowWorkspace.html">flowWorkspace</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/FourCSeq.html">FourCSeq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/frma.html">frma</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/frmaTools.html">frmaTools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/FunciSNP.html">FunciSNP</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/gCMAP.html">gCMAP</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/gCrisprTools.html">gCrisprTools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/gcrma.html">gcrma</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/genbankr.html">genbankr</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/geneClassifiers.html">geneClassifiers</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/genefilter.html">genefilter</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GeneMeta.html">GeneMeta</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/geneRecommender.html">geneRecommender</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GeneRegionScan.html">GeneRegionScan</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GeneSelectMMD.html">GeneSelectMMD</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GENESIS.html">GENESIS</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GenomicFeatures.html">GenomicFeatures</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GenomicInteractions.html">GenomicInteractions</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GenomicScores.html">GenomicScores</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GEOsubmission.html">GEOsubmission</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/gep2pep.html">gep2pep</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/gespeR.html">gespeR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GGBase.html">GGBase</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ggbio.html">ggbio</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GGtools.html">GGtools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/girafe.html">girafe</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GISPA.html">GISPA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GlobalAncova.html">GlobalAncova</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/globaltest.html">globaltest</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/gmapR.html">gmapR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GOFunction.html">GOFunction</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GoogleGenomics.html">GoogleGenomics</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/gQTLstats.html">gQTLstats</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GSRI.html">GSRI</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GSVA.html">GSVA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Gviz.html">Gviz</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Harshlight.html">Harshlight</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/HEM.html">HEM</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/hgu133plus2CellScore.html">hgu133plus2CellScore</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/HTqPCR.html">HTqPCR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/HTSFilter.html">HTSFilter</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/IdMappingAnalysis.html">IdMappingAnalysis</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/IHWpaper.html">IHWpaper</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/imageHTS.html">imageHTS</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ImmuneSpaceR.html">ImmuneSpaceR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ImpulseDE2.html">ImpulseDE2</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/InTAD.html">InTAD</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/IsoGeneGUI.html">IsoGeneGUI</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/isomiRs.html">isomiRs</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/iterClust.html">iterClust</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/JunctionSeq.html">JunctionSeq</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/KEGGandMetacoreDzPathwaysGEO.html">KEGGandMetacoreDzPathwaysGEO</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/KEGGdzPathwaysGEO.html">KEGGdzPathwaysGEO</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/kimod.html">kimod</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/kissDE.html">kissDE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/lapmix.html">lapmix</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/LINC.html">LINC</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/LiquidAssociation.html">LiquidAssociation</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/LRBaseDbi.html">LRBaseDbi</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/LVSmiRNA.html">LVSmiRNA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/maanova.html">maanova</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/makecdfenv.html">makecdfenv</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/maSigPro.html">maSigPro</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MAST.html">MAST</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/mBPCR.html">mBPCR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MCRestimate.html">MCRestimate</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/mcsurvdata.html">mcsurvdata</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MeSHDbi.html">MeSHDbi</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/metaArray.html">metaArray</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/methyAnalysis.html">methyAnalysis</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MethylAid.html">MethylAid</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/methylumi.html">methylumi</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/mfa.html">mfa</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MiChip.html">MiChip</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MIGSA.html">MIGSA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/minfi.html">minfi</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MinimumDistance.html">MinimumDistance</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MiPP.html">MiPP</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MIRA.html">MIRA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/miRSM.html">miRSM</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MLSeq.html">MLSeq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MmPalateMiRNA.html">MmPalateMiRNA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/mogsa.html">mogsa</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MoonlightR.html">MoonlightR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MoPS.html">MoPS</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MSnID.html">MSnID</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MTseeker.html">MTseeker</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html">MultiAssayExperiment</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/multiscan.html">multiscan</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/mzR.html">mzR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/NanoStringQCPro.html">NanoStringQCPro</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ncdfFlow.html">ncdfFlow</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/NormalyzerDE.html">NormalyzerDE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/npGSEA.html">npGSEA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/nucleR.html">nucleR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/OGSA.html">OGSA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/oligoClasses.html">oligoClasses</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ontoProc.html">ontoProc</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/openCyto.html">openCyto</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/oposSOM.html">oposSOM</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/oppar.html">oppar</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/OrderedList.html">OrderedList</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/OrganismDbi.html">OrganismDbi</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/OUTRIDER.html">OUTRIDER</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/panp.html">panp</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/PathwaySplice.html">PathwaySplice</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Pbase.html">Pbase</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/pbcmc.html">pbcmc</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/PCpheno.html">PCpheno</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/phantasus.html">phantasus</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/PharmacoGx.html">PharmacoGx</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/phyloseq.html">phyloseq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/piano.html">piano</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/plateCore.html">plateCore</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/plethy.html">plethy</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/plgem.html">plgem</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/plier.html">plier</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/podkat.html">podkat</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/POST.html">POST</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/PowerExplorer.html">PowerExplorer</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ppiStats.html">ppiStats</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/prada.html">prada</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/prebs.html">prebs</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/proFIA.html">proFIA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/progeny.html">progeny</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/pRoloc.html">pRoloc</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/pRolocdata.html">pRolocdata</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/PROMISE.html">PROMISE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/PROPS.html">PROPS</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ProteomicsAnnotationHubData.html">ProteomicsAnnotationHubData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/PSEA.html">PSEA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/psygenet2r.html">psygenet2r</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/puma.html">puma</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/pvac.html">pvac</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/pvca.html">pvca</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/pwOmics.html">pwOmics</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/qcmetrics.html">qcmetrics</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/QDNAseq.html">QDNAseq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/qpgraph.html">qpgraph</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/QUALIFIER.html">QUALIFIER</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/quantro.html">quantro</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/QuasR.html">QuasR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/qusage.html">qusage</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/randPack.html">randPack</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/readat.html">readat</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ReportingTools.html">ReportingTools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/restfulSE.html">restfulSE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/RGalaxy.html">RGalaxy</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/RIVER.html">RIVER</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Rmagpie.html">Rmagpie</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/RMassBank.html">RMassBank</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/rMAT.html">rMAT</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/rols.html">rols</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ropls.html">ropls</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ROTS.html">ROTS</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/rqubic.html">rqubic</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Rtreemix.html">Rtreemix</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/RUVnormalize.html">RUVnormalize</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SAGx.html">SAGx</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/scmap.html">scmap</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/seqc.html">seqc</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SeqVarTools.html">SeqVarTools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ShortRead.html">ShortRead</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/sigsquared.html">sigsquared</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SimBindProfiles.html">SimBindProfiles</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/simpleaffy.html">simpleaffy</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/singscore.html">singscore</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SLGI.html">SLGI</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SMITE.html">SMITE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SNPchip.html">SNPchip</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SomaticSignatures.html">SomaticSignatures</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/spkTools.html">spkTools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/splicegear.html">splicegear</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SPONGE.html">SPONGE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/STATegRa.html">STATegRa</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/subSeq.html">subSeq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/synapter.html">synapter</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/TEQC.html">TEQC</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/TFBSTools.html">TFBSTools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/timecourse.html">timecourse</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/TMixClust.html">TMixClust</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/TnT.html">TnT</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/topdownr.html">topdownr</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/TSSi.html">TSSi</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/TTMap.html">TTMap</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/twilight.html">twilight</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/uSORT.html">uSORT</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/VanillaICE.html">VanillaICE</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/VariantAnnotation.html">VariantAnnotation</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/VariantFiltering.html">VariantFiltering</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/VariantTools.html">VariantTools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/vidger.html">vidger</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/vulcan.html">vulcan</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/wateRmelon.html">wateRmelon</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/XBSeq.html">XBSeq</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/yri1kgv.html">yri1kgv</a></td>
+	</tr>
+
+	<tr class="row_even">
+	    <td>Suggests Me</td>
+	    <td><a href="https://www.bioconductor.org/packages/release/bioc/html/AUCell.html">AUCell</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BiocCaseStudies.html">BiocCaseStudies</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BiocCheck.html">BiocCheck</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BiocGenerics.html">BiocGenerics</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BiocOncoTK.html">BiocOncoTK</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/biotmleData.html">biotmleData</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/breastCancerMAINZ.html">breastCancerMAINZ</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/breastCancerNKI.html">breastCancerNKI</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/breastCancerTRANSBIG.html">breastCancerTRANSBIG</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/breastCancerUNT.html">breastCancerUNT</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/breastCancerUPP.html">breastCancerUPP</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/breastCancerVDX.html">breastCancerVDX</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/BSgenome.html">BSgenome</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/ccTutorial.html">ccTutorial</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CellMapper.html">CellMapper</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/cellTree.html">cellTree</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/clustComp.html">clustComp</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/coseq.html">coseq</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/CountClust.html">CountClust</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/DAPAR.html">DAPAR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/DART.html">DART</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/dyebiasexamples.html">dyebiasexamples</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/EpiDISH.html">EpiDISH</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/epivizr.html">epivizr</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/epivizrChart.html">epivizrChart</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/epivizrStandalone.html">epivizrStandalone</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/farms.html">farms</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/genefu.html">genefu</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GENIE3.html">GENIE3</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GenomicRanges.html">GenomicRanges</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/GSAR.html">GSAR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Heatplus.html">Heatplus</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/HMP16SData.html">HMP16SData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/interactiveDisplay.html">interactiveDisplay</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/kebabs.html">kebabs</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/les.html">les</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/limma.html">limma</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/Logolas.html">Logolas</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/mammaPrintData.html">mammaPrintData</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/mAPKLData.html">mAPKLData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/mCSEA.html">mCSEA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/messina.html">messina</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/methyvimData.html">methyvimData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/msa.html">msa</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/multiClust.html">multiClust</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/nem.html">nem</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/OSAT.html">OSAT</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/pkgDepTools.html">pkgDepTools</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/RcisTarget.html">RcisTarget</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/RegParallel.html">RegParallel</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/rheumaticConditionWOLLBOLD.html">rheumaticConditionWOLLBOLD</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/ROC.html">ROC</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/RTCGA.html">RTCGA</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/scater.html">scater</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/scmeth.html">scmeth</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/scran.html">scran</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/SeqArray.html">SeqArray</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/seventyGeneData.html">seventyGeneData</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/slinky.html">slinky</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/stageR.html">stageR</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/survcomp.html">survcomp</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/TargetScore.html">TargetScore</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html">TCGAbiolinks</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/TFutils.html">TFutils</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/TimeSeriesExperiment.html">TimeSeriesExperiment</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/tkWidgets.html">tkWidgets</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/TypeInfo.html">TypeInfo</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/vbmp.html">vbmp</a>, <a href="https://www.bioconductor.org/packages/release/bioc/html/widgetTools.html">widgetTools</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/yeastExpData.html">yeastExpData</a>, <a href="https://www.bioconductor.org/packages/release/data/experiment/html/yeastRNASeq.html">yeastRNASeq</a></td>
+	</tr>
+
+	<tr class="row_odd">
+	    <td>Links To Me</td>
+	    <td></td>
+	</tr>
+
+	
+	    <tr class="row_even">
+		<td><a href="http://bioconductor.org/checkResults/3.8/bioc-LATEST/Biobase/">Build Report</a></td>
+		<td>&nbsp;</td>
+	    </tr>
+	
+
+    </tbody></table>
+
+
+    <h3 id="archives">Package Archives</h3>
+
+    <p>Follow <a href="https://www.bioconductor.org/install/#install-bioconductor-packages">
+    Installation</a> instructions to use this
+    package in your R session.</p>
+
+    
+
+    <table>
+	<tbody><tr class="row_odd">
+	    <td>Source Package</td>
+	    <td class="rpack"><a onclick="javascript: pageTracker._trackPageview('../src/contrib/Biobase_2.42.0.tar.gz'); " href="https://www.bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.42.0.tar.gz">
+		Biobase_2.42.0.tar.gz</a></td>
+	    </tr>
+
+	    <tr class="row_even">
+		<td>Windows Binary</td>
+		<td class="rpack">
+		    
+		    
+		    <a onclick="javascript: pageTracker._trackPageview('../bin/windows/contrib/3.5/Biobase_2.42.0.zip'); " href="https://www.bioconductor.org/packages/release/bioc/bin/windows/contrib/3.5/Biobase_2.42.0.zip">
+			Biobase_2.42.0.zip</a> (32- &amp; 64-bit)
+		    
+		    </td>
+		</tr>
+
+
+		
+
+
+		    <tr class="row_odd">
+			<td>Mac OS X 10.11 (El Capitan)</td>
+			<td class="rpack"><a onclick="javascript: pageTracker._trackPageview('../bin/macosx/el-capitan/contrib/3.5/Biobase_2.42.0.tgz'); " href="https://www.bioconductor.org/packages/release/bioc/bin/macosx/el-capitan/contrib/3.5/Biobase_2.42.0.tgz">
+			    Biobase_2.42.0.tgz</a></td>
+		    </tr>
+
+
+		
+
+		
+		    <tr class="row_even">
+			<td id="svn_source">Source Repository</td>
+			<td>git clone https://git.bioconductor.org/packages/Biobase</td>
+		    </tr>
+		    <tr class="row_odd">
+			<td id="svn_source">Source Repository (Developer Access)</td>
+			<td>git clone git@git.bioconductor.org:packages/Biobase</td>
+		    </tr>
+		
+
+		    <tr class="row_even">
+			<td>Package Short Url</td>
+			<td><a title="For citation in publications, etc., please use DOI: 10.18129/B9.bioc.Biobase" href="https://www.bioconductor.org/packages/Biobase/">http://bioconductor.org/packages/Biobase/</a></td>
+		    </tr>
+
+
+		    <tr class="row_odd">
+			<td>Package Downloads Report</td>
+			<td><a href="http://bioconductor.org/packages/stats/bioc/Biobase/">Download Stats</a></td>
+		    </tr>
+
+		
+
+		</tbody></table>
+
+</div>
+
+	
+	
+
+	 
+	
+	  </div>
+	  <div id="RightRail" class="RightRail">
+	  <a name="section-navigation"></a> <!-- accessibility anchor -->
+	  
+  
+
+
+  
+    <div class=""><table class="sb" cellspacing="0" cellpadding="0"><tbody><tr><td class="sb1"></td><td class="sb2"></td><td class="sb3"></td></tr><tr><td class="sb4">&nbsp;</td><td class="sb5">
+  <img src="Bioconductor%20-%20Biobase_files/inv.gif" alt="" width="1" height="200" align="right">
+  <p class="box_header">Documentation <span class="olive">»</span></p>
+  <p><em>Bioconductor</em></p>
+  <ul>
+    <li>Package <a href="https://www.bioconductor.org/help/package-vignettes/">vignettes</a> and manuals.
+    </li><li><a href="https://www.bioconductor.org/packages/release/workflows/">Workflows</a> for
+    learning and use.</li>
+    <li><a href="https://www.bioconductor.org/help/course-materials/">Course and conference</a>
+      material.</li>
+    <li><a href="https://www.youtube.com/user/bioconductor">Videos</a>.</li>
+    <li>Community <a href="https://www.bioconductor.org/help/community/">resources</a>
+      and <a href="https://support.bioconductor.org/t/Tutorials/">tutorials</a>.</li>
+  </ul>
+  <p><em>R</em> / <a href="http://cran.r-project.org/">CRAN</a> packages and
+   <a href="http://www.r-project.org/other-docs.html">documentation</a></p>
+</td><td class="sb6">&nbsp;</td></tr><tr><td class="sb7"></td><td class="sb8"></td><td class="sb9"></td></tr></tbody></table></div>
+
+  
+    <div class=""><table class="sb" cellspacing="0" cellpadding="0"><tbody><tr><td class="sb1"></td><td class="sb2"></td><td class="sb3"></td></tr><tr><td class="sb4">&nbsp;</td><td class="sb5">
+  <img src="Bioconductor%20-%20Biobase_files/inv.gif" alt="" width="1" height="200" align="right">
+  <p class="box_header"><a href="https://support.bioconductor.org/">Support</a>
+  <span class="olive">»</span></p>
+  <p>
+    Please read the <a href="https://www.bioconductor.org/help/support/posting-guide/">posting
+    guide</a>. Post questions about Bioconductor
+    to one of the following locations:</p>
+  <ul>
+    <li><a href="https://support.bioconductor.org/">Support site</a> -
+        for questions about Bioconductor packages</li>
+    <li><a href="https://www.bioconductor.org/help/support/#bioc-devel">Bioc-devel</a> mailing
+        list - for package developers</li>
+  </ul>
+</td><td class="sb6">&nbsp;</td></tr><tr><td class="sb7"></td><td class="sb8"></td><td class="sb9"></td></tr></tbody></table></div>
+
+  
+
+
+	
+
+      </div>
+
+      <div id="SiteGlobalFooter" class="SiteGlobalFooter">
+
+  <span class="global_footer_logo_bc noprint"><img src="Bioconductor%20-%20Biobase_files/logo_global_footer_bioconductor.gif" alt="" width="154" height="51"></span>
+
+  <div class="attribution_copyright">
+    <p>Contact us: <a href="https://support.bioconductor.org/">support.bioconductor.org</a></p>
+    <p>Copyright © 2003 - 2019, Bioconductor</p>
+  </div>
+
+  <a name="site-map"></a> <!-- accessibility anchor -->
+  <ul class="footer_nav_list noprint">
+    <li class="footer_nav_list_element footer_nav_list_element_0">
+      <b><a href="https://www.bioconductor.org/index.html">Home</a></b>
+    </li>
+    <li class="footer_nav_list_element footer_nav_list_element_1">
+      <ul>
+        <li><b><a href="https://www.bioconductor.org/install/index.html">Install</a></b></li>
+        <li><a href="https://www.bioconductor.org/install/index.html#install-R">Install R</a></li>
+        <li><a href="https://www.bioconductor.org/install/index.html#find-bioconductor-packages">Find Bioconductor Packages</a></li>
+        <li><a href="https://www.bioconductor.org/install/index.html#install-bioconductor-packages">Install Bioconductor Packages</a></li>
+        <li><a href="https://www.bioconductor.org/install/index.html#update-bioconductor-packages">Update Bioconductor Packages</a></li>
+      </ul>
+    </li>
+    <li class="footer_nav_list_element footer_nav_list_element_2">
+      <ul>
+        <li><b><a href="https://www.bioconductor.org/help/index.html">Help</a></b></li>
+        <li><a href="https://www.bioconductor.org/packages/release/workflows/">Workflows</a></li>
+        <li><a href="https://www.bioconductor.org/help/package-vignettes/">Package Vignettes</a></li>
+        <li><a href="https://www.bioconductor.org/help/faq/">FAQ</a></li>
+        <li><a href="https://www.bioconductor.org/help/support/">Support</a></li>
+        <li><a href="http://cran.r-project.org/">Using R</a></li>
+        <li><a href="https://www.bioconductor.org/help/course-materials/">Courses</a></li>
+        <li><a href="https://www.bioconductor.org/help/publications/">Publications</a></li>
+        <li><a href="https://www.bioconductor.org/help/bioconductor-cloud-ami/">Cloud AMI</a></li>
+        <li><a href="https://www.bioconductor.org/help/community/">Community Resources</a></li>
+
+      </ul>
+    </li>
+    <li class="footer_nav_list_element footer_nav_list_element_3">
+      <ul>
+        <li><b><a href="https://www.bioconductor.org/developers/index.html">Developers</a></b></li>
+		<li><a href="https://www.bioconductor.org/developers/package-guidelines/">Package Guidelines</a></li>
+		<li><a href="https://www.bioconductor.org/developers/package-submission/">Package Submission</a></li>
+		<li><a href="https://www.bioconductor.org/developers/release-schedule/">Release Schedule</a></li>
+		<li><a href="https://www.bioconductor.org/developers/source-control/">Source Control</a></li>
+      </ul>
+    </li>
+    <li class="footer_nav_list_element footer_nav_list_element_4">
+      <ul>
+        <li><b><a href="https://www.bioconductor.org/about/index.html">About</a></b></li>
+        <li><a href="https://www.bioconductor.org/about/advisory-board/">Advisory Board</a></li>
+        <li><a href="https://www.bioconductor.org/about/annual-reports/">Annual Reports</a></li>
+        <li><a href="https://www.bioconductor.org/about/core-team/">Core Team</a></li>
+        <li><a href="https://www.bioconductor.org/about/mirrors/">Mirrors</a></li>
+        <li><a href="https://www.bioconductor.org/about/related-projects/">Related Projects</a></li>
+      </ul>
+    </li>
+  </ul>
+  <br style="clear:both">
+  &nbsp;
+
+</div>
+
+
+<div id="SiteMasthead" class="SiteMasthead">
+
+  <a name="site-navigation"></a> <!-- accessibility anchor -->
+
+  <span class="logo_vanity_bar noprint"></span>
+
+  <a href="https://www.bioconductor.org/">
+	<img src="Bioconductor%20-%20Biobase_files/logo_bioconductor.gif" class="masthead_logo" alt="Bioconductor - open source software for bioinformatics" width="260" height="78" border="0">
+  </a>
+
+  <div id="SiteMastheadRight" class="SiteMastheadRight">
+    <div id="SiteMastheadRightBackground" class="SiteMastheadRightBackground">
+
+      <a name="site-search"></a> <!-- accessibility anchor -->
+      <form class="site_search" id="search_form" method="GET" action="/help/search/index.html">
+        Search: <input id="q" name="q">
+      </form>
+
+      <ul class="masthead_nav noprint">
+        <li class="masthead_nav_element" id="masthead_nav_element_1">
+          <a href="https://www.bioconductor.org/">Home</a>
+        </li>
+        <li class="masthead_nav_element" id="masthead_nav_element_2">
+          <a href="https://www.bioconductor.org/install/">Install</a>
+        </li>
+        <li class="masthead_nav_element" id="masthead_nav_element_3">
+          <a href="https://www.bioconductor.org/help/">Help</a>
+        </li>
+        <li class="masthead_nav_element" id="masthead_nav_element_4">
+          <a href="https://www.bioconductor.org/developers/">Developers</a>
+        </li>
+        <li class="masthead_nav_element" id="masthead_nav_element_5">
+          <a href="https://www.bioconductor.org/about/">About</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+</div>
+
+    </div>
+  
+
+</body></html>

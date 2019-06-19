@@ -1,0 +1,2000 @@
+http://scalpel.sourceforge.net/	Scalpel
+http://bioconductor.org/packages/release/bioc/html/FlowRepositoryR.html	FlowRepositoryR
+http://200.131.37.155/tipMT/	TipMT
+http://genome.ucsd.edu/microarray/	VAMPIRE
+http://bioware.ucd.ie/~compass/biowareweb/Server_pages/biopred.php	PeptideLocator
+http://www.scripps.edu/chemphys/cravatt/protomap/	PROTOMAP
+http://www.hca-vision.com/	HCA-Vision
+http://genomes.cribi.unipd.it/grape/	Grape Database
+http://baderlab.org/Software/WordCloudPlugin	WordCloud Cytoscape Plugin
+http://wwwdev.ebi.ac.uk/fgpt/phenotator/	Phenotator
+http://www.structbio.org/dnas	DNAS
+http://bioconductor.org/packages/release/bioc/html/exomePeak.html	exomePeak
+http://bioconductor.org/packages/release/bioc/html/GeneExpressionSignature.html	GeneExpressionSignature
+http://emboss.open-bio.org/rel/rel6/apps/needle.html	needle
+http://scratch.proteomics.ics.uci.edu	VIRALpro
+http://nuclitrack.readthedocs.io/en/latest/	NucliTrack
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/restrictSequenceList/1.0.0	restrictSequenceList-IP
+http://compbio.dfci.harvard.edu/tgi/	TIGR Gene Indices
+http://algoart.com/bio2midi.htm	Bio2MIDI
+http://www.moseslab.csb.utoronto.ca/alan/protein_motifs.html	SCPSRM
+http://software.cr-hana.upol.cz/proteincutter/	ProteinCutter
+http://stitch.embl.de/	STITCH
+http://jura.wi.mit.edu/bioc/siRNA	siRNA Selection Server
+http://140.113.239.45/prolocgo/	ProLoc-GO
+http://www.uea.ac.uk/computing/mifold	MIfold
+http://subread.sourceforge.net	Subjunc
+http://ppopen.informatik.tu-muenchen.de/	PROFtmb
+http://biit.cs.ut.ee/gprofiler/gcocoa.cgi	gCocoa
+https://cran.r-project.org/web/packages/tmbstan/index.html	tmbstan
+http://bioinformatics.psb.ugent.be/webtools/trapid/trapid/	TRAPID
+http://opig.stats.ox.ac.uk/webapps/memoir	Memoir
+http://research.ics.aalto.fi/csb/software/ligap/	LIGAP
+https://www.hsph.harvard.edu/pbat	PBAT
+https://github.com/jgmeyerucsd/ProteomeDigestSim	ProteomeDigestSim
+http://www.bcplatforms.com/	BC SNPmax
+http://zhanglab.ccmb.med.umich.edu/MVP/	MVP
+http://chibi.ubc.ca/matrix2png	Matrix2png
+http://sysbiobig.dei.unipd.it/?q=Software#SNPack	SNPack
+http://kmacs.gobics.de/	kmacs
+http://www.kofler.or.at/bioinformatics/PanGEA	PanGEA
+http://bioconductor.org/packages/release/bioc/html/a4Base.html	a4Base
+http://bioconductor.org/packages/release/bioc/html/gdsfmt.html	gdsfmt
+http://cbs.dtu.dk/services/NetCGlyc/	NetCGlyc
+https://www.rstudio.com/	RStudio
+https://github.com/megrawlab/IndeCut	IndeCut
+http://www.cosbi.eu/research/prototypes/redi	Redi
+http://bioconductor.org/packages/release/bioc/html/mdp.html	mdp
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/picard_pasteur_wrapper/PicardInsertSize/1.56.0	PicardInsertSize-IP
+http://bioconductor.org/packages/release/bioc/html/metagene.html	metagene
+https://github.com/sequencing	ISAAC
+https://github.com/willpearse/pez	pez
+http://easeq.net	EaSeq
+https://www.thermofisher.com/dk/en/home/life-science/cloning/vector-nti-software.html	VectorNTI
+http://www.tcdb.org/	Transport classification database (TCDB)
+https://sourceforge.net/projects/gmata/	GMATA
+http://www.ebi.ac.uk/compneur-srv/SBMLeditor.html	SBMLeditor
+http://bioconductor.org/packages/release/bioc/html/S4Vectors.html	S4Vectors
+http://www.itb.cnr.it/cellcycle/index.html	Cell cycle database (CellCycleDB)
+https://cran.r-project.org/web/packages/HTSSIP/index.html	HTSSIP
+http://proteins.burnham.org:8080/Protael/	Protael
+http://cssb.biology.gatech.edu/skolnick/webservice/MetaTASSER/index.html	MetaTASSER
+http://scor.berkeley.edu/	SCOR
+https://embnet.vital-it.ch/software/BOX_form.html	BoxShade
+https://bioconductor.org/packages/release/bioc/html/netReg.html	netReg
+http://pappso.inra.fr/bioinfo/pdm/	Database Manager
+http://flexpred.rit.albany.edu/	FlexPred
+http://servers.binf.ku.dk/cwords/	cWords
+http://emboss.open-bio.org/rel/rel6/apps/mwcontam.html	mwcontam
+http://www.peptideatlas.org	PeptideAtlas peptide database
+https://code.google.com/p/phenoman/	PhenoMan
+http://iomics.ugent.be/toppr/home.html	TOPPR
+http://mips.gsf.de/genre/proj/corum	CORUM
+http://genome.lbl.gov/cgi-bin/GenomeVista	gVISTA
+http://spang.dbcls.jp/	SPANG
+http://www.bioinformatics.nl/cgi-bin/emboss/refseqget	refseqget
+http://bioconductor.org/packages/release/bioc/html/MBASED.html	MBASED
+http://education.expasy.org/student_projects/isotopident/htdocs/	IsotopIdent
+http://www.niehs.nih.gov/research/resources/software/biostatistics/oriogen/index.cfm	ORIOGEN
+http://www.crulrg.ulaval.ca/pages_perso_chercheurs/bureau_a/software.html	RVsharing
+http://yana-safonova.github.io/ig_repertoire_constructor/	IgRepertoireConstructor
+http://emboss.open-bio.org/rel/rel6/apps/infoseq.html	infoseq
+http://www.pirx.com/ccomp/index.shtml	CCOMP
+https://bioinformatics.cineca.it/PMDB/	PMDB
+http://bioconductor.org/packages/release/bioc/html/Organism.dplyr.html	Organism.dplyr
+http://aipl.arsusda.gov/software/mtdfreml/	MTDFREML
+http://mmmdb.iab.keio.ac.jp/	MMMDB
+https://github.com/kkrizanovic/NanoMark	NanoMark
+https://www.molnac.unisa.it/BioTools/cocomaps/	CoCoMaps
+https://www.somaticsnooper.com/	SNooPer
+http://emboss.open-bio.org/rel/rel6/apps/codcopy.html	codcopy
+http://genomics.bioen.illinois.edu/chipinfo/	ChipInfo
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/gatk2/gatk2_reduce_reads/2.4-9	gatk2_reduce_reads-IP
+http://cbs.dtu.dk/services/HLArestrictor/	HLArestrictor
+http://www.optflux.org/	OptFlux
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/gatk2/gatk2_variant_recalibrator/2.4-9	gatk2_variant_recalibrator-IP
+http://bioconductor.org/packages/release/bioc/html/genomation.html	genomation
+https://cran.r-project.org/web/packages/PhySortR/	PhySortR
+http://excap.sbc.su.se/	Excap
+http://www.openmicroscopy.org/omero/	OMERO
+https://github.com/SystemsBiologyOfJianghanUniversity/miRvial	miRvial
+http://www.bcgsc.ca/platform/bioinfo/software/tasr	TASR
+https://github.com/kcakdemir/HiCPlotter	HiCPlotter Beta
+http://bmerc-www.bu.edu/psa/request.htm	PSA
+https://yunliweb.its.unc.edu/UNCcombo/	UNCcombo
+https://research.pasteur.fr/team/enteric-bacterial-pathogens/	Salmonella CRISPR typing
+http://search.cpan.org/dist/BioPerl-1.6.924/Bio/Tools/SeqWords.pm	SeqWords
+https://github.com/hiteshpatel379/PyWATER	PyWATER
+http://metalweb.cerm.unifi.it/tools/metals2/	MetalS2
+https://www.acsu.buffalo.edu/~yijunsun/lab/ESPRIT-Forest.html	ESPRIT-Forest
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/qualToFastq/1.0.0	qualToFastq-IP
+http://combo.dbe.unifi.it/medusa	MeDuSa
+http://opig.stats.ox.ac.uk/webapps/medeller/home.pl?app=MEDELLER	MEDELLER
+http://www.niehs.nih.gov/research/resources/software/biostatistics/gadem/index.cfm	GADEM
+https://github.com/xiezhq/ISEScan	ISEScan
+https://github.com/hcorrada/methylFlow	methylFlow
+http://www.cibiv.at/software/iqtree/	IQ-TREE
+http://bioinfo.montp.cnrs.fr/?r=ArchCandy	ArchCandy
+https://github.com/cerebis/sim3C	Sim3C
+http://bioconductor.org/packages/release/bioc/html/BiocParallel.html	BiocParallel
+https://density.litemol.org	DensityServer
+https://dumpling.bio/	NMRNet
+http://bioconductor.org/packages/release/bioc/html/matter.html	matter
+http://www.cbil.upenn.edu/tpWY/	tpWY
+http://bioserv.rpbs.univ-paris-diderot.fr/software/XmMol/	XmMol
+http://watson.hgen.pitt.edu/docs/SLink.html	SLINK
+https://github.com/steuernb/NLR-Parser	NLR-parser
+https://github.com/najoshi/sabre	sabre
+http://bioconductor.org/packages/release/bioc/html/Oscope.html	Oscope
+https://github.com/rpeckner-broad/Specter	Specter
+http://sammeth.net/confluence/display/FLUX/Home	The Flux Capacitor
+http://mzjava.expasy.org/	MzJava
+http://bioinformatics.intec.ugent.be/MotifSuite/Index.htm	MotifSuite
+http://sourceforge.net/projects/ms-spectre	MS-Spectre
+http://doc.gdb.tools/fun/	FUn
+http://david.abcc.ncifcrf.gov/home.jsp	DAVID Bioinformatics Resources
+http://code.google.com/p/afst/	AFST
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/CountReadGCPercent/1.0.0	CountReadGCPercent-IP
+https://github.com/MICommunity/psicquic	MBInfo
+http://bioinformatics.cise.ufl.edu/microp.html	microp
+http://emboss.open-bio.org/rel/rel6/apps/redata.html	redata
+http://www.bti.vu.lt/en/departments/department-of-bioinformatics/software/voromqa	VoroMQA
+https://github.com/bioexcel	BioExcel Building Blocks (biobb)
+http://www.cancerouspdomains.ir/	Cancerouspdomains
+http://sourceforge.net/projects/membplugin/	MEMBPLUGIN
+http://trimal.cgenomics.org	trimAl
+http://ms.iis.sinica.edu.tw/Multi-Q/	Multi-Q
+http://maplab.imppc.org/chainy/	Chainy
+http://shahamlab.rockefeller.edu/galign/galign.htm	Galign
+http://va-genex.sourceforge.net/	GEOSS
+http://www.ttk.mta.hu/en/szolgaltatas/adatbazisok/	Institute of Enzymology Servers
+http://genome.tugraz.at/lda2	Lipid Data Analyzer (LDA)
+http://mouse.belozersky.msu.ru/tools/malakite.html	Malakite
+http://www.metitree.nl/	MetiTree
+https://github.com/theislab/Scanpy	SCANPY
+http://crab.rutgers.edu/~dslun/csdeconv/index.html	CSDeconv
+http://www.biotech.kth.se/molbio/microarray/dataanalysis/index.html	KTH-package
+http://bioconductor.org/packages/release/bioc/html/pcaGoPromoter.html	pcaGoPromoter
+http://lin.uestc.edu.cn/server/iVKC-OTC	iVKC-OTC
+http://bioconductor.org/packages/release/bioc/html/branchpointer.html	Branchpointer
+https://sourceforge.net/projects/mutascope/	Mutascope
+http://www2.ouc.edu.cn/mollusk/detailen.asp?id=727	RADtyping
+http://www.bio.ifi.lmu.de/REA	REA
+http://bioconductor.org/packages/release/bioc/html/TIN.html	TIN
+http://sites.google.com/site/pitufosoftware	PITUFO
+https://github.com/ElsevierSoftwareX/SOFTX-D-17-00018	ConfocalGN
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/GetDifferentialExpression/1.0.0	GetDifferentialExpression-IP
+http://bioinformatics.cmri.org.au/bioinformatics.htm	MatCol
+http://prosplicer.mbc.nctu.edu.tw/	ProSplicer
+http://bioconductor.org/packages/release/bioc/html/systemPipeR.html	systemPipeR
+http://cufflinks.cbcb.umd.edu/	Cufflinks
+http://cbs.dtu.dk/services/NetStart/	NetStart
+http://bioconductor.org/packages/release/bioc/html/ShortRead.html	ShortRead
+https://galaxy.pasteur.fr/tool_runner?tool_id=hgv_codingSnps	hgv_codingSnps-IP
+http://compgenome.org/lochap/	LocHap
+http://pcxn.org:8080/	PCxN
+http://www.disqover.com	DISQOVER
+https://github.com/jts/nanopolish	nanopolish
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/getReadDistribution/1.0.0	getReadDistribution-IP
+https://samples.rd-connect.eu/	RD-Connect Sample Catalogue
+http://bioconductor.org/packages/release/bioc/html/ChIPexoQual.html	ChIPexoQual
+http://myminer.armi.monash.edu.au/	MyMiner
+http://www.vectorbase.org/	VectorBase
+http://bionimbus.opensciencedatacloud.org/	Bionimbus
+https://yunliweb.its.unc.edu/software.html	r2_hat
+http://bioconductor.org/packages/release/bioc/html/cqn.html	cqn
+https://www.niehs.nih.gov/research/resources/software/biostatistics/iuta/index.cfm	IUTA
+http://mmb.irbbarcelona.org/MoDEL	MoDEL
+http://bioinformatics.tecnoparco.org/SNPchimp/index.php/links	AffyPipe
+http://www.ruhr-uni-bochum.de/mpc/software/UPF/index.html.en	Unique Peptide Finder (UPF)
+http://go.princeton.edu/cgi-bin/GOTermMapper	Generic GO Term Mapper
+http://yeastdb.org	Yeast-Deletion-Library-Tools
+http://bioinfo.lifl.fr/carnac	CARNAC
+http://bioconductor.org/packages/IsoformSwitchAnalyzeR/	IsoformSwitchAnalyzeR
+http://dps.plants.ox.ac.uk/sequencing/proseq.htm	ProSeq
+http://manuals.bioinformatics.ucr.edu/home/seed	SEED
+http://proteomics.ucsd.edu/software-tools/splicedb-splice-graph-proteomics-tools/	SpliceDB
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/mvalade/gdtools/gdtools_validate/0.26	gdtools_validate-IP
+http://www.bcgsc.ca/platform/bioinfo/software/xmatchview	XMatchView
+http://e1ds.csbb.ntu.edu.tw/	E1DS
+http://genepipe.ncgm.sinica.edu.tw/variowatch/main.do	VarioWatch
+http://research.ics.aalto.fi/mi/software/rex12/	targetedRetrieval
+http://weblab.cbi.pku.edu.cn	WebLab
+http://bioconductor.org/packages/release/bioc/html/survcomp.html	survcomp
+http://genes.mit.edu/burgelab/miso/docs/#releases	MISO
+http://www.splashground.de/~andy/programs/qseq2fastq-andy/README.html	qseq2fastq
+http://www.cmt.ua.ac.be/lcovaci/lucian/ligia/bypassr.html	BYPASSR
+http://www.pitt.edu/~tsengweb/MetaOmicsHome.htm	MetaQC
+http://lighthouse.ucsf.edu/ProteinHistorian/	ProteinHistorian
+http://bioconductor.org/packages/release/bioc/html/RCytoscape.html	RCytoscape
+http://emboss.open-bio.org/rel/rel6/apps/hmoment.html	hmoment
+http://ribo.cs.mcgill.ca/	Ribo
+http://setter.projekty.ms.mff.cuni.cz/	SETTER
+http://darcsite.genzentrum.lmu.de/darc/	DARC site
+https://sourceforge.net/projects/sb2nhri/files/drVM/	drVM
+http://www.daimi.au.dk/~compbio/pfold/downloads.html#release	PPfold
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/annotatepeaks/annotatePeaks/1.0	annotatePeaks-IP
+http://prep.unl.edu/	PREP Suite
+http://bioconductor.org/packages/release/bioc/html/rTANDEM.html	rTANDEM
+http://msoar.cs.ucr.edu/	MSOAR
+http://www.ebi.ac.uk/miriam/main/mdb?section=ws_help	MIRIAM WS
+https://my.cerec.com/en/products/cerec-sw-4-6.html	CEREC
+https://code.google.com/archive/p/bsmap/	BSMAP
+http://pappso.inra.fr/bioinfo/denovopipeline/	DeNovo Pipeline
+http://www.cs.tau.ac.il/~bchor/StringGraph/	StringGraph beta
+https://web.archive.org/web/20171201062820/http://www.ni.gsu.edu:80/~rclewley/PyDSTool/FrontPage.html	PyDSTool
+http://sysbio.unl.edu/EPCES	EPCES
+http://zhanglab.ccmb.med.umich.edu/SAXSTER/	SAXSTER
+http://www.xenbase.org	XenBase
+http://www.ebi.ac.uk/goldman-srv/webprank/	webPRANK
+https://code.google.com/p/sig2biopax/	Sig2BioPAX
+http://www.mybiosoftware.com/biosmxpress-identification-of-unknown-biochemical-structures-in-metabolomics.html	BioSMXpress
+http://mjsull.github.io/Easyfig/	Easyfig
+http://bioconductor.org/packages/release/bioc/html/DOSE.html	DOSE
+http://genome.ewha.ac.kr/ECgene/ASmodeler/	ASmodeler
+http://cfmid.wishartlab.com	CFM-ID
+http://www.ebi.ac.uk/chebi/tools/binche/	BiNChE
+http://cbo.biocomplexity.indiana.edu/	CBO
+http://www.iitm.ac.in/bioinfo/GAP/	GAP
+http://www.ebi.ac.uk/Tools/sfc/emboss_seqret/	seqret (EBI)
+https://bioimage.coe.drexel.edu/mp/lever/	LEVER
+http://www.csjfann.ibms.sinica.edu.tw/eag/programlist/LSR/LSR.html	LSR
+http://bioconductor.org/packages/release/bioc/html/metavizr.html	metavizr
+http://seqware.io/	SeqWare
+https://sites.google.com/a/brown.edu/bioinformatics-in-biomed/spp-r-from-chip-seq	SPP
+http://www.marcottelab.org/index.php/Catapult	Catapult
+http://bioconductor.org/packages/release/bioc/html/rGREAT.html	rGREAT
+http://www.hairyfatguy.com/lutefisk/	LutefiskXP
+http://www.ensembl.org/Mus_musculus/index.html	Ensembl Mouse Genome Browser
+http://www.sanger.ac.uk/science/tools/evoker	Evoker
+http://bioconductor.org/packages/release/bioc/html/SSPA.html	SSPA
+https://tppred2.biocomp.unibo.it/tppred2	TPpred2
+http://bcb.dei.unipd.it/MolLoc	MolLoc
+http://bioconductor.org/packages/release/bioc/html/plgem.html	plgem
+http://www.proteinstrukturfabrik.de/orfer/	ORFer
+https://github.com/jade-cheng/ohana	Ohana
+http://www.morgridge.net/upload/files/peng/Aptamer/MPBind.html	MPBind
+http://www.bioinf.uni-freiburg.de/Software/LatPack/	LatPack
+http://bioconductor.org/packages/release/bioc/html/RIVER.html	RIVER
+http://sourceforge.net/projects/mapdia/.	MAPDIA
+http://emboss.open-bio.org/rel/rel6/apps/supermatcher.html	supermatcher
+http://genetics.cs.ucla.edu/heritability/	HEIDI
+https://urgi.versailles.inra.fr/gnpis	Genetic and Genomic Information System (GnpIS)
+http://code.google.com/p/autophylo/	Autophylo
+http://rulai.cshl.edu/tools/ESE/	ESEfinder
+http://bioconductor.org/packages/release/bioc/html/EWCE.html	EWCE
+https://galaxy.pasteur.fr/tool_runner?tool_id=solid2fastq	solid2fastq-IP
+http://www.sbc.su.se/%7Emaccallr/nucpred/	NucPred
+http://bioconductor.org/packages/release/bioc/html/gespeR.html	gespeR
+http://bioconductor.org/packages/release/bioc/html/MetaNeighbor.html	MetaNeighbor
+https://github.com/i02momuj/MLDA/releases/tag/1.2.2	MLDA
+http://bioconductor.org/packages/release/bioc/html/EBSEA.html	EBSEA
+http://maayanlab.net/FNV/	FNV
+http://bioinfo.ibp.ac.cn/biocircos/	BioCircos.js
+http://msviz-public.vital-it.ch	MsViz
+http://bioconductor.org/packages/release/bioc/html/Rtreemix.html	Rtreemix
+https://ohlerlab.mdc-berlin.de/software/RiboTaper_126/	RiboTaper
+http://bioconductor.org/packages/release/bioc/html/miRNAtap.html	miRNAtap
+http://www.genouest.org/spip.php?page=outils&id_rubrique=113&lang=en	moduleorganizer
+http://cgap.nci.nih.gov/	Cancer Genome Anatomy Project
+http://www.bioinfor.com/peaks/features/peaksdb.html	PEAKS DB
+http://bioconductor.org/packages/release/bioc/html/gaga.html	gaga
+https://github.com/boutroslab/caRpools	CaRpools
+https://galaxy.pasteur.fr/tool_runner?tool_id=ngs_simulation	ngs_simulation-IP
+http://www.atgc-montpellier.fr/mpscan/	MPscan
+http://bioconductor.org/packages/release/bioc/html/ExperimentHub.html	ExperimentHub
+http://ekhidna.biocenter.helsinki.fi/gtg/start	Maxflow
+https://github.com/ElsevierSoftwareX/SOFTX-D-17-00063	JDFTx
+http://bioconductor.org/packages/release/bioc/html/Vega.html	Vega
+https://bitbucket.org/pycogent3/mutationmotif	MutationMotif
+http://bioconductor.org/packages/release/bioc/html/TransView.html	TransView
+https://bitbucket.org/paiyetan/m2lite	M2Lite
+http://sourceforge.net/projects/msprep/	MSPrep
+http://tools.proteomecenter.org/SpecArray.php	SpecArray
+http://sonnhammer.sbc.su.se/Belvu.html	Belvu
+http://biosual.cbio.uct.ac.za/pinv.html	PINV
+http://bioconductor.org/packages/release/bioc/html/sigPathway.html	sigPathway
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/picard_pasteur_wrapper/PicardASMetrics/1.56.0	PicardASMetrics-IP
+http://genomeview.org	GenomeView
+http://wiki.c2b2.columbia.edu/califanolab/index.php/Software/ARACNE?	ARACNE
+https://github.com/ciml/ciml-lib	MGGP
+http://logol.genouest.org	Logol
+http://emboss.open-bio.org/rel/rel6/apps/acdc.html	acdc
+http://ekhidna.biocenter.helsinki.fi/dali_server	Dali
+http://syslab3.nchu.edu.tw/iTAR/	iTAR
+http://kiharalab.org/subalignment/	SUBWAI
+http://bioconductor.org/packages/release/bioc/html/nethet.html	nethet
+https://github.com/BGIRED/RED-ML	RED-ML
+http://www.bumc.bu.edu/msr/glycresoft/	GlycReSoft
+http://www.bioinformatics.nl/progmap	ProGMap
+https://bitbucket.org/pchanda/hapzipper	HapZipper
+http://proteomics.mcw.edu/promost.html	ProMoST
+http://sunflower.kuicr.kyoto-u.ac.jp/~morihiro/protint/ppi-form.html	IPPI
+http://biocomp.unibo.it/savojard/bcov/index.html	BCov
+http://www.disprot.org/predictors.php	Protein Disorder Predictors
+http://bioconductor.org/packages/release/bioc/html/spliceSites.html	spliceSites
+https://github.com/tambeta/biojs-vis-gprofiler	biojs-vis-gprofiler
+http://bioconductor.org/packages/release/bioc/html/TEQC.html	TEQC
+http://www.healthinformaticslab.org/supp/	jEcho
+http://sourceforge.net/projects/mocapy/	Mocapy plus plus
+http://bioconductor.org/packages/release/bioc/html/GenomicFiles.html	GenomicFiles
+http://www.kazusa.or.jp/codon/	Codon Usage Database
+http://protein.tcmc.edu/kb-rank	KB-Rank
+http://www.imgt.org/3Dstructure-DB/	IMGT 3Dstructure
+http://bioconductor.org/packages/release/bioc/html/RJMCMCNucleosomes.html	RJMCMCNucleosomes
+http://bioconductor.org/packages/release/bioc/html/FourCSeq.html	FourCSeq
+http://dogma.ccbb.utexas.edu/mitofy/	MITOFY
+http://www.acaciamulga.net/#!about1/ckzk	REPHINE
+http://basic.bioinfo.pl/	Meta-BASIC
+http://bioinfo.icgeb.res.in/gff/	GFF-Ex
+http://web1.sph.emory.edu/users/hwu30/software/polyaPeak.html	PolyaPeak
+http://bioinformatics.hitsz.edu.cn/miRNA-dis/	miRNA-dis
+http://groups.csail.mit.edu/cgs/gse.html	GSE
+http://statgen.ucr.edu/software.html	ParentChecker
+http://bioconductor.org/packages/release/bioc/html/RCy3.html	RCy3
+http://bibiserv.cebitec.uni-bielefeld.de/mkesa	mkESA
+http://ekhidna.biocenter.helsinki.fi/poxo/pobo/	POBO
+http://bioinformatics.bc.edu/clotelab/DIAL/	DIAL
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/phyml/phyml/3.1	phyml-IP
+http://mirmap.ezlab.org/	miRmap
+http://bioconductor.org/packages/release/bioc/html/flowCore.html	flowCore
+https://compbio.dfci.harvard.edu/predictivenetworks//	PredictiveNetworks
+http://tagc.univ-mrs.fr/bioinformatics/maf/	MAF
+http://www.bahlerlab.info/YOGY/	YOGY
+https://www.ncbi.nlm.nih.gov/research/bionlp/Tools/tmvar/	tmVar
+http://combrex.bu.edu	COMBREX
+http://www.cgbayesnets.com/	CGBayesNets
+https://diseases.jensenlab.org/	DISEASES
+http://bioconductor.org/packages/release/bioc/html/GSReg.html	GSReg
+http://www.ebi.ac.uk/Tools/psa/wise2dba/	Wise2DBA
+http://compbio.med.wayne.edu/software/index.html	KLab-PCR
+https://mu2py.biocomp.unibo.it/mempype	MemPype
+http://opengenetics.ca/2015/02/25/variant-assessment-tool-vat/	VAT
+http://ls5-www.cs.tu-dortmund.de/projects/biojeti/about.php	Bio-jETI
+http://retentionprediction.org/	retentionprediction
+https://www.ibp.ucla.edu/research/xiao/GIREMI.html	GIREMI
+https://www.blast2go.com/	Blast2GO
+http://www.ensembl.org/info/docs/tools/vep/index.html	Ensembl Variant Effect Predictor
+http://interactomeinsider.yulab.org/	Interactome INSIDER
+http://lise.ibms.sinica.edu.tw.	LISE
+http://www.cbs.dtu.dk/services/FeatureMap3D/	FeatureMap3D
+http://protists.ensembl.org/tools.html	Ensembl Genomes Protists assembly converter
+http://www.bioinf.rub.de/software/topaln.html.en	topaln
+http://ponderosa.nmrfam.wisc.edu/	PONDEROSA-CS
+http://www.basic.northwestern.edu/biotools/OligoCalc.html	OligoCalc
+http://bioconductor.org/packages/release/bioc/html/ISoLDE.html	ISoLDE
+http://aesop.readthedocs.io/en/latest/index.html	AESOP
+https://pymolwiki.org/index.php/Azahar	Azahar
+http://bioinfo-out.curie.fr/projects/dedal/	DeDaL
+http://bioserver1.physics.iisc.ernet.in/psrna/	PsRNA
+https://www.komodo.cnptia.embrapa.br/	KOMODO
+http://www.portugene.com/SPInDel/SPInDel_web.html	SPInDel Workbench
+http://bioinfolab.unl.edu/~cstrope/iSG/	indel-Seq-Gen
+http://selecton.tau.ac.il/	Selecton
+http://genetics.agrsci.dk/~bernt/popgen/	POPDIST
+http://rtips.dna.bio.keio.ac.jp/ractip/	RactIP
+http://prime.ibn.a-star.edu.sg	TmPrime
+http://www.health2api.com/?p=10237	ProdomCG_tree
+https://github.com/rgacesa/HHCompare	HHCompare
+https://github.com/compomics/meta-proteome-analyzer	MPA Portable
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/odoppelt/kronatools/taxonomy_krona_chart/2.0.0	taxonomy_krona_chart-IP
+https://github.com/candygene/QTM	QTL TableMiner++(QTM)
+http://bioconductor.org/packages/release/bioc/html/gtrellis.html	gtrellis
+http://gpcr.biocomp.unibo.it/cgi/predictors/spep/pred_spepcgi.cgi	SPEPLip
+http://bioconductor.org/packages/release/bioc/html/BiocInstaller.html	BiocInstaller
+http://limani.psb.ugent.be	LIMANI
+http://gydb.org	Gypsy Database (GyDB)
+http://speed.sys-bio.net/	SPEED
+http://www.cmbi.ru.nl/MGV/	Microbial Genome Viewer
+http://www.rnaexpress.org/	RNA-eXpress
+http://www.tbi.univie.ac.at/~ivo/RNA/	Vienna RNA Package
+https://github.com/princelab/mspire-simulator	mspire-simulator
+http://emboss.open-bio.org/rel/rel6/apps/splitsource.html	splitsource
+http://cbrc3.cbrc.jp/~shimizu/index.php?Kana%20Shimizu%27s%20web%20site#t11a427e	ANGLE
+http://bioconductor.org/packages/release/bioc/html/restfulSE.html	restfulSE
+http://www.scandb.org/newinterface/tools/OmicKriging.html	OmicKriging
+https://www.bbmriportal.eu/bbmri2.0/jsp/core/login.jsf	BBMRI-Portal
+http://code.google.com/p/hapi-ur/	HAPI-UR
+http://bioconductor.org/packages/release/bioc/html/GMRP.html	GMRP
+http://bioconductor.org/packages/release/bioc/html/QuaternaryProd.html	QuaternaryProd
+http://vm-lux.embl.de/~mende/specI/	SpecI
+http://bioinformatics.charite.de/superpred	SuperPred
+http://andromeda.gsf.de/wiki	WikiGene
+http://bioconductor.org/packages/release/bioc/html/kissDE.html	kissDE
+http://bioconductor.org/packages/release/bioc/html/casper.html	casper
+http://ncbr.muni.cz/~standag/pycheminf	pyChemInf
+http://statgen.psu.edu/software/3funmap.html	3FunMap
+http://bioinformatics.cribi.unipd.it/cuda/swcuda.html	SWCuda
+https://github.com/jzhangc/git_RBiomirGS	RBiomirGS
+http://next.gs/	Genomer
+https://github.com/louiejtaylor/pyViKO	Pyviko
+http://bioconductor.org/packages/release/bioc/html/CNAnorm.html	CNAnorm
+http://i.uestc.edu.cn/sarotup/index.html	SAROTUP
+http://emboss.open-bio.org/rel/rel6/apps/seealso.html	seealso
+http://bioconductor.org/packages/release/bioc/html/DiffBind.html	DiffBind
+http://bioconductor.org/packages/release/bioc/html/GSEABase.html	GSEABase
+http://www.prc.boun.edu.tr/appserv/prc/mlsta/	MLSTA
+http://ppopen.informatik.tu-muenchen.de/	PredictProtein Open
+http://globin.bx.psu.edu/html/docs/sim4.html	SIM4
+http://biryani.med.yale.edu/karma/cgi-bin/mysql/karma.pl	KARMA
+http://gopubmed.biotec.tu-dresden.de/gogene	GoGene
+http://protein.bio.unipd.it/inga	INGA
+http://bioinfo.au.tsinghua.edu.cn/member/xwwang/MICCusage/	MICC
+http://xplormed.ogic.ca/	XplorMed
+http://sculptor.biomachina.org/	Sculptor
+http://conco.ebc.ee	ConoDictor
+http://crop-pal.org/	cropPAL
+http://www.ccp4.ac.uk/MrBUMP/	MrBUMP
+https://sourceforge.net/projects/metamis/	MetaMIS
+http://www.g-language.org/wiki/glinks	G-Links
+http://bioconductor.org/packages/release/bioc/html/gQTLstats.html	gQTLstats
+http://omics.informatics.indiana.edu/TAG/	TAG
+http://bioinformatics.psb.ugent.be/triforc/#/home	TriForC Database
+http://bioinformatics.psb.ugent.be/ATCOECIS/	ATCOECIS
+http://bioconductor.org/packages/release/bioc/html/scran.html	scran
+http://theinf1.informatik.uni-jena.de/~wernicke/motifs/index.html	FANMOD
+http://apps.cytoscape.org/apps/cddapp	cddApp
+http://bitlab-es.com/gnv5/	MOWServ
+http://biodev.hgen.pitt.edu/astro/index.php	ASTRO
+https://github.com/jijiadong/JDINAC	JDINAC
+https://web.expasy.org/blast/	BLAST (SIB)
+http://microrpm.itps.ncku.edu.tw/	microRPM
+http://dna.leeds.ac.uk/AffyErrorRate/	Affymetrix_Error_Rate
+http://bioconductor.org/packages/release/bioc/html/Path2PPI.html	PATH2PPI
+http://ogeedb.embl.de/	OGEE
+http://www.ebi.ac.uk/dasty/index.html	DASty
+http://circularlogo.sourceforge.net/	CircularLogo
+http://bioinfo2.ugr.es:8080/oliver/sdse/	SDSE
+http://bioconductor.org/packages/release/bioc/html/MDTS.html	MDTS
+http://partifold.csail.mit.edu/	partiFold
+http://bioconductor.org/packages/release/bioc/html/sevenC.html	sevenC
+http://www.shawlab.org/NetComm/	NetComm
+https://github.com/julipetal/petalNet	petalNet
+http://sourceforge.net/projects/papca/	PocketAnalyzerPCA
+http://bioinformatics.psb.ugent.be/software/details/Network-Motif-Clustering-Toolbox	Network Motif Clustering Toolbox
+http://www.glycosciences.de/sweetdb/start.php?action=form_shift_estimation	GlyNest and CASPER
+http://www.clantox.cs.huji.ac.il	ClanTox
+http://jsquid.sbc.su.se/	jSquid
+http://proteinsplus.zbh.uni-hamburg.de/#edia	EDIA
+https://github.com/varnerlab/POETs.jl	POETs
+http://code.google.com/p/knime4bio/	Knime4Bio
+http://bioconductor.org/packages/release/bioc/html/GOfuncR.html	GOfuncR
+http://www.univie.ac.at/mosys/software.html	COVAIN
+http://circe.med.uniroma1.it/looping/	LoopIng
+http://rna.tbi.univie.ac.at/TSSAR	TSSAR
+http://bioconductor.org/packages/PAA/	PAA - Protein Array Analyzer
+http://bioconductor.org/packages/release/bioc/html/AnnotationHub.html	AnnotationHub
+https://sail.usc.edu/mupet/	MUPET
+http://www-bionet.sscc.ru/sitex/	SitEx
+http://vivan.tau.ac.il/index.php	ViVan
+http://www.ikmb.uni-kiel.de/resources/download-tools/software/software-download-institute-clinical-molecular-biology#limstools	LIMS Tools
+http://www.quantitativeproteomics.org/normalyzerde	NormalyzerDE
+http://docs.viramp.com/en/latest/introduction.html	VirAmp
+http://bioconductor.org/packages/release/bioc/html/GOTHiC.html	GOTHiC
+https://github.com/pratas/falcon	Falcon
+http://sbp.bhi.washington.edu/projects/semgen	SemGen
+http://rdp.cme.msu.edu/	Ribosomal Database Project (RDP)
+http://bioconductor.org/packages/release/bioc/html/traseR.html	traseR
+http://www.imtech.res.in/raghava/glycoep/	GlycoEP
+http://bioconductor.org/packages/release/bioc/html/PGA.html	PGA
+http://cctop.enzim.ttk.mta.hu/	CCTOP
+https://github.com/ls-cwi/xheinz	xHeinz
+http://bioconductor.org/packages/release/bioc/html/ggbio.html	ggbio
+http://www.viprbrc.org/brc/home.spg?decorator=vipr	Virus Pathogen Resource (ViPR)
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/odoppelt/soap/2bwt-builder/1.1	2bwt-builder-IP
+http://pass.cribi.unipd.it/cgi-bin/pass.pl	PASS
+http://bioconductor.org/packages/release/bioc/html/cleanUpdTSeq.html	cleanUpdTSeq
+http://www.bioinf.uni-leipzig.de/Software/RNAstrand/	RNAstrand
+http://gepat.sourceforge.net/	GEPAT
+http://ouyanglab.jax.org/hsa/	HSA
+https://cran.r-project.org/package=PCIT	PCIT
+http://genome.sdau.edu.cn/research/software/BioIDMapper.html	BioIDMapper
+https://tppred2.biocomp.unibo.it	TPpred 2.0
+http://andom.bioapps.biozentrum.uni-wuerzburg.de/index_new.html	AnDom
+http://evolve.zoo.ox.ac.uk/Evolve/Blastalign.html	BlastAlign
+http://fafdrugs4.mti.univ-paris-diderot.fr/	FAF-Drugs
+http://webapps.ipk-gatersleben.de/lailaps/app	LAILAPS Search Engine (transPLANT instance)
+http://rabit.dfci.harvard.edu/	RABIT
+http://gdsctools.readthedocs.io/en/master/	GDSCTools
+http://www.regulatoryrna.org/software/piRNA/piRNA_target_mRNA/index.php	pirnaPre
+http://rth.dk/resources/rilogo/	RILogo
+http://www.niehs.nih.gov/research/resources/software/biostatistics/eagleview/index.cfm	EagleView genome viewer
+http://bioconductor.org/packages/release/bioc/html/BUMHMM.html	BUMHMM
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/mvalade/frogs/FROGS_affiliations_stat/1.1.0	FROGS_affiliations_stat-IP
+http://metap.helmholtz-muenchen.de/metap2/	metaP
+http://rsat.eu/	convert-matrix
+http://melolab.org/mbl/pdiviz	PDIviz
+http://hcil.snu.ac.kr/~rati/miRTarVis/index.html	mirTarVis
+https://github.com/cbg-ethz/haploclique	HaploClique
+http://www.ebi.ac.uk/Tools/sss/ncbiblast/	BLAST (EBI)
+http://research.stowers-institute.org/gertonlab/peakfinder/	PeakFinder
+http://bioconductor.org/packages/release/bioc/html/OLINgui.html	OLINgui
+http://wge.ndsu.nodak.edu/wheatzapper/	Wheat Zapper
+https://arts.ziemertlab.com/	ARTS
+http://bioinformatics.psb.ugent.be/software/details/GaneSh	GaneSh
+http://sourceforge.net/projects/mude/	MUDE
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/maketssdist/makeTSSdist/1.0	makeTSSdist-IP
+http://oxytricha.princeton.edu/BlastO/index.html	BLASTO
+https://github.com/brentp/pyfasta/	pyfasta
+http://www.pathogenomics.sfu.ca/islandviewer/	IslandViewer 4
+http://loschmidt.chemi.muni.cz/predictsnp2	PredictSNP2
+https://www.araport.org/	Araport
+http://bioconductor.org/packages/release/bioc/html/Guitar.html	Guitar
+http://www.ebi.ac.uk/expressionprofiler/	Expression Profiler
+https://github.com/greenify/menu-builder	menu-builder
+http://emboss.open-bio.org/rel/rel6/apps/megamerger.html	megamerger
+http://www.ibi.vu.nl/programs/trustwww/	TRUST
+http://sbi.imim.es/web/index.php/research/software/guildsoftware	GUILD
+http://metazoa.ensembl.org/Multi/enasearch	Ensembl Genomes Metazoa sequence search
+http://bioconductor.org/packages/release/bioc/html/GreyListChIP.html	GreyListChIP
+https://www.tzv.fal.de/index.html	VCE
+http://www.airlaboratory.ch/#/	AirLab
+http://bioconductor.org/packages/release/bioc/html/microbiome.html	microbiome
+http://biocool.ir/softs/rpicool.html	rpiCOO
+http://faculty.washington.edu/browning/ibdseq.html	IBDseq
+http://www.noncode.org/index.php	ncRNAwsdl
+http://biowulf.bu.edu/MotifViz/	MotifViz
+http://csb.stanford.edu/kobamin	KoBaMIN
+https://gendbe.computational.bio.uni-giessen.de	GenDBE
+http://sourceforge.net/projects/spa-assembler/	SFA-SPA
+https://bitbucket.org/CBGR/intervene	Intervene
+http://emboss.open-bio.org/rel/rel6/apps/descseq.html	descseq
+https://cran.r-project.org/web/packages/BacArena/index.html	BacArena
+http://nrps.informatik.uni-tuebingen.de/	NRPSpredictor2
+https://sourceforge.net/projects/sewal/	SEWAL
+http://dna.ccs.tulane.edu/icm	ICM Web
+http://ncrna-pred.com/premiRNA.html	HeteroMirPred
+http://bioconductor.org/packages/release/bioc/html/COSNet.html	COSNet
+https://bioconductor.org/packages/release/bioc/html/MWASTools.html	MWASTools
+http://micelle.icm.uu.se/	Micelle Maker
+http://bioconductor.org/packages/release/bioc/html/GateFinder.html	GateFinder
+http://metalweb.cerm.unifi.it/tools/findgeo/	FindGeo
+http://bioinf-applied.charite.de/superlooper/	SuperLooper
+http://timat2.sourceforge.net/	TiMat2
+https://www2.informatik.uni-halle.de:8443/VOMBAT/faces/pages/choose.jsp	VOMBAT
+http://contra-cnv.sourceforge.net/	Contra
+http://gepard.bioinformatik.uni-saarland.de/software/propores/propores-page	PROPORES
+https://github.ugent.be/ComputationalBiology/mesalina	Mesalina
+http://bioconductor.org/packages/release/bioc/html/ArrayExpressHTS.html	ArrayExpressHTS
+http://galaxy.seoklab.org/	GalaxyWEB
+http://vogdb.org/	VOGDB
+http://pcons.net/	Pcons.net
+http://www.uea.ac.uk/computing/zclass-zernike-class-	ZClass
+https://www.bsc.es/research-and-development/software-and-apps/software-list/comp-superscalar	COMPSs
+https://sourceforge.net/projects/gemlibrary/	The GEM (GEnome Multi-tool) Library (GEM Mapper)
+http://wpicr.wpic.pitt.edu/WPICCompGen/hclust/hclust.htm	H-Clust
+http://www.ebi.ac.uk/Tools/sss/fastm/	FASTM (EBI)
+http://snpeffect.switchlab.org/	SNPeffect
+https://github.com/animalnexus/feedr	feedr
+https://code.google.com/p/pride-toolsuite/	PRIDE Toolsuite
+https://zhanglab.ccmb.med.umich.edu/WDL-RF/	WDL-RF
+https://github.com/dralynch/crambled	Crambled
+http://bioconductor.org/packages/release/bioc/html/GOFunction.html	GOFunction
+https://github.com/chapmanb/bcbb/blob/master/nextgen/README.md	Bcbio-nextgen
+http://bioinformatics.psb.ugent.be/software/details/TREECON	TREECON
+http://prowl.rockefeller.edu/	PROWL
+http://bimib.disco.unimib.it/index.php/CABERNET	CABERNET
+http://www.researchdsf.unict.it/S2RSLDB/	S2RSLDB
+https://code.google.com/p/tag-db/	Tag-DB
+http://dbnp.org/	Nutritional Phenotype Database (dbnp)
+http://snps-and-go.biocomp.unibo.it/snps-and-go/	SNPs GO
+http://paed.hku.hk/genome/software/SRinversion/index.html	SRinversion
+http://emboss.open-bio.org/rel/rel6/apps/prettyseq.html	prettyseq
+http://www.ebi.ac.uk/Tools/structure/dalilite/	DaliLite
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastx_renamer/cshl_fastx_renamer/0.0.11	cshl_fastx_renamer-IP
+http://www.ncbi.nlm.nih.gov/gv/mhc/sbt.cgi?cmd=main	The SBT (Sequencing-based typing) interface 
+http://www.trpchannel.org	TRIP
+http://emboss.open-bio.org/rel/rel6/apps/antigenic.html	antigenic
+http://bioinfo.au.tsinghua.edu.cn/software/seqsite/	SeqSite
+https://www.egl-eurofins.com/emvclass/emvclass.php	EGL Genetics: EmVClass
+http://sybil.sourceforge.net/	Sybil
+http://www.cs.cityu.edu.hk/~lwang/software/motif/index.html	MotifDetector
+http://batman.r-forge.r-project.org/	Batman
+http://www.unc.edu/~yunmli/HMRFBayesHiC/	HMRFBayesHiC
+http://salmonbase.org/	SalmoBase
+http://rnaseq.gersteinlab.org/IQSeq/IQSeq.html	IQSeq
+http://www.protonet.cs.huji.ac.il/	ProtoNet
+http://bio.ifom-ieo-campus.it/antihunter	AntiHunter 2.0
+https://cran.r-project.org/web/packages/freesurfer/index.html	freesurfer
+http://bioconductor.org/packages/release/bioc/html/SDAMS.html	SDAMS
+http://bioinformatics.cesb.uky.edu/Main/SoftwareDevelopment#nmrstarlib	nmrstarlib
+http://www.bioinfo.no/tools/bomp	BOMP
+https://cran.r-project.org/web/packages/CPBayes/index.html	CPBayes
+https://europepmc.org/RestfulWebService	EuropePMC
+http://bioconductor.org/packages/release/bioc/html/iASeq.html	iASeq
+http://bioconductor.org/packages/release/bioc/html/DEsingle.html	DEsingle
+https://www.broadinstitute.org/haploview/haploview	HaploView
+http://www.ebi.ac.uk/GOA/	GOA
+http://lncrnator.ewha.ac.kr/	lncRNAtor
+http://world-2dpage.expasy.org/melanie/	MELANIE
+http://www.mirnet.ca/	miRNet
+http://cudasw.sourceforge.net/	CUDASW++
+http://igs-server.cnrs-mrs.fr/Caspr/index.cgi	CaspR
+http://bioconductor.org/packages/release/bioc/html/HilbertVisGUI.html	HilbertVisGUI
+http://troll.med.unc.edu/ifoldrna.v2/index.php	iFoldRNA
+http://tritemio.github.io/FRETBursts/	FRETBursts
+http://circadiomics.ics.uci.edu	CircadiOmics
+http://firedb.bioinfo.cnio.es/Php/fstarTEXT.php	firestar WS
+http://www.russelllab.org/cgi-bin/tools/pints.pl	PINTS
+http://www.biostat.wisc.edu/~cdewey/mercator/	Mercator
+http://bioconductor.org/packages/release/bioc/html/PathoStat.html	PathoStat
+https://www.ebi.ac.uk/chembl/malaria/target	Malaria Data BLAST Search
+http://www.compbio.group.cam.ac.uk/software/cnanova	CNAnova
+http://bioconductor.org/packages/release/bioc/html/MGFR.html	MGFR
+http://sourceforge.net/projects/pseudodomain/	PseudoDomain
+http://cvc.dfci.harvard.edu/multipred2/index.php	MULTIPRED2
+http://bioconductor.org/packages/release/bioc/html/MBttest.html	MBttest
+https://herv.img.cas.cz	HERVd
+http://bioconductor.org/packages/release/bioc/html/affyILM.html	affyILM
+http://www.medinfopoli.polimi.it/GFINDer/	GFINDer
+http://www.personal.psu.edu/nxm2/ancestor2.htm	Ancestor
+http://aluru-sun.ece.iastate.edu/doku.php?id=reptile	Reptile
+http://bioconductor.org/packages/release/bioc/html/iontree.html	iontree
+http://www.dnastar.com/t-products-genvision.aspx	GenVision
+https://sourceforge.net/projects/microanalyzer/	microAnalyzer
+http://bibiserv.techfak.uni-bielefeld.de/rnamovies/	RNA Movies
+http://gsa.muldas.org	GSA-SNP
+http://spirpro.sbi.kmutt.ac.th	SpirPro
+http://bioconductor.org/packages/release/bioc/html/PAPi.html	PAPi
+http://www.maldi-msi.org/index.php?option=com_content&view=article&id=87&Itemid=48	Axima2Analyze
+http://bioconductor.org/packages/release/bioc/html/motifRG.html	motifRG
+http://bioserv.rpbs.jussieu.fr/cgi-bin/SCit	SCit
+http://www.uniprot.org/uniprot/	UniProtKB
+http://bui3.win.ad.jhu.edu/frida/	Frida
+http://bioconductor.org/packages/release/bioc/html/AnnotationForge.html	AnnotationForge
+https://bitbucket.org/bkaehler/mpiutils	mpiutils
+https://github.com/kkrizanovic/RNAseqEval	RNAseqEval
+https://sites.google.com/site/offtargetpipeline/home	OFF-TARGET PIPELINE
+http://genomes.urv.es/OPTIMIZER/	OPTIMIZER
+https://sourceforge.net/projects/netsvmjava/	CyNetSVM
+http://gmd.mpimp-golm.mpg.de/REST/default.aspx	Golm Metabolome Database (GMD)
+https://www.nmrbox.org/	NMRbox
+http://bioconductor.org/packages/release/bioc/html/AGDEX.html	AGDEX
+http://nrps.igs.umaryland.edu/	NRPS-PKS
+http://kaiju.binf.ku.dk	Kaiju
+http://crdd.osdd.net/raghava/tumorhpd/	TumorHPD
+http://cbdm-01.zdv.uni-mainz.de/~jfontain/cms/?page_id=4	MedlineRanker
+http://github.com/ljgarcia/biojs-vis-sequence	biojs-vis-sequence
+http://bioconductor.org/packages/release/bioc/html/CATALYST.html	CATALYST
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/changeTagName/1.0.0	changeTagName-IP
+https://ismara.unibas.ch/fcgi/mara	ISMARA
+http://rosie.graylab.jhu.edu/	RosettaDock Server
+http://mirna.imbb.forth.gr/Targetprofiler.html	TargetProfiler
+http://grape.uwbacter.org	Graphical Abstracted Protein Explorer (GRAPE)
+http://i.cs.hku.hk/%7Ealse/idba	IDBA
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/odoppelt/fqtools/fqextract/1.0.1	fqextract-IP
+http://coco.protein.osaka-u.ac.jp/isotopica/	ISOTOPICA
+http://www.csc.kth.se/~vezzi/software/	eRGA
+http://big.crg.cat/services/project	project
+http://bibiserv2.cebitec.uni-bielefeld.de/palikiss	pAliKiss
+http://pdbj.org/emnavi/omo-search.php	Omokage search
+https://github.com/compomics/spectrum_similarity	Spectrum similarity
+http://help.brain-map.org/display/api/RESTful+Model+Access+%28RMA%29	Allen Brain Atlas-API
+http://phosphat.mpimp-golm.mpg.de/	PhosPhAt
+http://www.jurgott.org/linkage/randompat.html	randompat
+http://openspim.org/	OpenSPIM
+http://bioconductor.org/packages/release/bioc/html/apeglm.html	apeglm
+https://pypi.python.org/pypi/scry	SCRY
+http://www-ps.informatik.uni-tuebingen.de/mayday/wp/?p=134	MAYDAY
+http://rna.bgsu.edu/webfr3d	WebFR3D
+https://sites.google.com/a/lbl.gov/rnnotator/	Rnnotator
+http://cbs.dtu.dk/services/NetSurfP/	NetSurfP
+http://bioconductor.org/packages/release/bioc/html/derfinderPlot.html	derfinderPlot
+http://www.ncbi.nlm.nih.gov/genomes/FLU/Database/annotation.cgi	NCBI Influenza Virus Sequence Annotation Tool
+http://bioconductor.org/packages/release/bioc/html/GRENITS.html	GRENITS
+https://cran.r-project.org/web/packages/svapls/index.html	svapls
+http://www.plantgdb.org/search/misc/PublicPlantSeq.php	GeneSeqer
+http://lab.rockefeller.edu/kreek/intro	BiolAD-DB
+http://caps.ncbs.res.in/imot/iMOTserver.html	iMOT
+http://combio.gist.ac.kr/WMAXC/WMAXC.html	WMAXC
+http://mint.bio.uniroma2.it/PepspotDB	PespotDB
+https://github.com/cole-trapnell-lab/monocle-release	Monocle 2
+http://bioconductor.org/packages/release/bioc/html/ccmap.html	ccmap
+http://gpudock.orgchm.bas.bg/	GPU.proton.DOCK
+http://soap.genomics.org.cn/SOAPfusion.html	SOAPfusion
+http://spliceport.cbcb.umd.edu/	SplicePort
+http://bioconductor.org/packages/release/bioc/html/shinyMethyl.html	shinyMethyl
+http://e-rnai.dkfz.de/	E-RNAi
+http://genius.embnet.dkfz-heidelberg.de/menu/hobit/embdoc/wordmatch.html	wordmatch WS (husar)
+http://provean.jcvi.org/index.php	PROVEAN
+http://www.informatik.uni-ulm.de/ni/staff/HKestler/mcgh2/doc.html	MatrixCGH
+http://bioinfo.bsd.uchicago.edu/MutScreener.html	MutScreener
+http://bioinformatics.cau.edu.cn/LSPR/	LSPR
+http://www.compbio.dundee.ac.uk/jabaws	Muscle WS (jabaws)
+http://cs.utsa.edu/~jruan/Software.html	Qcut
+https://bammmotif.mpibpc.mpg.de	BaMM
+https://bitbucket.org/creminslab/3dnetmod_method_v1.0_10_06_17	3DNetMod
+http://www.bios.unc.edu/research/genomic_software/BBSeq/	BBSeq
+http://bioconductor.org/packages/release/bioc/html/CytoDx.html	CytoDx
+http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/valdar/scorecons_server.pl	Scorecons
+http://gene3d.biochem.ucl.ac.uk/Gene3D/	Gene3D structural
+http://emboss.open-bio.org/rel/rel6/apps/ontogetdown.html	ontogetdown
+http://big.crg.cat/services/selenoprofiles	Selenoprofiles3
+http://bioinformatics.med.uoc.gr/biotextquest	BioTextQuest+
+http://rsb.info.nih.gov/ij/index.html	ImageJ (cloudIFB)
+http://www.biouml.org/	BioUML
+https://github.com/pervouchine/ipsa-full	IPSA
+http://www.bioinf.org.uk/intpred/	IntPred
+http://nmr.cmbi.ru.nl/NRG-CING/HTML/index.html	NRG-CING
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/metaspades/metaspades/3.9.0	metaspades-IP
+http://bioconductor.org/packages/release/bioc/html/BeadDataPackR.html	BeadDataPackR
+http://stream.imb.uq.edu.au/	STREAM
+http://www.prgdb.org	Plant Resistance Genes database (prgdb)
+http://mindboggle.info/	Mindboggle
+http://webclu.bio.wzw.tum.de/tmhcon/index.html	TMHcon
+https://github.com/mr-y/phylommand	Phylommand
+http://mathbio.nimr.mrc.ac.uk/wiki/POPS	POPS
+http://sing.ei.uvigo.es/ALTER/	ALTER
+http://sourceforge.net/projects/eloper/	ELOPER
+http://lin.uestc.edu.cn/server/iRNA-Methyl	iRNA-Methyl
+http://genome.crg.es/cgi-bin/phylo_mod_sel/AlgGenNonH.pl	GenNon-h
+http://apps.cytoscape.org/apps/fluxviz	FluxViz
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/bcftools/BCF%20Tools%20Cat/1.0.0	BCF-Tools-Cat-IP
+http://www.phrap.org/phredphrapconsed.html	Phred Phrap Consed Cross match
+https://genome.ucsc.edu/ebolaPortal/	UCSC Ebola Genome Portal
+http://www.polygenicpathways.co.uk	PolygenicPathways
+http://bioconductor.org/packages/release/bioc/html/CNTools.html	CNTools
+http://bioinfo.au.tsinghua.edu.cn/member/jgu/lracluster/	LRAcluster
+https://github.com/JialiUMassWengLab/TEMP	TEMP
+http://wishart.biology.ualberta.ca/rci/cgi-bin/rci_cgi_1_d.py	RCI
+http://bioconductor.org/packages/release/bioc/html/DEDS.html	DEDS
+http://seqanswers.com/wiki/SEQanswers	EMBF
+http://miRTarBase.mbc.nctu.edu.tw/	miRTarBase
+https://github.com/johnlees/PopPUNK	PopPUNK
+http://cfdr.sourceforge.net/	Biscap and cfdr
+http://www.imtech.res.in/raghava/proclass/	PROCLASS
+http://bioconductor.org/packages/release/bioc/html/DOQTL.html	DOQTL
+http://bioconductor.org/packages/release/bioc/html/twilight.html	twilight
+http://bioconductor.org/packages/release/bioc/html/ReactomePA.html	ReactomePA
+http://big.hanyang.ac.kr/GETUTR/	GETUTR
+http://statweb.stanford.edu/~tibs/SAM/index.html	SAM
+http://bioconductor.org/packages/release/bioc/html/ReportingTools.html	ReportingTools
+https://github.com/Luca0208/CST-Miner	CSTminer
+http://www.mousebook.org/	Mousebook
+https://github.com/zebrain-lab/Toolbox-Romano-et-al	Toolbox-Romano-et-al
+http://pasmet.riken.jp/	PASMet
+https://www.cebitec.uni-bielefeld.de/groups/brf/software/cpa/index.html	CPA - Comparative Pathway Analyzer
+http://seqmule.openbioinformatics.org/en/latest/	SeqMule
+http://msa.biojs.net	MSAViewer
+http://bitlab-es.com/flipper/	Flipper
+http://pcarvalho.com/patternlab/	PatternLab
+https://cran.r-project.org/web/packages/PhenotypeSimulator/index.html	PhenotypeSimulator
+http://sourceforge.net/projects/viralfusionseq/	ViralFusionSeq
+http://www.nest-simulator.org/	NEST
+http://compbio.eecs.wsu.edu/	MR-MSPOLYGRAPH
+http://sb.cs.cmu.edu/smarts/	SMARTS
+http://www.ncbi.nlm.nih.gov/igblast/	IgBLAST
+http://bioconductor.org/packages/release/bioc/html/pbcmc.html	pbcmc
+http://sharcgs.molgen.mpg.de/	SHARCGS
+https://cbcl.ics.uci.edu/SSEA/	SSEA
+http://bioconductor.org/packages/release/bioc/html/MEIGOR.html	MEIGOR
+http://www.compbio.dundee.ac.uk/downloads/assp/	assp
+http://www.agbase.msstate.edu/tools/pgm/	PGM
+http://www.sigenae.org/drap/	DRAP
+http://hoffmann.bioinf.uni-leipzig.de/LIFE/segemehl.html	segemehl
+http://proteomics.ethz.ch/orinner/public/htdocs/xquest/xquest_review.html	xQuest
+https://code.google.com/archive/p/bamseek/	BAMseek
+http://bioconductor.org/packages/release/bioc/html/MSGFplus.html	MSGFplus
+http://bioconductor.org/packages/release/bioc/html/NGScopy.html	NGScopy
+http://clip.med.yale.edu/selection	CLIP
+https://www.ncbi.nlm.nih.gov/pmc/	PubMed Central
+http://faculty.uaeu.ac.ae/nzaki/SVM-Freescore.htm	Freescore
+https://github.com/zia1138/pview	PVIEW
+http://www.evoinformatics.eu/tandem2.htm	Tandem2
+http://bioinfo.ut.ee/snpmasker/	SNPmasker
+http://genome.ucsc.edu/cgi-bin/hgBlat?command=start	BLAT
+http://services.birc.au.dk/patbox/	PATBox
+http://bioinfo3d.cs.tau.ac.il/ARTS/	ARTS
+http://bioconductor.org/packages/release/bioc/html/openPrimeRui.html	openPrimeRui
+http://www.jci-bioinfo.cn/iSMP-Grey	iSMP-Grey
+http://getphenobook.com/	Phenobook
+http://dkoboldt.github.io/varscan/	VarScan
+http://bioconductor.org/packages/release/bioc/html/rnaSeqMap.html	rnaSeqMap
+http://bioconductor.org/packages/release/bioc/html/RITAN.html	RITAN
+http://bioconductor.org/packages/release/bioc/html/motifStack.html	motifStack
+https://cran.r-project.org/src/contrib/Archive/mpMap/	mpMap
+http://sourceforge.net/projects/pipasic/	Pipasic
+http://eda.polito.it/VDJSeq-Solver/	VDJSeq-Solver
+https://knightlab.ucsd.edu/wordpress/?p=194	tax2tree
+http://bioinformatics-centre.github.io/bayesembler/	Bayesembler
+http://valdarlab.unc.edu/prephappy.html	Prephappy
+https://github.com/FXIhub/condor	Condor
+http://itol.embl.de/	Interactive Tree Of Life (iTOL)
+http://www4a.biotec.or.th/GI/tools/wasp	WASP
+http://www.conkit.org/en/0.9/	ConKit
+http://www.genomernai.org/	GenomeRNAi
+https://bitbucket.org/pycogent3/ensembldb3	ensembldb3
+https://bitbucket.org/izhbannikov/cophesim	copheism
+http://www.chilibot.net/	Chilibot
+https://github.com/ozagordi/shorah	ShoRAH
+https://carldeboer.github.io/brockman.html	BROCKMAN
+http://bioen-compbio.bioen.illinois.edu/FusionHunter/	FusionHunter
+https://cran.r-project.org/web/packages/lodGWAS/	lodGWAS
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/trimAdaptor/1.0.0	trimAdaptor-IP
+http://coruscant.itmat.upenn.edu/whamm/ihs.html	iHS
+https://www.uni-due.de/~hy0546/Interpol/	Interpol
+http://sbml.org/Facilities/Documentation/Validator_Web_API	Online SBML Validator
+http://wishart.biology.ualberta.ca/moviemaker/	MovieMaker
+https://github.com/informatik-mannheim/genetic-code-analysis-toolkit	GCAT
+http://athena.bioc.uvic.ca/virology-ca-tools/vgo/	VGO
+http://www.moseslab.csb.utoronto.ca/KID/	Yeast KID
+http://ncbr.muni.cz/PatternQuery	PatternExplorer
+http://www.cyana.org/wiki/index.php/Main_Page	CYANA
+http://www.genecards.org/	GeneCards
+https://cran.r-project.org/web/packages/MultiPhen/index.html	MultiPhen
+http://www.qgene.org/	QGene
+http://www.biocarta.com/	BioCarta
+http://www.cbs.dtu.dk/services/VirtualRibosome/	Virtual Ribosome
+http://home.gwu.edu/%7Ewpeng/Software.htm	SICER
+https://cran.r-project.org/web/packages/NEArender/	NEArender
+http://bioinformatics.intec.ugent.be/nimefi/nimefi/index.html	NIMEFI
+http://www.seqfire.org	SeqFIRE
+http://emboss.open-bio.org/rel/rel6/apps/silent.html	silent
+http://cbs.dtu.dk/services/ProtFun/	ProtFun
+https://cbg-ethz.github.io/V-pipe/	V-pipe
+http://www.broadinstitute.org/igv/	IGV
+https://github.com/BGI-flexlab/SOAPnuke	SOAPnuke
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/annovar_annotate_variation/annovar_annotate_variation/0.0.2	annovar_annotate_variation-IP
+http://webchem.ncbr.muni.cz/ValTrendsDB/index.php	ValTrendsDB
+http://bits.iis.sinica.edu.tw/~mybs/	MYBS
+http://sysbiobig.dei.unipd.it/?q=Software#FunPat	FunPat
+http://www.ncbi.nlm.nih.gov/gap	Database of Genotypes and Phenotypes (dbGAP)
+http://patientarchive.org/#/home	Patient Archive
+https://ccb.jhu.edu/software/pavian/	Pavian
+http://www.kimlab.org/software/pulse	PULSE
+http://mips.helmholtz-muenchen.de/proj/mdcs/	MDCS
+http://sourceforge.net/projects/vitapad/	VitaPad
+http://compbio.cs.utoronto.ca/varid/	VARID
+http://www.geneinfo.eu/prompt/	PROMPT
+http://fastml.tau.ac.il/	FastML
+http://bioconductor.org/packages/release/bioc/html/TMixClust.html	TMixClust
+https://bar.biocomp.unibo.it/bar3/	BAR
+http://emboss.open-bio.org/rel/rel6/apps/pepwindowall.html	pepwindowall
+http://scholar.semmelweis.hu/czirjakgabor/s/princces/#t1	PrinCCes
+http://www.ebi.ac.uk/Tools/webservices/services/psa/emboss_needle_rest	needle-api (EBI)
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/interElementGff/1.0.0	interElementGff-IP
+http://www2.imperial.ac.uk/~gmontana/psrrr.htm	PsRRR
+http://www.ebi.ac.uk/Tools/pfa/phobius/	Phobius
+http://www.bios.unc.edu/~weisun/software/BPrimm.htm	BPrimm
+https://genome.unc.edu/pubsup/SWITCHdna/	SWITCHdna
+http://bioconductor.org/packages/release/bioc/html/MaxContrastProjection.html	MaxContrastProjection
+https://github.com/kundajelab/genomedisco	GenomeDISCO
+http://www.picb.ac.cn/PGG/resource.php	PEAS
+http://www.fz-juelich.de/ias/jsc/EN/Expertise/Support/Software/Chemistry/CPMD.html?nn=465034	CPMD training
+http://bioconductor.org/packages/release/bioc/html/snpStats.html	snpStats
+http://cefg.uestc.edu.cn/Zisland_Explorer/	Zisland Explorer
+https://genome.sph.umich.edu/wiki/TrioCaller	TrioCaller
+http://www.bioinf.uni-leipzig.de/Software/HelixPSO/	HelixPSO
+http://guinevere.otago.ac.nz/stats.html	Firth Software Tools
+https://github.com/lyd0527/mInDel	mInDel
+http://genesilico.pl/software/stand-alone/simrna	SimRNA
+https://github.com/lindenb/jvarkit/wiki/PcrClipReads	PcrClipReads
+http://srna-workbench.cmp.uea.ac.uk	VisSR
+http://globplot.embl.de/	GlobPlot
+http://www.ccmb.res.in/rakeshmishra/c-state/	C-state
+https://bitbucket.org/dbeisser/taxmapper	TaxMapper
+https://qtltools.github.io/qtltools/	QTLtools
+http://web.cbio.uct.ac.za/~emile/software.html	FractalSIM
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/oneclick_phylogeny/clustalo/1.2.1.1	clustalo-IP
+http://www.atgc-montpellier.fr/fastme/	FastME
+http://hobbes.ics.uci.edu	Hobbes
+http://genome.jgi.doe.gov/	JGI Genome Portal
+http://bestsel.elte.hu/information.php	BeStSel
+http://www.softpedia.com/get/Science-CAD/RZparser.shtml	RZParser
+https://github.com/smw1414/circlncRNAnet	circlncRNAnet
+http://people.csail.mit.edu/dnaase/bissnp2011/	Bis-SNP
+http://www.compbio.group.cam.ac.uk/software/cnaseg	CNAseg
+https://github.com/lpantano/seqbuster	SeqBuster
+http://etest.vbi.vt.edu/etblast3/	eTBLAST
+http://denglab.org/DeepSacon/	DeepSacon
+http://bioconductor.org/packages/release/bioc/html/spotSegmentation.html	spotSegmentation
+https://cran.r-project.org/src/contrib/Archive/ppiPre/	ppiPre
+http://bioinformatics.ua.pt/software/xs/	XS
+http://bioconductor.org/packages/release/bioc/html/tweeDEseq.html	tweeDEseq
+http://home.uchicago.edu/~rhudson1/source/mksamples.html	ms
+http://bionsi.wixsite.com/bionsi	BioNSi
+https://github.com/kevinVervier/TiSAn	TiSAn
+http://www.genome.jp/tools/pathpred/	PathPred
+http://166.111.152.91/RBRIdent.html	RBRIdent
+http://motif-x.med.harvard.edu/motif-x.html	motif-x
+http://www.quadtechassociates.com/freeware.html	MassHunter File Reader
+http://solar-eclipse-genetics.org/	SOLAR-eclipse
+http://snps.biofold.org/phd-snp/	PhD-SNP
+http://software.broadinstitute.org/software/syzygy/	Syzygy
+https://github.com/vals/umis/	umis
+http://www.kofler.or.at/bioinformatics/biosharp.html	Bio C
+http://bioconductor.org/packages/release/bioc/html/Rsamtools.html	Rsamtools
+http://bioconductor.org/packages/release/bioc/html/logicFS.html	logicFS
+http://bioconductor.org/packages/release/bioc/html/martini.html	martini
+https://github.com/ddarriba/ForeSeqs	ForeSeqs
+http://www.reading.ac.uk/bioinf/ModFOLD/	ModFOLD4
+http://webclu.bio.wzw.tum.de/dima2/	DIMA domain interaction map
+http://browser.1000genomes.org/tools.html	1000Genomes data slicer
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/odoppelt/export_sbw/export_sbw/1.0	export_sbw-IP
+http://bioconductor.org/packages/release/bioc/html/RDRToolbox.html	RDRToolbox
+http://bioconductor.org/packages/release/bioc/html/dexus.html	dexus
+http://www.violinet.org/protegen	Protegen
+https://github.com/abdullah009/kcmbt_mt	KCMBT
+http://bioconductor.org/packages/release/bioc/html/annotatr.html	annotatr
+http://bioconductor.org/packages/release/bioc/html/rHVDM.html	rHVDM
+http://bioinformatics.ysu.edu/tools/OrfPredictor.html	OrfPredictor
+https://pdp10.github.io/sbpipe/	SBpipe
+http://bioconductor.org/packages/release/bioc/html/methVisual.html	methVisual
+http://bioinfo.uochb.cas.cz/sachem/	Sachem
+http://www.compbio.dundee.ac.uk/jabaws	ClustalO WS (jabaws)
+https://www.ebi.ac.uk/chembl/drugebility/blast	DrugEBIlity BLAST Search
+http://lin.uestc.edu.cn/server/Mycosub	Mycosub
+https://github.com/pgp-pasteur-fr/MetaGenSense	MetaGeneSense
+http://bioconductor.org/packages/release/bioc/html/ASpli.html	ASpli
+http://bioconductor.org/packages/release/bioc/html/CNVrd2.html	CNVrd2
+http://www.ebi.ac.uk/~stijn/reaper/reaper.html	Reaper
+http://www.ebi.ac.uk/Tools/psa/promoterwise/	PromoterWise
+https://zenodo.org/record/60433#.W1NXONj7TOQ	AutoRoot
+http://www.genabel.org/packages/OmicABEL	OmicABEL
+http://www.genocad.org	GenoCAD
+http://dialign.gobics.de/chaos-dialign-submission	CHAOS DIALIGN WWW server
+http://cbl-gorilla.cs.technion.ac.il	GOrilla
+https://code.google.com/p/valfold/	ValFold
+http://gmod.org/wiki/GBrowse	GBrowse
+http://www.hkbic.cuhk.edu.hk/software/abmapper	ABMapper
+http://ftmap.bu.edu/param	FTMAP
+http://www.cs.duke.edu/~emonson/MSI_Site/index.html	MSI
+http://prosite.expasy.org/scanprosite/	ScanProsite
+http://catchenlab.life.illinois.edu/stacks/	Stacks
+http://scld.mcb.uconn.edu	SCLD
+http://soap.genomics.org.cn/index.html	SOAPsv
+http://bibiserv.cebitec.uni-bielefeld.de/guugle	GUUGle
+https://github.com/Eitan177/targetSeqView	targetSeqView
+http://voronoi.hanyang.ac.kr/software.htm#BetaVoidWin	BetaVoid
+https://qbrc.swmed.edu/softwares.php	DCLIP
+http://www.ddg-pharmfac.net/bprompt/BPROMPT/BPROMPT.html	BPROMPT
+http://www.wenmr.eu/	WeNMR
+http://dislocate.biocomp.unibo.it/dislocate/default/index	DisLocate
+http://europepmc.org/orcid/import	Europe PMC ORCID Tool
+https://cran.rstudio.com/web/packages/CDROM/	CDROM
+http://genome.ucsc.edu/cgi-bin/hgGateway?org=C.+elegans&db=0&hgsid=27736277	UCSC C. elegans Genome Browser Gateway
+http://www.bioinformatics.cm-uj.krakow.pl/reveal/	Reveal
+http://genome.crg.es/cgi-bin/SymCurv/SymCurv.pl	SymCurv
+http://bioinformatics.intec.ugent.be/kmarchal/Supplementary_Information_Lemmens_2006/Index.html	ReMoDiscovery
+http://annolnc.cbi.pku.edu.cn/index.jsp	AnnoLnc
+http://blog.binfalse.de/software/iso2l/	iso2l
+http://www.zbh.uni-hamburg.de/en/research/application-oriented-bioinformatics/researchprojects/cassys.html	CASSys
+http://www.cs.wisc.edu/wham/	WHAM
+https://github.com/hitbio/misFinder	misFinder
+http://carlit.toulouse.inra.fr/Darn/	Darn
+http://marrvel.org/	MARRVEL
+https://swisstree.vital-it.ch/	SwissTree
+https://github.com/LUMC-BioSemantics/crosslinkWGCNA	crosslinkWGCNA
+http://sourceforge.net/projects/gpu3snp/	GPU3SNP
+http://pr2align.rit.albany.edu/	PR2ALIGN
+http://www.geneious.com	Geneious
+http://www.promzea.org	Promzea
+http://bibiserv.techfak.uni-bielefeld.de/dcj/	UniMoG
+http://www.drawid.xyz/	DRAWID
+http://www.medcomp.medicina.unipd.it/main_site/doku.php?id=keeseek	KeeSeeK
+https://chrome.google.com/webstore/search/CEDAROnDemand	CEDAR OnDemand
+http://alan.cs.gsu.edu/NGS/?q=content/scaffmatch	ScaffMatch
+https://cran.r-project.org/web/packages/FREGAT/index.html	FREGAT
+http://bacteria.ensembl.org/tools.html	Ensembl Genomes Bacteria ID history converter
+http://www.itb.cnr.it/rss	RSSsite
+http://www.cosbi.eu/research/prototypes/gener	Gener
+http://www.seqan.de	SeqAn
+http://rna.bgsu.edu/r3d-2-msa	R3D-2-MSA
+http://www.myexperiment.org	myExperiment
+http://www.oncoyeasti.org	Oncoyeasti
+http://bioconductor.org/packages/release/bioc/html/iCheck.html	iCheck
+http://www.bsc.es/SEABED	SeaBed
+http://www.genesilico.pl/	Bujnicki Lab Tools
+http://cbs.dtu.dk/services/YinOYang/	YinOYang
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/mvalade/breseq/breseq_bam2cov/0.26	breseq_bam2cov-IP
+https://trac.nbic.nl/dvd/	Dutch diagnostic Variant Database (DVD)
+http://asap.binf.ku.dk/Asap/Home.html	ASAP
+http://bioconductor.org/packages/release/bioc/html/CAMERA.html	CAMERA
+http://vlsi.cs.ucf.edu/nsf/software/ipph/	IPP
+http://sourceforge.net/projects/lymanalyzer/	LymAnalyzer
+http://emboss.open-bio.org/rel/rel6/apps/acdpretty.html	acdpretty
+http://master.bioconductor.org/packages//2.10/bioc/html/Rolexa.html	Rolexa
+https://github.com/schenc3/InteractiveROSETTA	InteractiveROSETTA
+http://cbb.pnnl.gov/portal/software/vespa.html	VESPA
+https://bio.tools/Sarek	CAW
+https://github.com/jembrown/EmpPrior	EmpPrior
+http://bwa-pssm.binf.ku.dk/	BWA-PSSM
+http://genie.weizmann.ac.il/pubs/GenoExp/	GenoExp
+http://bioconductor.org/packages/release/bioc/html/RTNsurvival.html	RTNsurvival
+http://pgrc.ipk-gatersleben.de/batex/	BATEx
+http://arep.med.harvard.edu/MapQuant/index.html	MapQuant
+http://emboss.open-bio.org/rel/rel6/apps/transeq.html	transeq
+http://webclu.bio.wzw.tum.de/dima	DIMA 3.0
+http://www.glycoviewer.babs.unsw.edu.au	GlycoViewer
+http://proteomics.bioengr.uic.edu/NAPS	NAPS
+https://github.com/dpryan79/bison	Bison
+http://taylor0.biology.ucla.edu/~manoukis/Pub_programs/Formatomatic/	Formatomatic
+http://bioconductor.org/packages/release/bioc/html/stageR.html	stageR
+http://bioconductor.org/packages/release/bioc/html/ArrayTV.html	ArrayTV
+http://www.TriTrypDB.org	Kinetoplastid genome resources (TritryPDB)
+http://genome.zju.edu.cn/software/ace/	ACE
+https://github.com/BioDAG/align-paths	Align-paths
+http://icb.med.cornell.edu/crt/RbDe/index.xml	RbDe
+https://sourceforge.net/projects/transcriptome-analysis/	NMD classifier
+http://trevisanj.github.io/irootlab/	irootlab
+http://app.aporc.org/Phogly-PseAAC/	Phogly-PseAAC
+http://bioconductor.org/packages/release/bioc/html/heatmaps.html	heatmaps
+http://aroma-project.org/	aroma.affymetrix
+http://www.psidev.info/probed	proBed
+http://www.brain-map.org	Allen Brain Atlas
+http://www.ncbi.nlm.nih.gov/corehtml/query/static/efetchtax_help.html	eFetch Taxon
+https://github.com/sorgerlab/famplex	FamPlex
+https://absynth.issb.genopole.fr/Bioinformatics/tools/PrecisePrimer/	PrecisePrimer
+http://pbil.univ-lyon1.fr/software/njplot.html	NJplot
+http://homepages.dcc.ufmg.br/~glpappa/gass/	GASS
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/changeGffFeatures/1.0.0	changeGffFeatures-IP
+http://bio.cse.psu.edu/	PipMaker
+http://www.pubmeth.org	PubMeth reviewed methylation database in cancer
+http://sparks-lab.org/yueyang/server/SPOT-Struct-RNA/	SPOT-Struct-RNA
+https://ccb.jhu.edu/software/bracken/	Bracken
+https://github.com/fhlsjs/Super-delta	Super-delta
+http://snoopcgh.sourceforge.net/	SnoopCGH Beta
+http://www.ebi.ac.uk/microarray/MIAMExpress/miamexpress.html	MIAMExpress
+https://galaxy.pasteur.fr/tool_runner?tool_id=peakcalling_macs	peakcalling_macs-IP
+http://emboss.open-bio.org/rel/rel6/apps/dbigcg.html	dbigcg
+http://dnatraffic.ibb.waw.pl/	DNAtraffic
+http://proteomics.ucsd.edu/Software/UniNovo/	UniNovo
+http://biodoop-seal.sourceforge.net/	SEAL
+http://bioconductor.org/packages/release/bioc/html/recount.html	recount_Bioconductor
+http://bioinformatics.psb.ugent.be/cgi-bin/SPPG/index.htpl	SPPG
+http://bioparr.mech.uwa.edu.au/	BioPARR
+http://compbio.bccrc.ca/?page_id=342	CoNAn-SNV
+http://rna.informatik.uni-freiburg.de/CARNA/	CARNA web server
+http://www.aibench.org/	AIBench
+http://bental.tau.ac.il/ConQuass/	ConQuass
+http://www2.warwick.ac.uk/fac/sci/systemsbiology/research/software/	MDI-GPU
+http://klifs.vu-compmedchem.nl	KLIFS
+http://code.google.com/p/swalign/	Swalign
+https://www.uthsc.edu/cardiology/research/utaki.php	UT-AKI
+http://emboss.open-bio.org/rel/rel6/apps/ontocount.html	ontocount
+https://github.com/MRCIEU/PHESANT	PHESANT
+http://www.softpedia.com/get/Science-CAD/Cross-Checker.shtml	Cross Checker
+http://bioconductor.org/packages/release/bioc/html/hyperdraw.html	hyperdraw
+https://life.bsc.es/pid/lightdock/	LightDock
+http://bioconductor.org/packages/release/bioc/html/bamsignals.html	bamsignals
+https://bedops.readthedocs.io/en/latest/	Bedops
+http://cran.r-project.org/web/packages/HTSCluster/index.html	HTSCluster
+http://sourceforge.net/projects/pathway-pdt	Pathway-PDT
+https://git.metabarcoding.org/obitools/obitools/wikis/home	OBITools
+http://polbase.neb.com/	Polbase
+http://www.biosun.org.cn/ppic9/	pPIC9
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/seedGff/1.0.0	seedGff-IP
+https://github.com/gdiminin/HaSAPPy	HaSAPPY
+http://bioconductor.org/packages/release/bioc/html/DrugVsDisease.html	DrugVsDisease
+http://bioconductor.org/packages/release/bioc/html/DART.html	DART
+http://sonnhammer.sbc.su.se/download/software/MGclus/Readme	MGclus
+http://zhaocenter.org/software/#Genomic_Protein_Sequence_Analysis	MSClust
+http://regulondb.ccg.unam.mx/	RegulonDB
+http://dissect-trans.sourceforge.net/Home	DISSECT
+http://hub.iis.sinica.edu.tw/spotlight/	Spotlight
+http://gatb.inria.fr/software/leon/	Leon
+http://www.beespace.uiuc.edu/QuestionAnswer	BSQA
+http://dna.leeds.ac.uk/genescreen/	GeneScreen
+http://www.inmex.ca	INMEX
+http://biosig.unimelb.edu.au/csm_lig/	CSM-lig
+http://teacheng.illinois.edu/	TeachEnG
+http://biit.cs.ut.ee/vishic	VisHiC
+http://sourceforge.net/apps/mediawiki/amos/index.php?title=Hawkeye	HawkEye
+http://biojs.io/d/biojs-rest-ensembl	biojs-rest-ensembl
+http://sbi.imim.es/piana/	PIANA
+http://evs.gs.washington.edu/EVS/	Exome Variant Server (ESP)
+http://www.ebi.ac.uk/projects/BARGEN/	HyperLasso
+https://code.google.com/archive/p/genscalpel/	GenScalpel
+http://www.emouseatlas.org/emap/home.html	ma
+http://bioconductor.org/packages/release/bioc/html/AnnotationDbi.html	AnnotationDbi
+http://iti.sourceforge.net/	ITI
+http://birc.au.dk/software/rapidnj/	RapidNJ
+https://biokinet.belozersky.msu.ru/mustguseal	Mustguseal
+http://cargo2.bioinfo.cnio.es/docs/aboutCargo.html	CARGO
+http://doc.aporc.org/wiki/PrePPItar	PrePPItar
+https://pysimm.org/	pysimm
+https://github.com/robinparky/prolucidComPIL	ComPIL
+http://istar.cse.cuhk.edu.hk/iview/	iview
+http://webservices.genouest.org/opal2/dashboard?command=docs	hmmstat (genouest)
+http://targetmine.mizuguchilab.org/	TargetMine
+https://github.com/bartongroup/AlmostSignificant	AlmostSignificant
+http://sourceforge.net/projects/lfquant/	LFQuant
+http://www.lcqb.upmc.fr/CHROnicle/SynChro.html	SynChr
+http://www.stat.sinica.edu.tw/hsinchou/genetics/pooledDNA/mpda.htm	MPDA
+http://bioconductor.org/packages/release/bioc/html/GeneGeneInteR.html	GeneGeneInteR
+http://digbio.missouri.edu/ProteinDecision/	ProteinDecision
+http://sourceforge.net/projects/rnafdl/	RNAfdl
+http://fastsnp.ibms.sinica.edu.tw	FastSNP
+http://synlinker.syncti.org/	SynLinker
+https://github.com/MartinFXP/B-NEM	B-NEM
+http://quadruplex.ramapo.edu/qgrs/app/start	QGRS-H Predictor
+http://sco.h-its.org/exelixis/web/software/pear/	PEAR
+https://redgar598.shinyapps.io/BECon/	BECon
+https://github.com/YosefLab/FastProject	FastProject
+http://emboss.open-bio.org/rel/rel6/apps/geecee.html	geecee
+https://github.com/soedinglab/mmseqs2/	mmseq2
+http://bioconductor.org/packages/release/bioc/html/DupChecker.html	DupChecker
+http://bioinformatics.zj.cn/magicviewer/index.php	MagicViewer
+http://beast.bio.ed.ac.uk/	BEAST
+http://gdbtools.unibe.ch:8080/PPB/	PPB
+http://www.thegpm.org/hunter/index.html	X Hunter
+http://www.ncbi.nlm.nih.gov/sites/entrez?db=proteinclusters	Entrez Protein Clusters
+http://bioinformatics.mdanderson.org/main/TANRIC:Overview	TANRIC
+http://www.mirz.unibas.ch/cloningprofiles/	smirnaDB
+http://www.cdyn.org	CDDB
+http://hackage.haskell.org/package/flower	Flower
+http://bioinformatics.ua.pt/software/variobox/	VarioBox
+http://www.ms-utils.org/esimsa2D.html	esimsa2D
+http://emboss.open-bio.org/rel/rel6/apps/seqretsplit.html	seqretsplit
+http://cran.r-project.org/web/packages/jackstraw/index.html	jackstraw
+http://emboss.open-bio.org/rel/rel6/apps/feattext.html	feattext
+http://sourceforge.net/projects/breakdancer/	BreakDancer
+https://github.com/yiming-kang/NetProphet_2.0	NetProphet
+https://code.google.com/archive/p/eurocarb/	EuroCarbDB
+http://www.bioinf.uni-freiburg.de/Software/LocARNA/	LocARNA-P
+http://people.binf.ku.dk/rasmus/webpage/sf.html	SweepFinder
+http://kpv.kazusa.or.jp/kpv4/	KaPPA-View4
+https://github.com/bdgp/OpenHiCAMM	OpenHiCAMM
+http://bykdb.ibcp.fr/BYKdb/	BYKdb
+http://www.personal.psu.edu/jhm10/Vera/SoftwareC.html	TableParser
+http://compbio.soe.ucsc.edu/SAM_T08/T08-query.html	SAM-T08
+http://bioinformatics.psb.ugent.be/software/details/LeMoNe	LeMoNe
+http://bioconductor.org/packages/release/bioc/html/sagenhaft.html	sagenhaft
+http://www.lgcstandards-atcc.org/	American Type Culture Collection (ATCC)
+http://www-ab.informatik.uni-tuebingen.de/software/locas	LOCAS
+http://www.csbio.sjtu.edu.cn/bioinf/SemiBiomarker/	SemiBiomarker
+http://umber.sbs.man.ac.uk/dbbrowser/PRINTS/	PRINTS protein motif fingerprint database
+http://lishuyan.lzu.edu.cn/hydpred/	HydPred
+http://www.ebi.ac.uk/chebi/webServices.do	ChEBI WS
+http://beam.uniroma2.it/home	BEAM
+http://www.maizegenetics.net/gapit	GAPIT
+http://dondi.github.io/GRNsight/	GRNsight
+https://bitbucket.org/proteinspector/qc_analysis/	Proteinspector
+http://psd.cbi.pku.edu.cn/	LSD
+http://dicsoft2.physics.iisc.ernet.in/sem/	SEM
+http://www.littlest.co.uk/software/bioinf/old_packages/jesam/jesam_paper.html	JESAM
+https://ohlerlab.mdc-berlin.de/software/PAR-CLIP_motif_analysis_tool_87/	mEAT
+http://www.ebi.ac.uk/Tools/webservices/services/psa/emboss_stretcher_rest	stretcher-api (EBI)
+http://www.broadinstitute.org/scientific-community/science/projects/viral-genomics/vicuna	Vicuna
+https://sourceforge.net/projects/operasf/	OPERA-LG
+http://baderlab.org/Software/NetMatch	NetMatch
+http://kirchnerlab.github.io/libmgf/	libmgf
+https://github.com/openvax/mhcflurry	MHCflurry
+http://ihg.gsf.de/ihg/mitoprot.html	MITOPROT II
+http://mesord.sourceforge.net/	MesoRD
+http://bioconductor.org/packages/release/bioc/html/pRolocGUI.html	pRolocGUI
+http://srv00.recas.ba.infn.it/ASPicDB/	Alternative splicing prediction database (ASPICdb)
+http://bioconductor.org/packages/release/bioc/html/MotIV.html	MotIV
+http://www.pathvisio.org/	PathVisio
+http://promex.pph.univie.ac.at/promex/	ProMEX protein mass spectral library
+https://cran.r-project.org/web/packages/NanoStringNorm/	NanoStringNorm
+http://bioconductor.org/packages/release/bioc/html/bridge.html	bridge
+http://omics.pnl.gov/software/fasta-file-comparer	FastaFileComparer
+http://www.tmanavigator.org	TMA Navigator
+https://software.broadinstitute.org/gatk/	GATK
+http://sun.aei.polsl.pl/REFRESH/index.php?page=projects&project=orcom&subpage=about	ORCOM
+http://bioconductor.org/packages/release/bioc/html/CCPROMISE.html	CCPROMISE
+http://petrov.stanford.edu/cgi-bin/Tlex_manual.html	T-lex
+http://bioconductor.org/packages/release/bioc/html/MatrixRider.html	MatrixRider
+http://vienna-ptm.univie.ac.at	Vienna-PTM
+http://tandem.bu.edu/trf/trf.html	TRF
+http://csbl.bmb.uga.edu/mirrors/JLU/Lncident/index.php	Lncident
+http://emboss.open-bio.org/rel/rel6/apps/eprimer32.html	eprimer32
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/odoppelt/fqtools/fqduplicate/1.0	fqduplicate-IP
+http://www.proteinguru.com	ProteinGuru
+http://www.informatik.uni-ulm.de/ni/mitarbeiter/HKestler/tla/	TimeLapseAnalyzer
+http://bioconductor.org/packages/release/bioc/html/Sushi.html	Sushi
+http://bioconductor.org/packages/BiocWorkflowTools/	BiocWorkflowTools
+http://inps.biocomp.unibo.it	INPS
+http://caps.ncbs.res.in/scanmot/scanmot.html	SCANMOT
+http://stereogene.bioinf.fbb.msu.ru/	StereoGene
+http://bagel2.molgenrug.nl	BAGEL2
+http://phase3browser.1000genomes.org/Homo_sapiens/UserData/Forge	FORGE
+http://animal.nwsuaf.edu.cn/code/index.php/main/loadByGet?address%5b%5d=main/html/software.php&id=home	CNVcaller
+http://www.ddg-pharmfac.net/AllerTOP/	AllerTOP
+http://redpoll.pharmacy.ualberta.ca/vadar/	VADAR
+https://bystro.io/	Bystro
+http://genius.embnet.dkfz-heidelberg.de/menu/hobit/embdoc/matcher.html	matcher WS (husar)
+http://alleleseq.gersteinlab.org/tools.html	vcf2diploid
+http://www.ebi.ac.uk/Tools/structure/maxsprout/	MaxSprout
+http://bioinformatics.org/sewer/	SeWeR
+http://bioconductor.org/packages/release/bioc/html/chipseq.html	chipseq
+http://bioinf.eva.mpg.de/Ibis/	Ibis
+http://EuPathDB.org	Eukaryotic Pathongen Database Resources (EuPathDB)
+https://github.com/USDA-ARS-GBRU/itsxpress	ITSxpress
+http://correlogo.abcc.ncifcrf.gov/	CorreLogo
+http://rna.tbi.univie.ac.at/cgi-bin/RNAalifold.cgi	RNAalifoldWS
+http://www.csbio.sjtu.edu.cn/bioinf/SOMPNN/	SOMPNN
+http://stephenslab.uchicago.edu/software.html#eqtlbma	MethylHMM
+http://rna.tbi.univie.ac.at/forna/	Forna
+http://www.ariel.ac.il/research/fbl/software	CircosVCF
+http://www.pathexpand.org/	PathExpand
+http://compbio.cs.brown.edu/projects/multibreaksv/	MultiBreak-SV
+http://phylo.cs.mcgill.ca/	Phylo
+http://tools.proteomecenter.org/ReAdW.php	ReAdW
+http://www.cellimagelibrary.org/	The Cell: An Image Library
+http://bioinformatics.ua.pt/software/mrna-optimiser/	mRNA optimiser
+http://87.116.85.141/LigandDock.html	Quantum.Ligand.Dock
+http://gmd.mpimp-golm.mpg.de/webservices/wsPrediction.asmx	wsPrediction
+http://hydra.icgeb.trieste.it/dna/	DNAtools
+http://arabidopsis.med.ohio-state.edu/	AGRIS
+http://mvirdb.llnl.gov/css	Catalytic Site Identification
+http://metagene.cb.k.u-tokyo.ac.jp/	MetaGeneAnnotator
+http://charite.github.io/Q/	Q-nexus
+https://www.nature.com/articles/nmeth.4303	E-scape
+http://edal-pgp.ipk-gatersleben.de/	Plant Genomics and Phenomics Research Data Repository (PGP)
+http://ps2v3.life.nctu.edu.tw/	(PS)2 - v3
+https://github.com/samoylv/WPG	WavePropaGator
+http://www.imtech.res.in/raghava/hslpred/	HSLpred
+http://pbil.univ-lyon1.fr/databases/homolens.php	HOMOLENS
+https://github.com/skyhorsetomoon/Trumpet	trumpet
+http://www.imtech.res.in/raghava/betaturns/	Betaturns
+http://www.ccp4.ac.uk/MG/	CCP4mg
+http://www.bcgsc.bc.ca/chinook/	Chinook
+http://www.farma.ku.dk/whichcyp/index.php	WhichCyp
+https://github.com/brentp/goleft/tree/master/indexcov#indexcov	Indexcov
+https://realphy.unibas.ch/fcgi/realphy	REALPHY
+http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/PubTator/	PubTator
+https://yiplab.cse.cuhk.edu.hk/vas/	VAS
+http://cgdnaweb.epfl.ch	cgDNAweb
+https://sourceforge.net/projects/popoolation2/	PoPoolation2
+https://github.com/DanFaria/GOEnrichment	GOEnrichment
+https://github.com/unisb-bioinf/causaltrail	CausalTrail
+http://bioinformatics.bc.edu/clotelab/RNApathfinder/	RNApathfinder
+http://bioconductor.org/packages/release/bioc/html/ChIPseeker.html	ChIPseeker
+https://github.com/bbuchfink/diamond	Diamond
+http://bioinformatics.charite.de/superimpose	Superimpose
+http://www.eu-nomen.eu/portal/webservices.php	PESI WS
+http://www.mirz.unibas.ch	MirZ
+http://bioconductor.org/packages/release/bioc/html/limmaGUI.html	limmaGUI
+http://lin.uestc.edu.cn/server/iHSP-PseRAAAC	iHSP-PseRAAAC
+http://www.imtech.res.in/raghava/ftg/	FTG
+http://www.irisa.fr/symbiose/projects/gassst/	GASSST
+https://rostlab.org/owiki/index.php/Uniqueprot	UniqueProt
+https://github.com/greenify/biojs-stat-seqs	biojs-stat-seqs
+http://genopole.toulouse.inra.fr/bioinfo/eugene/EuGeneHom/cgi-bin/EuGeneHom.pl	EUGENE HOM
+http://identifiers.org/insdc/	Nucleotide Sequence Database Collaboration
+http://www.math.ku.dk/~richard/msgl/	msgl
+http://sa-mot.mti.univ-paris-diderot.fr	SA-Mot
+http://research.nhgri.nih.gov/ROMPrev/	ROMPrev 0.2.1 beta
+http://www.cs.tut.fi/sgn/csb/angioquant/	AngioQuant
+http://bioserv.rpbs.jussieu.fr/cgi-bin/SABBAC	SABBAC
+http://bioconductor.org/packages/release/bioc/html/zlibbioc.html	zlibbioc
+http://bioconductor.org/packages/release/bioc/html/SVM2CRM.html	SVM2CRM
+http://seqbarracuda.sourceforge.net/	BarraCUDA
+https://github.com/greenify/biojs-io-blast	biojs-io-blast
+http://sysbiobig.dei.unipd.it/?q=Software#MAXCOUNTS	Maxcounts
+http://bioinformatics.org/virusbanker/	Virusbanker
+http://cbio.mskcc.org/tools/netbox/index.html	NetBox
+http://faas.bme.unc.edu	FAAS
+http://cpdb.molgen.mpg.de/	cpdb
+http://www.softsea.com/review/PediTree.html	Peditree
+http://sites.google.com/site/jpopgen/dbNSFP	dbNSFP
+http://www.networkin.info/	NetworKIN
+http://www.ebi.ac.uk/Tools/webservices/services/msa/tcoffee_rest	T-Coffee API (EBI)
+http://shahlab.ca/projects/snvmix/	SNVMix
+http://bioconductor.org/packages/release/bioc/html/vidger.html	vidger
+http://www.genoscope.cns.fr/agc/tools/amigene/Form/form.php	AMIGene
+http://bioconductor.org/packages/release/bioc/html/reb.html	reb
+http://cran.r-project.org/web/packages/repfdr/index.html	repfdr
+http://tools.proteomecenter.org/ProteinProphet.php	ProteinProphet
+http://bioconductor.org/packages/release/bioc/html/KEGGlincs.html	KEGGlincs
+http://cbs.dtu.dk/services/pHSol/	pHSol
+http://mutpred.mutdb.org/	MutPred
+http://www.moseslab.csb.utoronto.ca/sgrp/	SGRP Blast Server
+http://fraenkel.mit.edu/webmotifs/	WebMOTIFS
+https://organisms.jensenlab.org/	ORGANISMS
+http://admet.scbdd.com/	ADMETlab
+http://bioinformatics.org.au/tools/jD2Stat/	jD2Stat
+http://sv.gersteinlab.org/breakseq/	BreakSeq
+http://emboss.open-bio.org/rel/rel6/apps/freak.html	freak
+http://bioconductor.org/packages/release/bioc/html/GRridge.html	GRridge
+http://www.alexaplatform.org/alexa_seq/downloads.htm	ALEXA-Seq
+https://bitbucket.org/repeatgroup/repeatanalyzer/overview	RepeatAnalyzer
+http://bioconductor.org/packages/release/bioc/html/flowAI.html	flowAI
+http://cge.cbs.dtu.dk/services/ResFinder/	ResFinder
+https://asreml.org/	ASReml
+http://bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html	SummarizedExperiment
+http://bioinfo.uni-plovdiv.bg/microinspector/	MicroInspector
+http://genomics-pubs.princeton.edu/nnn/	NNN
+https://github.com/zhandong/XMRF	XMRF
+http://www.ibt.lt/en/laboratories/bioinfo_en/software/cad-score/	CAD-score
+http://bioconductor.org/packages/release/bioc/html/Pi.html	Pi
+http://emboss.open-bio.org/rel/rel6/apps/abiview.html	abiview
+http://phylo.bio.ku.edu/GeLL/	GeLL
+http://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/index.cgi#hapredictor	HAPredictor
+http://bioconductor.org/packages/release/bioc/html/SVAPLSseq.html	SVAPLSseq
+http://www.dei.unipd.it/~twins/sw/MisMax.html	MisMax
+http://mouse.belozersky.msu.ru/~evgeniy/cgi-bin/wLake/wLake.php	wLake
+http://www.phi-base.org/	PHI-base
+https://qgsp.jouy.inra.fr/index.php?option=com_content&view=article&id=53&Itemid=57	pedig
+https://cutadapt.readthedocs.io/en/stable/	Cutadapt
+http://bioconductor.org/packages/release/bioc/html/DEXSeq.html	DEXSeq
+https://www.evinet.org	EviNet
+http://cge.cbs.dtu.dk/services/snpTree/	snpTree
+http://www.people.vcu.edu/~bverhulst/GW-SEM/GW-SEM.R	GW-SEM
+http://whatshap.readthedocs.io	WhatsHap
+http://haddock6.sfsu.edu/smal/	SMAL
+http://modbase.compbio.ucsf.edu/multifit/	Multifit
+http://genes.toronto.edu/PTMClust/	PTMClust
+http://compomics.github.io/projects/reporter.html	Reporter
+http://bioinfo2.ugr.es/wordCluster/wordCluster.php	WordCluster
+http://www.stanford.edu/group/sherlocklab/software.shtml	Caryoscope
+http://bioconductor.org/packages/release/bioc/html/geneRecommender.html	geneRecommender
+http://plantpan2.itps.ncku.edu.tw/	PlantPAN
+https://bitbucket.org/pycogent3/homologsampler	HomoloSampler
+http://scotty.genetics.utah.edu/	Scotty
+http://ccb.jhu.edu/software/fqtrim/index.shtml	fqtrim
+https://github.com/dschlauch/stego	STEGO
+http://bioconductor.org/packages/release/bioc/html/MAIT.html	MAIT
+https://cran.r-project.org/web/packages/ExomeDepth/index.html	ExomeDepth
+https://github.com/natalie-vandepol/compare_taxonomy	CONSTAX
+http://rothwebprod.mshri.on.ca:8081/	SELPHI
+http://oqtans.org/	Oqtans 0.1 beta
+http://plantgrn.noble.org/psRNATarget/.	psRNATarget
+http://bio2rdf.org/describe/?uri=http://bio2rdf.org/lsr:mfungd	MIPS mouse functional genome database (MfunGD)
+http://tax4fun.gobics.de/	Tax4Fun
+http://dinc.kavrakilab.org/	DINC
+http://catfishgenome.org	The catfish genome database (cBARBEL)
+http://ocri-genomics.org/ocsESTdb/	ocsESTdb
+http://guidance.tau.ac.il/ver2/	GUIDANCE2
+http://bat.ina.certh.gr/tools/masive/	MASiVE
+https://sites.google.com/site/biopredynbenchmarks/	BioPreDyn-Bench
+http://zhanglab.c2b2.columbia.edu/index.php/OLego	OLego
+http://www.arguslab.com/arguslab.com/ArgusLab.html	ArgusLab
+http://uproc.gobics.de/	UProC
+http://www.ebi.ac.uk/Tools/sss/psiblast/	PSI-BLAST (EBI)
+http://www.bioextract.org/query/index.jsp	Pegasys
+http://bioconductor.org/packages/release/bioc/html/cleaver.html	cleaver
+http://bioconductor.org/packages/release/bioc/html/sparseDOSSA.html	sparseDOSSA
+http://www.sti-gmas.org/	STI-GMaS
+http://www.copub.org	CoPub
+http://bioinfo3d.cs.tau.ac.il/SiteEngine/	SiteEngine
+http://emboss.open-bio.org/rel/rel6/apps/goname.html	goname
+http://bioconductor.org/packages/release/bioc/html/cydar.html	cydar
+http://www.ncbi.nlm.nih.gov/epigenomics	NCBI Epigenomics
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/ConvertTranscriptFile_FastqToFasta/1.0.0	ConvertTranscriptFile_FastqToFasta-IP
+http://compomics.github.io/projects/mascotdatfile.html	Mascotdatfile
+http://diprodb.fli-leibniz.de/	Dinucleotide property database (DiProDB)
+http://www.gnu.org/software/mcsim/	GNU MCSim
+http://rubioseq.sourceforge.net/	RUbioSeq
+http://rna.tbi.univie.ac.at/AREsite	AREsite
+http://bioconductor.org/packages/release/bioc/html/epiNEM.html	epiNEM
+http://www.rnasoft.ca/download/README.html	MultiRNAFold
+http://ercsb.ewha.ac.kr/fusiongene	ChimerDB
+http://mspc.bii.a-star.edu.sg/minhn/rclick.html	Rclick
+http://emboss.open-bio.org/rel/rel6/apps/godef.html	godef
+http://toolkit.tuebingen.mpg.de/gcview	GCView
+https://yunliweb.its.unc.edu//shotgun.html	ShotGun
+https://cran.r-project.org/web/packages/RVFam/	RVFam
+http://pbga.pasteur.fr/GeneFizz/	GeneFizz
+http://imsdb.compbio.sdu.dk	IMSDB
+http://bioconductor.org/packages/release/bioc/html/YAPSA.html	YAPSA
+https://cwenger.github.io/Morpheus/	Morpheus
+http://emboss.open-bio.org/rel/rel6/apps/wossoperation.html	wossoperation
+http://bioconductor.org/packages/release/bioc/html/PharmacoGx.html	PharmacoGx
+https://www.baseclear.com/genomics/bioinformatics/basetools/SSPACE	SSPACE
+http://possum.cbrc.jp/PoSSuM/	PoSSuM
+https://mptrsen.github.io/Orthograph/	Orthograph
+http://cpi.bio-x.cn/ddi/	DDI-CPI
+http://dna.leeds.ac.uk/autosnpa/	AutoSNPa
+http://compomics.github.io/projects/omssa-parser.html	OMSSA Parser
+https://agotool.sund.ku.dk	aGOtool
+http://www.theosysbio.bio.ic.ac.uk/resources/cuda-sim	cuda-sim
+http://dnasite.limlab.ibms.sinica.edu.tw	DR.Bind
+https://www.kcl.ac.uk/lsm/research/divisions/gmm/departments/mmg/researchgroups/clewis/software/regent/index.aspx	REGENT
+http://bioconductor.org/packages/release/bioc/html/EGAD.html	EGAD
+http://forshed.se/jenny/index.php?n=Research.SoftwareAmpCode	PQPQ
+http://bioinformatics.charite.de/supercyp	SuperCYP
+http://bioconductor.org/packages/release/bioc/html/CGHregions.html	CGHregions
+https://server.t-bio.info	T-Bio.Info
+http://www.ars.usda.gov/Main/docs.htm?docid=18376	UPIC
+http://rna.physics.missouri.edu/MCTBI/	TBI
+http://big.crg.cat/services/overlap	overlap
+http://www.iiserpune.ac.in/~coee/histome/	HIstome
+http://dna.engr.uconn.edu/?page_id=105	IsoEM
+https://github.com/etal/cnvkit	CNVkit
+https://github.com/maureensmith/MIMEAnTo	MIMEAnTo
+http://bidd.cz3.nus.edu.sg/cgi-bin/prof/protein/profnew.cgi	PROFEAT
+http://doua.prabi.fr/software/nhphyml	nhPhyML
+https://pubs.acs.org/doi/abs/10.1021/ac0491206	DACSIM
+http://www.btool.org/ADGO2	ADGO
+http://retrotector.neuro.uu.se/	RetroTector
+http://www.omicsexpress.com/sva.php	SequenceVariantAnalyzer
+http://phenome.cchmc.org	PhenoHM
+http://www.ichip.de/software/SplicingCompass.html	SplicingCompass
+http://emboss.open-bio.org/rel/rel6/apps/nospace.html	nospace
+https://github.com/mikelhernaez/qvz	QVZ
+http://metax.genomics.cn/	metaX
+http://sourceforge.net/projects/runsbml/	runSBML
+http://www.aps.uoguelph.ca/~msargol/fimpute/	FImpute
+http://bioconductor.org/packages/release/bioc/html/lol.html	lol
+http://www4.stat.ncsu.edu/~jytzeng/software.php	SIMreg
+http://bioconductor.org/packages/release/bioc/html/MethTargetedNGS.html	MethTargetedNGS
+https://bioconductor.org/packages/TPP/	TPP
+http://emboss.open-bio.org/rel/rel6/apps/pepwindow.html	pepwindow
+http://www.brisskit.le.ac.uk	BRISSKit
+http://bioinformatics.sph.harvard.edu/bcbioRNASeq/	bcbioRNASeq
+http://code.google.com/p/dbtoolkit/	dbtoolkit
+https://github.com/MJomaba/flu-evidence-synthesis	fluEvidenceSynthesis
+http://cegg.unige.ch/mirortho	miROrtho
+http://rna.physics.missouri.edu/MCTBI/	MCTBI
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/stampy_mapper/stampy_indexer/1.0.20	stampy_indexer-IP
+https://github.com/yesint/pteros	Pteros
+http://www.ebi.ac.uk/msd-srv/prot_int/pistart.html	PISA
+https://github.com/COMBINE-lab/grouper	Grouper
+http://bioinfo.uochb.cas.cz/embedsom/	EmbedSOM
+http://www.protein-variants.eu/galactosemia/	Galactosemia Proteins Database
+http://www.uwyo.edu/buerkle/software/introgress/	introgress
+http://bioconductor.org/packages/release/bioc/html/goseq.html	GOseq
+http://bioconductor.org/packages/release/bioc/html/cytofkit.html	cytofkit
+http://bioconductor.org/packages/release/bioc/html/daMA.html	daMA
+http://genome.cs.nthu.edu.tw/FASTR3D/	FASTR3D
+https://github.com/RUBi-ZA/MODE-TASK	MODE-TASK
+http://www.sanger.ac.uk/science/tools/pagit	Post Assembly Genome Improvement Toolkit
+http://bioconductor.org/packages/release/bioc/html/TCGAutils.html	TCGAutils
+http://www.genomics.cn/en/navigation/show_navigation?nid=2732	RePS
+http://bioconductor.org/packages/release/bioc/html/triplex.html	triplex
+http://glycoproteome.expasy.org/glycositealign/	GlycoSiteAlign
+http://www.zsl.org/science/software/kininfor	KinInfor
+http://ekhidna.biocenter.helsinki.fi/locp/	LOCP
+http://boevalab.com/FREEC/	FREEC
+http://www.cbrc.kaust.edu.sa/indigo/begin.do	INDIGO
+http://genome.cs.nthu.edu.tw/RE-MUSIC/	RE-MuSiC
+http://www.ebi.ac.uk/Tools/so/seqcksum/	SeqCksum
+http://kirchnerlab.github.com/libmgf	ms2preproc
+http://babylone.ulb.ac.be/SODa/index3.php	SODa
+http://cbs.dtu.dk/services/NetPicoRNA/	NetPicoRNA
+http://edwardslab.bmcb.georgetown.edu/software/PyMsXML.html	PyMsXML
+http://www.findbase.org	FINDbase
+http://bioinfo.mbb.yale.edu/expression/cluster/	Local Clustering
+http://cqb.pku.edu.cn/ZhuLab/MID/index.html	MID
+http://mapman.gabipd.org/web/guest/pageman	PageMan
+http://www.networkanalyst.ca	NetworkAnalys
+http://bioconductor.org/packages/release/bioc/html/RamiGO.html	RamiGO
+https://github.com/todddeluca/reciprocal_smallest_distance	Reciprocal Smallest Distance (RSD)
+http://rna.tbi.univie.ac.at/RNApredator	RNApredator
+http://ambit.sourceforge.net/smirks/	Ambit-SMIRKS
+http://bioconductor.org/packages/release/bioc/html/MBAmethyl.html	MBAmethyl
+http://www.maths.usyd.edu.au/u/uri/SADMAMA/	SADMAMA
+http://microbesonline.org/fasthmm/	FastHMM
+http://bioconductor.org/packages/release/bioc/html/consensusOV.html	consensusOV
+http://www.csbio.sjtu.edu.cn/bioinf/LnSignal/	LnSignal
+http://metaphyler.cbcb.umd.edu/	MetaPhyler
+https://github.com/mills-lab/spectre	SPECtre
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/samtools_flagstat/samtools_flagstat/1.0.0	samtools_flagstat-IP
+http://www.gene-regulation.com/pub/programs.html#match	Match
+http://bioconductor.org/packages/release/bioc/html/CONFESS.html	CONFESS
+https://galaxy.pasteur.fr/tool_runner?tool_id=laj_1	laj_1-IP
+http://www.bioconductor.org/packages/release/bioc/html/clipper.html	clipper
+https://cran.r-project.org/web/packages/QRank/	QRank
+http://paed.hku.hk/genome/software.html	HLAreporter
+http://hx2.med.upenn.edu/download.html	ExMS
+https://github.com/TF-Chan-Lab/OMTools	OMTools
+http://www.Megx.net	Megx.net
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/picard_pasteur_wrapper/picard_BamIndexStats/1.56.0	picard_BamIndexStats-IP
+http://wsmartins.net/websat/	WebSat
+https://www.mdanalysis.org	MDAnalysis
+https://dintor.eurac.edu/	Dintor
+https://github.com/seqan/seqan/tree/master/apps/micro_razers	MicroRazerS
+http://sourceforge.net/projects/phylotrack/	PhyloTrack
+http://bioconductor.org/packages/release/bioc/html/TypeInfo.html	TypeInfo
+http://bioconductor.org/packages/release/bioc/html/gCMAPWeb.html	gCMAPWeb
+https://bioconductor.org/packages/release/bioc/html/diffuStats.html	diffuStats
+http://metabolomexchange.org	MetabolomeXchange
+http://bioconductor.org/packages/release/bioc/html/ontoCAT.html	ontoCAT
+http://zhangroup.aporc.org/QRidgeWalker	QRidge
+http://www.ms-utils.org/DataAnalysis2TPP.html	DataAnalysis2TPP
+http://seblastian.crg.es/	SECISearch3  Seblastian
+http://www.broadinstitute.org/mpg/snp2hla/	SNP2HLA
+https://github.com/JBEI/ice	ICE
+http://www.computationalbiology.it/software.html	ASSIST v1- Active Site Similarity Search Tool
+http://protein.bio.unipd.it/homer/auto.html	HOMER-A
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/screno/ngs_roi2/roi_filter/0.2.2	roi_filter-IP
+http://www.compbio.dundee.ac.uk/jabaws/	GlobPlot WS (jabaws)
+https://sourceforge.net/projects/clinqc/	ClinQC
+http://athina.biol.uoa.gr/bioinformatics/PRED-GPCR/	PRED-GPCR
+http://tools.proteomecenter.org/wiki/index.php?title=Software:SuperHirn	SuperHirn
+http://bioconductor.org/packages/release/bioc/html/oligoClasses.html	oligoClasses
+http://babel.ucmp.umu.se/fish/hmmpfam.htm	FISH - sequence search
+http://sysbiobig.dei.unipd.it/?q=wf_SelTsArea	SEL.TS.AREA
+http://www.cpndb.ca/	cpnDB
+http://moma.laas.fr	MoMA-LigPath
+https://coords.litemol.org	CoordinateServer
+https://www.genoscope.cns.fr/agc/microscope	MicroScope - MaGe
+http://maya.ccg.unam.mx/primers4clades/	primers4clades
+http://bioconductor.org/packages/release/bioc/html/topGO.html	topGO
+http://www.cgl.ucsf.edu/chimera/	Chimera
+http://ProKware.mbc.nctu.edu.tw/	ProKware
+http://bioinfo.icgeb.res.in/PRmePRed/	PRmePRed
+http://qiime.org/	QIIME
+http://www.umd.be/BRCA1/	BRCA Share
+http://mendel.imp.ac.at/	The Mendel Site
+http://bioconductor.org/packages/release/bioc/html/pepStat.html	pepStat
+http://biq-analyzer-ht.bioinf.mpi-inf.mpg.de/	BiQ Analyzer HT
+http://faculty.washington.edu/wijsman/software.shtml	PBAP
+http://emboss.open-bio.org/rel/rel6/apps/showserver.html	showserver
+http://bioinf.uab.es/cgi-bin/archki/loops.pl?class=all&set=ArchKI	ArchKI
+http://www.bioinformatics.org/mcsnp/wiki/	McSNP
+http://bioinfo.net.in/IRESPred/	IRESPred
+http://www.expasy.org/ch2d/	SWISS-2DPAGE
+https://github.com/dreamtools/dreamtools	DREAMTools
+http://www.benoslab.pitt.edu/mirconnx	mirConnX
+http://circe.med.uniroma1.it/3uss_server/	3USS
+http://140.138.144.145/~ubinet/index.php	UbiNe
+http://satrap.cribi.unipd.it/cgi-bin/satrap.pl	SATRAP
+http://bioconductor.org/packages/release/bioc/html/mzID.html	mzID
+https://github.com/AppliedBioinformatics/BioNanoAnalyst	BioNanoAnalyst
+http://www.tgac.ac.uk/nextclip/	NextClip
+http://bioconductor.org/packages/release/bioc/html/ReadqPCR.html	ReadqPCR
+http://zhanglab.ccmb.med.umich.edu/QUARK/	QUARK
+http://www.imtech.res.in/raghava/pprint/	Pprint
+http://probis.cmm.ki.si/ligands	ProBiS-ligands
+http://quast.sourceforge.net/quast	QUAST
+http://www.genoma.ufpa.br/rramos/softwares/simplifier.xhtml	Simplifier
+http://dynamine.ibsquare.be/	DynaMine
+http://iclab.life.nctu.edu.tw/POPI/	POPI
+http://dida.ibsquare.be	Digenic Diseases Database (DiDA)
+http://harvester.fzk.de/harvester/	Harvester
+https://github.com/rystanley/genepopedit	genepopedit
+http://emboss.open-bio.org/rel/rel6/apps/drfinddata.html	drfinddata
+http://compbio.fmph.uniba.sk/gaml/	GAML
+http://search.cpan.org/~sgovind/Shatterproof/	ShatterProof
+http://betaorthology.phylomedb.org/	MetaPhors
+https://github.com/molgenis/molgenis-imputation	Molgenis-impute
+https://github.com/seqan/seqan/tree/master/apps/razers	RazerS
+http://bioconductor.org/packages/release/bioc/html/cogena.html	cogena
+http://omabrowser.org/oma/home/	OMA
+http://genomebrowser.pombase.org/tools.html	PomBase data slicer
+http://bioconductor.org/packages/release/bioc/html/RbcBook1.html	RbcBook1
+http://www.jcvi.org/cms/research/projects/variantclassifier	VariantClassifier
+https://www.gene-clic.org/	CLIC
+http://www.ruhr-uni-bochum.de/mpc/software/PeakQuant/index.html.de	PeakQuant
+http://emboss.open-bio.org/rel/rel6/apps/helixturnhelix.html	helixturnhelix
+http://s.tartaglialab.com/new_submission/signature	catRAPID signature
+http://www.ebi.ac.uk/newt/display	NEWT
+http://mmb.irbbarcelona.org/PMut/pymut	PyMut
+http://phop.ugr.es/fenogeno	PGMRA
+https://chlorobox.mpimp-golm.mpg.de/geseq.html	GeSeq
+http://bibiserv.techfak.uni-bielefeld.de/jpredictor/	jPREdictor
+https://ehecregnet.compbio.sdu.dk/v2/index.html	EhecRegNet
+https://sourceforge.net/p/metabolic-network-sgl/git/ci/master/tree/	Metabolic Network SGL
+http://ratt.sourceforge.net/	RATT
+http://www.rightfield.org.uk/	RightField
+http://bioconductor.org/packages/release/bioc/html/FISHalyseR.html	FISHalyseR
+http://gmod.org/wiki/WebApollo	WebApollo
+http://www.dynacom.co.jp/english/snpalyze_e/	SNPALYZE
+https://www.ebi.ac.uk/thornton-srv/databases/SurvCurv/analyse.php	SurvCurve
+http://bioconductor.org/packages/release/bioc/html/lmdme.html	lmdme
+http://xerad.systemsbiology.net/simcluster/	Simcluster
+http://www.tfcheckpoint.org/	TFcheckpoint
+http://bioconductor.org/packages/release/bioc/html/GEWIST.html	GEWIST
+http://www.biotapestry.org/	BioTapestry
+http://www.bio.davidson.edu/projects/magic/magic.html	MAGIC Tool
+http://dataome.mensxmachina.org/	BioDataome
+http://www.yandell-lab.org/software/maker.html	MAKER
+http://www.sailing.cs.cmu.edu/main/?page_id=462	GFlasso
+http://structure.pitt.edu/servers/fastcontact/	FastContact
+http://www.mrc-lmb.cam.ac.uk/pca/	Protein Contacts Atlas
+http://www.cabsel.ethz.ch/tools/redemption	REDEMPTION
+https://spectrumviewer.org	xiSPEC
+http://rnassess.cs.put.poznan.pl/	RNAssess
+http://www.exocarta.org/	ExoCarta
+http://genome.sph.umich.edu/wiki/METAL_Program	Metal
+http://wishart.biology.ualberta.ca/shiftor/cgi-bin/preditor_current.py	PREDITOR
+http://www.biochem.mpg.de/5116134/others	NOmESS
+http://bioinformatics.intec.ugent.be/kmarchal/Supplementary_Information_Dhollander_2007/index.html	QDB (Query Driven Biclustering)
+https://sourceforge.net/projects/contrail-bio/	Contrail
+https://sites.google.com/site/netstratv1/	NetStrat
+http://masqot-gui.sourceforge.net/	MASQOT-GUI
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/mvalade/presartools/presartools/0.1.0	presartools-IP
+http://tcoffee.crg.cat/apps/tcoffee/do:trmsd	T-RMSD
+http://witold.med.virginia.edu/fitmunk/server/	Fitmunk
+http://imed.med.ucm.es/Tools/rankpep.html	Rankpep
+http://www.engr.uconn.edu/~ywu/STELLS.html	STELLS
+https://www.hgsc.bcm.edu/software/atlas-whole-genome-assembly-suite	Atlas
+https://github.com/jkimlab/mySyntenyPortal	mySyntenyPortal
+http://lin.uestc.edu.cn/server/PHPred	PHPred
+http://stormo.wustl.edu/consensus/	Consensus
+http://datf.cbi.pku.edu.cn	DATF
+http://www.imtech.res.in/raghava/gstpred/	GSTPred
+http://conseq.bioinfo.tau.ac.il/	ConSeq
+http://clumpak.tau.ac.il/	CLUMPAK
+http://ibi.zju.edu.cn/software/qtmodel/index.html	QTModel
+http://www.imtech.res.in/raghava/pepstr/	PepStr
+http://miolite2.iceht.forth.gr	M-IOLITE
+http://sourceforge.net/projects/mocapy/	Mocapy++
+http://www.strubi.ox.ac.uk/RONN	RONN
+http://mms.dsfarm.unipd.it/ChemUtils/SimpleSimilarity/	MMsSimilarity
+https://pypi.org/project/spotpy/	SPOTPY
+http://emboss.open-bio.org/rel/rel6/apps/printsextract.html	printsextract
+https://zlab.umassmed.edu/~zhuangj/laSV/	laSV
+https://github.com/lh3/bgt	BGT
+https://github.com/jknightlab/AltHapAlignR	AltHapAlignR
+http://ailab1.ist.psu.edu/RNABindRPlus/	RNABindRPlus
+http://ambermd.org/	AMBER
+http://browser.1000genomes.org/tools.html	1000Genomes assembly converter
+http://bioconductor.org/packages/release/bioc/html/fdrame.html	fdrame
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/screno/pasteur_fasta_facilities/add_fasta_sequence_length/0.0.1	add_fasta_sequence_length-IP
+http://bioconductor.org/packages/release/bioc/html/plateCore.html	plateCore
+http://hood.systemsbiology.net/rnaseqr.php	RNASEQR
+https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/BIANCA	BIANCA
+http://www.genmr.ca	GeNMR
+http://bioconductor.org/packages/release/bioc/html/motifmatchr.html	motifmatchr
+https://github.com/brinkmanlab/GenomeD3Plot	GenomeD3Plot
+http://compbio.clemson.edu/pronoi	ProNOI
+http://bioinfo.life.hust.edu.cn/AnimalTFDB/	Animal Transcription Factor Database
+https://github.com/devrkel/IPRStats	IPRStats
+http://bioinformatics.jnu.edu.cn/LXtoo/	LXtoo
+https://rth.dk/resources/foldalign/	FOLDALIGN
+https://github.com/tseemann/snippy	snippy
+http://www.arabidopsis.org/cgi-bin/patmatch/nph-patmatch.pl	PatMatch
+http://bioconductor.org/packages/release/bioc/html/GOSemSim.html	GOSemSim
+http://matrixdb.univ-lyon1.fr/	MatrixDB
+http://treerefiner.stanford.edu/	TreeRefiner
+http://gene2drug.tigem.it/	Gene2drug
+http://bioconductor.org/packages/release/bioc/html/hiAnnotator.html	hiAnnotator
+http://crdd.osdd.net/raghava/ccpdb/	ccPDB
+http://bioconductor.org/packages/release/bioc/html/rhdf5client.html	rhdf5client
+http://www.ibi.vu.nl/programs/seqharmwww/	Sequence Harmony
+http://cakesomatic.sourceforge.net/	Cake
+http://metadyn.vscht.cz	Metadyn View
+http://beaconlab.it/agame	A-GAME
+https://github.com/greenify/biojs-io-matrix	biojs-io-matrix
+http://bioconductor.org/packages/release/bioc/html/Imetagene.html	Imetagene
+http://biojava.org/	BioJava
+http://meta.usc.edu/softs/lsa/	eLSA
+http://www2.unil.ch/cbg/index.php?title=GMM	GMM
+http://myriads.webs.uvigo.es/	Myriads
+http://nce.ads.uga.edu/html/projects/programs/	BLUPF90
+http://compareprospector.stanford.edu/	CompareProspector
+http://bioconductor.org/packages/release/bioc/html/QUBIC.html	QUBIC
+http://www.atgc-montpellier.fr/gkarrays	Gk arrays
+http://www.csbio.sjtu.edu.cn/bioinf/PredCSF/	PredCSF
+http://bioconductor.org/packages/release/bioc/html/Gviz.html	Gviz
+http://www.partek.com	Partek Genomics Suite
+http://paschou-lab.mbg.duth.gr/html5up/index.html	Variant Ranker
+https://web.expasy.org/compute_pi/	Compute pI MW
+http://ophid.utoronto.ca/navigator/	NAViGaTOR
+http://bioconductor.org/packages/release/bioc/html/xmapbridge.html	xmapbridge
+http://minia.genouest.org/dsk/	DSK
+http://zhoulab.usc.edu/iMISS/	iMISS
+http://llama.mshri.on.ca/synergizer/doc/	Synergizer
+http://sable.cchmc.org/	SABLE
+http://bioconductor.org/packages/release/bioc/html/tximport.html	tximport
+http://sourceforge.net/projects/mrbayes-gpu/	GPU MrBayes
+http://dwaithe.github.io/FCS_point_correlator/	FoCuS-point
+http://indelscan.genomics.sinica.edu.tw/IndelScan/	INDELSCAN
+http://plus.europepmc.org/emss/login/uls.cgi?rss=wt&url=/plus/menu.html	Europe PMC plus Manuscript Submission System MSS
+http://valdarlab.unc.edu/software/bagpipe/_build/html/index.html	Bagpipe
+http://www.atgc-montpellier.fr/phyml/	PhyML
+http://supfam.org	SUPERFAMILY
+http://bioconductor.org/packages/release/bioc/html/TxRegInfra.html	TxRegInfra
+http://www.ssg.uab.edu/gmdr/	GMDR
+http://www.beaconlab.it/pscan_chip_dev/	Pscan-ChIP
+http://bpla-kernel.dna.bio.keio.ac.jp/	BPLA kernel
+http://www.predisi.de/	PrediSi
+http://statgenpro.psychiatry.hku.hk/limx/snptracker/	SnpTracker
+http://bioconductor.org/packages/release/bioc/html/SimBindProfiles.html	SimBindProfiles
+http://bioconductor.org/packages/release/bioc/html/GeneNetworkBuilder.html	GeneNetworkBuilder
+http://www.imtech.res.in/raghava/rbpred/	RB-Pred
+http://deweylab.github.io/RSEM/	RSEM
+http://www.neuromatic.thinkrandom.com/	NeuroMatic
+http://andromeda.gsf.de/litminer	LitMiner
+https://github.com/ejh243/SCZEWAS	SCZEWAS
+https://cran.r-project.org/web/packages/GUniFrac/index.html	GUniFrac
+http://bioconductor.org/packages/release/bioc/html/ToPASeq.html	ToPASeq
+http://johnsonlab.ucsf.edu/sj/mochiview-start/	MochiView
+http://sourceforge.net/projects/optpdt/	OPTPDT
+http://dlin.web.unc.edu/software/score-seq/	SCORE-Seq
+http://doua.prabi.fr/software/seaview	SeaView
+http://emboss.open-bio.org/rel/rel6/apps/compseq.html	compseq
+https://github.com/jkawulok/cometa	CoMeta
+http://bioinfo.utu.fi/BiForceToolbox/	BiForce Toolbox
+http://www.genomic.ch/software.php	OliCheck
+http://lowelab.ucsc.edu/snoscan/	snoscan
+https://github.com/linguoliang/VennPainter/	VennPainter
+https://gitlab.com/CarlBrunius/sampleDrift	sampleDrift
+http://gaussian.bu.edu/lpcf.html	LPCF
+http://saclab.tamu.edu/essentiality/transit/	TRANSIT
+http://mips.helmholtz-muenchen.de/mona/	RAMONA
+http://www.bioinformatics.org/bna/wiki/	BNA
+http://bio3d.colorado.edu/imod/	IMOD
+http://www.plexdb.org/	PLEXdb
+http://bioconductor.org/packages/release/bioc/html/ontoProc.html	ontoProc
+https://code.google.com/p/pyms/	PyMS
+http://karel-brinda.github.io/rnftools/	RNF
+https://github.com/greenify/biojs-vis-circularnet	biojs-vis-circularnet
+https://cran.r-project.org/web/packages/ggseqlogo/	ggseqlogo
+http://csbi.ltdk.helsinki.fi/grok/	GROK
+http://ccb.jhu.edu/software/tophat/index.shtml	TopHat (cloudIFB)
+http://bioconductor.org/packages/release/bioc/html/AMOUNTAIN.html	AMOUNTAIN
+http://sourceforge.net/projects/ppixpress/	PPIXpress
+http://bioconductor.org/packages/release/bioc/html/MPFE.html	MPFE
+http://www.webgestalt.org/option.php	WebGestalt
+http://pacosy.informatik.uni-leipzig.de/269-0-EqualTdrl.html	EqualTDRL
+http://bober.insilab.org/	BoBER
+http://www.bodenmillerlab.org/research-2/histoCAT/	histoCAT
+https://cran.r-project.org/web/packages/chngpt/	chngpt
+http://emboss.open-bio.org/rel/rel6/apps/showseq.html	showseq
+http://bioruby.org/	BioRuby
+http://emboss.open-bio.org/rel/rel6/apps/cpgplot.html	cpgplot
+http://bioconductor.org/packages/release/bioc/html/BioCor.html	BioCor
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/bedtools_pasteur/bedtools_intersectbed_bam/0.1.0	bedtools_intersectbed_bam-IP
+https://confluence.crbs.ucsd.edu/display/NIF/OntoQuestMain	List Ontologies
+http://www.bios.unc.edu/research/genomic_software/Matrix_eQTL/	Matrix eQTL
+http://bioconductor.org/packages/release/bioc/html/rRDP.html	rRDP
+http://bhapp.c2b2.columbia.edu/PrePPI/	PrePPI
+http://readxplorer.org	ReadXplorer
+http://biochemlabsolutions.com/Molecule%20Docking/Molecule_Docking.html	VcPpt
+http://www.medcomp.medicina.unipd.it/Argot2-5/	Argot 2.5
+http://wiki.tgilab.org/ISOexpresso/	ISOexpresso
+http://www.popgen.dk/angsd	ANGSD
+http://bioconductor.org/packages/release/bioc/html/sigsquared.html	sigsquared
+http://www.emouseatlas.org/emage/	EMAGE
+http://biit.cs.ut.ee/gprofiler/index.cgi	gGost
+http://epigen.kcl.ac.uk/comet/	coMET
+http://physiomeproject.org/software/opencmiss/	OpenCMISS
+http://EMDataBank.org	EMDataBank.org
+http://rxnav.nlm.nih.gov/RxNormAPI.html	 RxNorm API
+http://nrps.informatik.uni-tuebingen.de/Controller?cmd=SubmitJob	NRPSpredictor2
+http://proteomics.broadinstitute.org/millhtml/batchsherengaframe.htm	Sherenga
+http://cwtung.kmu.edu.tw/skinsensdb	SkinSensDB
+http://biosrv.cab.unina.it/webcap3/	CAP3 Sequence Assembly Program
+http://biocomputo2.ibt.unam.mx/OperonPredictor/	PreOpDB
+http://rth.dk/resources/rnacop	RNAcop
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/odoppelt/fqtools/fqquality/1.0	fqquality-IP
+http://seqcluster.readthedocs.org	seqcluster
+https://github.com/UtaDaphniaLab/Gene_Annotation_Easy_Viewer	GAEV
+https://github.com/CMRose3355/TomahaqCompanionProgram	TomahaqCompanion
+https://github.com/sfu-compbio/mrsfast	mrsFAST
+http://emboss.open-bio.org/rel/rel6/apps/profit.html	profit
+http://bioinfo.protres.ru/foldhandedness/	FoldHandedness
+https://github.com/williamgilpin/pypdb	PyPDB
+http://antibody.graylab.jhu.edu	RosettaAntibody
+http://bioconductor.org/packages/release/bioc/html/acde.html	acde
+http://www.compsysbio.org/elastin/	ElastoDB
+http://bioinfo3d.cs.tau.ac.il/I2I-SiteEngine/	I2I-SiteEngine
+https://github.com/USDA-ARS-GBRU/vica	Vica
+http://www.imtech.res.in/raghava/sarpred/	SARpred
+http://www.ebi.ac.uk/Tools/webservices/services/sss/fasta_rest	FASTA API (EBI)
+https://primus.gs.washington.edu/	PRIMUS
+https://github.com/ewijaya/slidesort-bpr	SlideSort-BPR
+http://forensic.ugent.be/FLAD/	FLAD
+http://cbcb.umd.edu/software/GeneSplicer/	GeneSplicer
+http://medicine.yale.edu/lab/townsend/sand/index.aspx#page1	LOX
+https://github.com/thiesgehrmann/proteny	Proteny
+https://pachterlab.github.io/kallisto/about.html	kallisto
+http://www.bioinf.uni-leipzig.de/~kristin/Software/RNAclust/	RNAclust
+http://proline.bic.nus.edu.sg/sdpmod/	SDPMOD
+https://sourceforge.net/projects/fluxpyt/	FluxPyt
+http://hannonlab.cshl.edu/Alta-Cyclic/main.html	Alta-Cyclic
+http://cactus.nci.nih.gov/chemical/structure/documentation	NCI CADD Chemical Identifier Resolver
+https://github.com/amkozlov/sativa	SATIVA
+http://bioinf.cs.ucl.ac.uk/?id=747	THREADER
+http://sonnhammer.sbc.su.se/Dotter.html	Dotter
+http://falc-loop.seoklab.org/	FALC-Loop
+http://srna-workbench.cmp.uea.ac.uk/tools/helper-tools/filter/	Filter
+http://github.com/rajido/biojs-vis-hpafeature	biojs-vis-hpafeature
+http://sourceforge.net/p/stochdecomp/wiki/Home/	StochDecomp
+http://www.open-bio.org/wiki/Sambamba	Sambamba
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/mvalade/gdtools/gdtools_annotate/0.26	gdtools_annotate-IP
+http://eawag-bbd.ethz.ch/aboutBBD.html	UM-BBD
+http://swissmodel.expasy.org/	SWISS-MODEL Workspace
+http://dna.leeds.ac.uk/methylviewer/	MethylViewer
+http://www-test.ebi.ac.uk/enright/sylamer/	Sylamer
+http://bioconductor.org/packages/release/bioc/html/hapFabia.html	hapFabia
+https://github.com/gengit/FRAMA	FRAMA
+http://bbisr.shinyapps.winship.emory.edu/shinySISPA/	shinySISPA
+http://www.click2drug.org/	Click2Drug
+http://ailab1.ist.psu.edu/RNABindR/	RNABindR
+http://impact-s.sourceforge.net/	IMPACT_S
+http://bioconductor.org/packages/release/bioc/html/csaw.html	csaw
+http://cbdm-01.zdv.uni-mainz.de/~jfontain/cms/?page_id=6	Genie
+http://vakser.bioinformatics.ku.edu/resources/gramm/grammx	GRAMM-X
+http://mircomb.sourceforge.net/	MiRComb
+http://oli2go.ait.ac.at/	Oli2go
+http://www.broadinstitute.org/software/scripture/	Scripture
+https://code.google.com/archive/p/chimerascan/	ChimeraScan
+http://www.ics.uci.edu/%7Ednazip/	DNAzip
+http://www.effectivedb.org/method/effectivet3	EffectiveT3
+http://toc.yonsei.ac.kr/OMPPM/	PalCheck
+https://www.npmjs.com/package/pipelinedog	PipelineDog
+http://grapple.mpimp-golm.mpg.de/	GraPPLE
+http://iqtree.cibiv.univie.ac.at/	W-IQ-TREE
+http://bioinfo.hrbmu.edu.cn/IndividualizedPath/	IndividualizedPath
+http://www.biocomputing.it/tabhu	Tabhu
+http://www.ebi.ac.uk/Tools/st/emboss_backtranseq/	transeq (EBI)
+http://dambe.bio.uottawa.ca/DAMBE/dambe.aspx	DAMBE7
+http://race.unil.ch/	RACE
+http://bioconductor.org/packages/release/bioc/html/EBcoexpress.html	EBcoexpress
+http://autosome.ru/ChIPMunk/	ChIPMunk
+http://ambermd.org/#AmberTools	AmberTools
+http://sdmtoolbox.org/	SDMtoolbox
+http://discovery.informatics.uab.edu/PAGER/	PAGER
+http://genopole.toulouse.inra.fr/bioinfo/Iccare/	Iccare
+https://bansal-lab.github.io/software/crisp.html	CRISP
+http://webchem.ncbr.muni.cz/Platform/App/SiteBinder	SiteBinder
+http://www.ebi.ac.uk/Tools/seqstats/emboss_pepinfo/	pepinfo (EBI)
+http://bioconductor.org/packages/release/bioc/html/debrowser.html	debrowser
+https://github.com/oarnaiz/ParTIES	ParTIES
+http://bental.tau.ac.il/MCPep/	MCPep
+https://sourceforge.net/projects/cloudburst-bio/	CloudBurst
+http://snp.toulouse.inra.fr/~alegarra/	GS3
+http://hipipe.ncgm.sinica.edu.tw/	HiPipe
+http://www.bioinformatics.nl/cgi-bin/emboss/variationget	variationget
+http://bioconductor.org/packages/release/bioc/html/flowFP.html	flowFP
+http://www.hsph.harvard.edu/peter-kraft/software/	MULTIPOW
+http://www.herbalgenomics.org/0506/cpgavas/analyzer/home	CpGAVAS
+https://github.com/vcflib/vcflib	Vcflib
+http://bioconductor.org/packages/release/bioc/html/Streamer.html	Streamer
+https://github.com/poormanme/smallAnimalMRgHIFU	smallAnimalMRgHIFU
+http://www.miru-vntrplus.org/MIRU/help/helpSOAP.html	Nomenclature WS
+http://mass-spec.biologie.uni-osnabrueck.de/CC/cgi/form_digest.pl	CCdigest
+https://github.com/jostmey/MaxSnippetModel	MaxSnippetModel
+http://labpages2.moffitt.org/chen/software/	SinCHet
+http://minimotifminer.org	Minmotif Miner
+http://www.dynacom.co.jp/u-tokyo.ac.jp/snphitlink/	SNP HiTLink
+http://sfold.wadsworth.org/starmir.html	STarMir
+http://bioconductor.org/packages/release/bioc/html/logitT.html	logitT
+https://bitbucket.org/rhenriqueslab/nanoj-squirrel/wiki/Home	NanoJ-SQUIRREL
+http://zhaocenter.org/software/#Genomic_Expression_Pathway_Analysis	M3
+http://bioconductor.org/packages/release/bioc/html/ClusterJudge.html	ClusterJudge
+http://www.ebi.ac.uk/interpro/	InterPro
+http://mga.bionet.nsc.ru/soft/famFLM/	famFLM
+http://sourceforge.net/projects/apexqpt/	APEX
+http://recode.ucc.ie	Recode
+http://omnibiomarker.bme.gatech.edu/	omniBiomarker
+https://github.com/aquaskyline/MICA-aligner	MICA-aligner
+http://bioconductor.org/packages/release/bioc/html/iterativeBMA.html	iterativeBMA
+http://ndbserver.rutgers.edu/ndbmodule/services/index.html	NDB Tools
+https://github.com/biomathman/pycellerator	Pycellerator
+http://www.pcdb.unq.edu.ar	PCDB
+http://www.bioextract.org	BioExtract
+http://www.motiflab.org	MotifLab
+http://nba.uth.tmc.edu/homepage/liu/pLasso/	pLasso
+http://phet.colorado.edu/en/simulation/neuron	Neuron
+http://www.sbl.unisi.it/prococoa/	Sadic
+http://bioinfo3d.cs.tau.ac.il/FireDock/	FireDock
+https://github.com/gadorlhiac/PyLDM	PyLDM
+https://github.com/amarallab/NullSeq	NullSeq
+http://biobank-informatics.bioacademy.gr/coexpression/	Human Gene Correlation Analysis (HGCA)
+http://biophp.org/	BioPHP
+http://fraenkel-nsf.csbi.mit.edu/omicsintegrator/	Omics Integrator
+https://github.com/greenify/biojs-io-gff	biojs-io-gff
+http://www.ruhr-uni-bochum.de/mpc/software/ProCon/index.html.en	ProCon (Proteomics Conversion Tool)
+http://www.disgenet.org/	DisGeNET
+http://bioconductor.org/packages/release/bioc/html/supraHex.html	supraHex
+https://github.com/soedinglab/MMseqs	MMseqs
+http://www.ensembl.org/Rattus_norvegicus/	Ensembl Rat Genome Browser
+https://www.maizegdb.org/snpversity	SNPversity
+http://genetics.cs.ucla.edu/longGWAS/	longGWAS
+http://zlab.bu.edu/cluster-buster/	Cluster Buster
+http://www.metexplore.fr/	MetExplore
+http://www.gbif.org/developer/summary	GBIF taxon WS
+http://emboss.open-bio.org/rel/rel6/apps/seqmatchall.html	seqmatchall
+http://lin-group.cn/server/iPro54-PseKNC	iPro54-PseKNC
+http://www.girinst.org/downloads/software/mase/	MASE
+http://bioconductor.org/packages/release/bioc/html/omicade4.html	omicade4
+http://biodev.hgen.pitt.edu/enologos/	enoLOGOS
+https://cran.r-project.org/web/packages/lme4/index.html	lme4
+http://cagedb.uhlenlab.org/	The Ca2+ genome database
+https://sourceforge.net/projects/trinculo/	Trinculo
+http://agbase.hpc.msstate.edu/cgi-bin/tools/GOModeler.cgi	GOModeler
+http://tango.crg.es/	Tango
+http://www.montefiore.ulg.ac.be/services/stochastic/new/doku.php?id=bioecs	bioECS
+http://www.orphadata.org/	Orphadata
+http://tsema.bioinfo.cnio.es/	TSEMA
+http://www.chr7.org/	The Chromosome 7 Annotation Project
+http://folding.biofold.org/k-fold/	K-Fold
+https://github.com/NWPU-903PR/NPBSS_Octave	NPBSS
+http://pgd.science.oregonstate.edu/	The Protein Geometry Database (PGD) 
+http://bioconductor.org/packages/release/bioc/html/netresponse.html	netresponse
+http://www.manet.uiuc.edu/nobai/nobai.php	NOBAI
+http://antheprot-pbil.ibcp.fr/	ANTHEPROT
+http://neuroelectro.org/api/docs/	NeuroElectro
+https://github.com/ima23/maxent-ppi	maxent-ppi
+http://amyloid.cs.mcgill.ca/semba.php	SEMBA
+https://github.com/compomics/thermo-msf-parser	Thermo MSF Parser
+https://github.com/parklab/NGSCheckMate	NGSCheckMate
+http://evolution.sysu.edu.cn/mapview/	MapView
+http://bioconductor.org/packages/release/bioc/html/BicARE.html	BicARE
+http://psfs.cbrc.jp/tmbeta-net/	TMBETA-NET
+http://x3dna.org/	DSSR
+http://cbs.dtu.dk/services/NNAlign/	NNAlign
+http://bio-bwa.sourceforge.net/	BWA-SW
+http://phlawd.net/	PHLAWD
+https://www.uni-goettingen.de/en/research/185810.html	COLOMBO
+http://www.ccp4.ac.uk/html/sfcheck.html	Sfcheck
+http://www.personal.psu.edu/jhm10/Vera/SoftwareC.html	SimAssemblyStage1
+http://www.affymetrix.com/analysis/index.affx	Affymetrix NetAffx Analysis Center
+http://www.jci-bioinfo.cn/pSumo-CD	pSumo-CD
+http://cmr.tigr.org/tigr-scripts/CMR/CmrHomePage.cgi	CMR
+http://sourceforge.net/projects/autoassemblyd/	AutoAssemblyD
+http://bioconductor.org/packages/release/bioc/html/geneplast.html	geneplast
+http://bioconductor.org/packages/release/bioc/html/MetCirc.html	MetCirc
+http://phemto.orgchm.bas.bg/	PHEMTO
+https://github.com/hzi-bifo/traitar	Traitar
+http://genius.embnet.dkfz-heidelberg.de/menu/hobit/embdoc/needle.html	needle WS (husar)
+http://emboss.open-bio.org/rel/rel6/apps/edamname.html	edamname
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/oneclick_phylogeny/phyml_oneclick/3.0_360-500M	phyml_oneclick-IP
+https://simtk.org/home/proteand	PROTEAND
+http://bioconductor.org/packages/release/bioc/html/tilingArray.html	tilingArray
+http://pubserver.burnham.org/	PubServer
+https://atgu.mgh.harvard.edu/plinkseq/	Plink-Seq
+http://mdl.shsmu.edu.cn/alloscore/	Alloscore
+http://cptweb.cpt.wayne.edu/BB/	Better Bunny
+http://fred.bioinf.uni-sb.de/sepacs.html	SEPACS
+http://crispr.u-psud.fr/Server/CRISPRfinder.php	CRISPRFinder
+http://smithlabresearch.org/software/preseq/	preseq
+http://www.fc.up.pt/PortoBioComp/Software/Volarea/Home.html	Volarea
+http://protein.bio.unipd.it/bluues/	Bluues
+http://epsf.bmad.bii.a-star.edu.sg/struct_server.html	deconSTRUCT
+http://irefindex.org/	iRefIndex
+http://bioinfo-mml.sjtu.edu.cn/mGS/	mGenomeSubtractor
+http://hamap.expasy.org	HAMAP
+http://vismapper.babelomics.org/	VISMapper
+https://genome.uiowa.edu/home.old/pubsoft/software.html	tlcluster
+http://www.megabionet.org/atpid/	AtPID
+http://scalce.sourceforge.net	SCALCE
+http://www.nematodes.org/nematodegenomes/index.php/Main_Page	959 Nematode Genomes
+http://raven.anr.udel.edu/webgivi/	WebGIVI
+https://github.com/mourisl/Rcorrector/	Rcorrector
+http://guide.wehi.edu.au/	Guide
+http://bioconductor.org/packages/release/bioc/html/wavClusteR.html	wavClusteR
+https://snpinfo.niehs.nih.gov/	SNPinfo
+http://topcons.cbr.su.se/	TOPCONS
+http://nffinder.cnb.csic.es/	NFFinder
+http://bioconductor.org/packages/release/bioc/html/zinbwave.html	zinbwave
+https://mpc-bioinformatics.github.io/pia/	PIA - Protein Inference Algorithms
+https://github.com/magarveylab/lemons	LEMONS
+http://bioconductor.org/packages/release/bioc/html/pgca.html	pgca
+http://bioconductor.org/packages/release/bioc/html/tRNAscanImport.html	tRNAscanImport
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/urgi_tools/restrictTranscriptList/1.0.0	restrictTranscriptList-IP
+https://github.com/philres/ngmlr	NGMLR
+http://plantmetabolomics.vrac.iastate.edu/ver2/	PlantMetabolomics
+http://dunbrack2.fccc.edu/protcid	ProtCID
+https://cran.r-project.org/web/packages/AdhereR/index.html	AdhereR
+http://design.RNAi.jp/	siDirect
+http://www.sbc.su.se/%7Epierre/svmhc/	SVMHC
+http://bioconductor.org/packages/release/bioc/html/GSCA.html	GSCA
+http://www.ncbi.nlm.nih.gov/BankIt/	BankIt
+https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/screno/svdetect_pasteur/svdetect_bam_preprocessing_pairs/1.0.0	svdetect_bam_preprocessing_pairs-IP
+http://rna.informatik.uni-freiburg.de/CopraRNA/	CopraRNA web server
+http://www.compsysbio.org/bacteriome/	Bacteriome.org
+http://www.ccdc.cam.ac.uk/solutions/csd-discovery/components/gold/	GOLD
+http://www.stanford.edu/group/rosenberglab/haploconfig.html	haploconfig
+http://emboss.open-bio.org/rel/rel6/apps/notseq.html	notseq
+http://bpla-kernel.dna.bio.keio.ac.jp/clustering/	EnsembleClust
+http://pitgroup.org/brownian/	Brownian Motion Simulator
+http://apollo11.isto.unibo.it/software/GeneBase/GeneBase_1.1/	GeneBase
+http://www.megasoftware.net/	MEGA
+http://orion.math.iastate.edu/press/presspage/P.R.E.S.S..html	P.R.E.S.S.
+http://liferay.csb.univie.ac.at/portal/web/simap/webservice	SIMAP WS
+http://bioconductor.org/packages/release/bioc/html/flowViz.html	flowViz
+http://cran.r-project.org/web/packages/TreeSim/index.html	TreeSim
+http://www.hiv.lanl.gov/content/sequence/MOSAIC/makeVaccine.html	Mosaic Vaccine Designer
+http://bioinfadmin.cs.ucl.ac.uk/downloads/memsat-svm/	MEMSAT-SVM
+http://bioconductor.org/packages/release/bioc/html/SGSeq.html	SGSeq
+http://cbs.dtu.dk/services/VarDom/	VarDom
+http://www.davecurtis.net/dcurtis/software.html	TABLE
+http://schatzlab.cshl.edu/research/metassembler/	Metassembler
+http://genome.ucf.edu/MutualFold/	MutualFold
+https://github.com/LancePalmerStJude/YODEL/	YODEL
+http://mutalisk.org	mutalisk
+https://ccb.jhu.edu/software/centrifuge/	Centrifuge
+http://bacmap.wishartlab.com/	BacMap
+http://bioconductor.org/packages/release/bioc/html/singleCellTK.html	singleCellTK
+http://www.csb.wfu.edu/prex/	PREX
+http://jjwanglab.org:8080/gwasdb/	GWASdb
+http://www.prognoscan.org/	PrognoScan
+http://genome.unmc.edu/ngLOC/index.html	ngLOC
+http://yjjang.github.io/mongkie/	MONGKIE
+http://www.fgvis.com/expressvis/PPIExp	PPIExp
+http://www.nactem.ac.uk/PHAEDRA/	PHAEDRA
+http://emboss.open-bio.org/rel/rel6/apps/showpep.html	showpep
+http://bioplex.hms.harvard.edu/	BioPlex 2.0
+http://bioconductor.org/packages/release/bioc/html/iSEE.html	iSEE
+http://www.gsc.riken.go.jp/e/FANTOM/	FANTOM - Functional Annotation of Mouse
+http://pdbfun.uniroma2.it	pdbFun
+http://emboss.open-bio.org/rel/rel6/apps/octanol.html	octanol
