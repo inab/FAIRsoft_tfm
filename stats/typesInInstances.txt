@@ -1,14 +1,14 @@
+Command-line tool	1651
+Web service	37
 Database portal	163
 Web application	606
-Plug-in	17
-None	1
-Web API	25
-SPARQL endpoint	2
 Suite	21
-Workbench	19
-Web service	37
 Library	595
 Workflow	16
 Desktop application	220
-Command-line tool	1651
+Web API	25
 Script	20
+Workbench	19
+Plug-in	17
+SPARQL endpoint	2
+None	1

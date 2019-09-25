@@ -3,7 +3,6 @@ import FI_FAIR_stats as FI_stats
 import json
 import sys
 import argparse
-import munch
 
 
 if __name__ == '__main__':
@@ -15,31 +14,41 @@ if __name__ == '__main__':
     ######----------- Data restructuring and integration ------------------------------------##########
 
     allSets = []
+    
+    ## Importation of data and generation of "tool" instances with it. 
 
     # Bioconductor
     if config.BIOCONTUCTOR_TOOLS:
         bioconductor2000raw = FI.loadJSON(config.BIOCONTUCTOR_TOOLS)
+        bioconductInts = FI.bioconductorToolsGenerator(bioconductor2000raw).instSet
         allSets.append(FI.bioconductorToolsGenerator(bioconductor2000raw).instSet)
 
     # bioconda
     if config.BIOCONDA_TOOLS:
         bioconda2000raw = FI.loadJSON(config.BIOCONDA_TOOLS)
+        biocondaInts = FI.biocondaToolsGenerator(bioconda2000raw).instSet
         allSets.append(FI.biocondaToolsGenerator(bioconda2000raw).instSet)
 
     # biotools
     if config.BIOTOOLS_TOOLS:
         biotools2000raw = FI.loadJSON(config.BIOTOOLS_TOOLS)
+        biotoInts = FI.biotoolsToolsGenerator(biotools2000raw).instSet
         allSets.append(FI.biotoolsToolsGenerator(biotools2000raw).instSet)
 
     # galaxyConfig
     if config.GALAXY_XML_TOOLS:
         shedXML2000raw = FI.loadJSON(config.GALAXY_XML_TOOLS)
+        shedXMLInts = FI.galaxyConfigToolsGenerator(shedXML2000raw).instSet
         allSets.append(FI.galaxyConfigToolsGenerator(shedXML2000raw).instSet)
 
     # galaxy
     if config.GALAXY_TOOLS:
         shed2000raw = FI.loadJSON(config.GALAXY_TOOLS)
+        shedInts = FI.galaxyShedToolsGenerator(shed2000raw).instSet
         allSets.append(FI.galaxyShedToolsGenerator(shed2000raw).instSet)
+     
+
+    ## Integration of "tool" instances of same ID (name, version, type)
 
     mergedSet = FI.integrateInstances(allSets)
     canonicalMerged = FI.generateCanonicalSet(mergedSet)
@@ -48,13 +57,15 @@ if __name__ == '__main__':
     instances = [item for sublist in instances for item in sublist]
     instToWrite = [ vars(item) for item in instances]
 
+    ## Exportation of integrated tools to file
+    ## TODO: exportation to DB. 
     if config.INTEGRATION_OUT == True:
         with open(config.INTEGRATED_TOOLS_PATH, 'w') as outfile:
             json.dump(instToWrite, outfile)
 
 
 
-    ######-------------- Statistics ---------------------------------------------------------########
+    ######-------------- Exploration of data: statistics and plots -------------------------------------------------########
 
     if config.STATS_CALC == True:
 
@@ -109,8 +120,9 @@ if __name__ == '__main__':
         FI_stats.typesBarPlot(df, 'images/inputFreqsFormats.png', (6, 15))
 
 
+ ##### ---------------- FAIRness calculation---------------------------------------------------#########################
+
     if config.METRICS_CALC == True:
-        ##### ---------------- FAIRness ---------------------------------------------------#########################
         # instances FAIRness
         FI.prepFAIRcomp(instances)
         print("Preapared for FAIRsoft measurement")

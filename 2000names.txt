@@ -1,15 +1,3 @@
-instances in bioconductor: 248
-names in 248
-instances in bioconda: 1046
-names in 289
-instances in biotools: 2319
-names in 2000
-instances in galaxyConfig: 76
-names in 61
-instances in galaxyShed: 73
-names in 60
-set()
-Integrating instances
 restricttranscriptlist-ip
 acdc
 predictivenetworks

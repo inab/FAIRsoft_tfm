@@ -6,6 +6,9 @@ with open('bioconductor2000.json') as fp:
 class instance(object):
 
     def __init__(self, name, type_, version):
+        
+        # TODO: restrict the format of properties 
+
         self.name = name
         self.description = None # string
         self.version = version
@@ -45,7 +48,6 @@ class instance(object):
         return(False)
 
     global struct_meta
-
     struct_meta = ['biotools', 'bioconda', 'bioconductor', 'galaxyShed', 'galaxyConfig']
     def compF2_1(self):
         '''
@@ -530,11 +532,10 @@ class biocondaToolsGenerator(toolGenerator):
 
         self.instSet = setOfInstances('bioconda')
 
-        names = [a['name'].lower() for a in self.tools]
+        #names = [a['name'].lower() for a in self.tools]
         #print('diferent names in bioconda tools: ' + str(len(set(names))))
 
         for tool in self.tools:
-            vers = []
             name = tool['name'].lower()
             version = cleanVersion(tool['@version'])
             type_ = 'Command-line tool' # all biocondas are cmd
@@ -1117,7 +1118,8 @@ def integrateInstances(setsOfInsts):
                         else:
                             continue
 
-                newInst.input = newInputs # list of strings
+                newInst.input = newInputs # list of strings/dicts 
+                # TODO: fix this inconsistency with input as strings or dicts in the generators
 
                 newOutputs = []
                 for insta in instaList:
@@ -1126,6 +1128,7 @@ def integrateInstances(setsOfInsts):
                             newOutputs.append(Dict)
                         else:
                             continue
+                 # TODO: fix this inconsistency with output as strings or dicts in the generators
 
                 newInst.output = newOutputs # list of strings
 

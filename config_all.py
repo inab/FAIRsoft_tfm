@@ -11,7 +11,7 @@ INTEGRATION_OUT = True
 INTEGRATED_TOOLS_PATH = "instances.json"
 
 # Statistics and plots about metadata
-STATS_CALC = False
+STATS_CALC = True
 
 # Metrics ans scores calculated
 METRICS_CALC = True

@@ -4,7 +4,6 @@ def repFeatsPerSource(instances, outfile, S):
     stats1 = open(outfile,'w')
     stats1.write('instances\tfeature\tsource\n')
 
-    name = 0
     for i in range(6):
         f = {}
         f['name'] = 0
@@ -113,8 +112,6 @@ def repSourcesPerInstance(instances, outfile):
     stats2.write('1\t2\t3\t>3\n'%())
     # the following dictionary may lack some combinations, it may crash. Add them if necessary
     sourcesS = {'1': {'biotools': 0, 'bioconductor': 0, 'bioconda': 0, "galaxyShed":  0, 'galaxyConfig':0}, '2':{'GcGs': 0, 'GsBcda': 0, 'BtBcda' : 0, 'BtGc':0, 'BdaGs': 0}, '3':{ 'GsGcBcda':0}, '>3':{'all':0}}
-    M2 = []
-    M3 = []
 
     for inst in instances:
         if len(inst.source)==1:
@@ -146,7 +143,7 @@ def repSourcesPerInstance(instances, outfile):
 
 
 def repTypesPerCanon(instances, outfile, canonicalMerged):
-    outf = open(outfile, 'w')
+    #outf = open(outfile, 'w')
     TTs = {'1':0,'2':0, '3':0, '4':0, '5':0, '>5':0}
     for can in canonicalMerged.canonicals:
         tps = 0
@@ -179,7 +176,6 @@ def featuresInCanonicals(instances, outfile, canonicalMerged):
     stats4 = open(outfile,'w')
     stats4.write('canonical\tname\tversion\ttype\tdescription\tlinks\tpublication\tdownload\tinst_instr\ttest\tsrc\tos\tinput_\toutput\tdependencies\tdocumentation\tlicense\ttermsUse\tcontribPolicy\tauthors\trepository\n')
 
-    S = []
     name = 0
     for can in canonicalMerged.canonicals:
         name = 0
@@ -389,9 +385,7 @@ def typeLis(a):
         return('other')
 
 def diffLicenses(instances, outfile, canonicalMerged):
-    coh = []
     LLs = {'unique':0, 'co':0,'in':0, 'None':0}
-    liccs = []
     N = 0
     M =0
     for can in canonicalMerged.canonicals:
@@ -531,7 +525,6 @@ def pieF(df, fname):
 def dfTypes(file):
     dtaf = open(file, 'r')
     rows = []
-    c=0
     for line in dtaf:
         if line.strip():
             type_ = line.strip().split('\t')[0]
@@ -546,7 +539,7 @@ def typesBarPlot(d, outname, figsize):
     f, ax = plt.subplots(figsize = figsize)
     #sns.set_color_codes("pastel")
     d = d.sort_values(by="value", ascending=False)
-    print(d)
+    #print(d)
     sns.barplot(x= "value",y= "type", data = d, ci = None)
     ax.get_xaxis().set_minor_locator(mpl.ticker.AutoMinorLocator())
     ax.yaxis.grid(False) # I olny want the vertical grid
@@ -589,7 +582,7 @@ def repDataformats(instances, outfile1, outfile2):
             for f in inst.input:
                 if 'format' in f.keys():
                     if f['format']['term'].lower().lstrip() not in formats.keys():
-                        print(f['format']['term'].lower().lstrip())
+                        #print(f['format']['term'].lower().lstrip())
                         formats[f['format']['term'].lower().lstrip()] = 1
                     else:
                         formats[f['format']['term'].lower().lstrip()] += 1
@@ -605,8 +598,8 @@ def repDataformats(instances, outfile1, outfile2):
     for a in formats.keys():
         fout2.write(row%(a, formats[a]))
 
-    print(specified)
-    print(formats)
+    #print(specified)
+    #print(formats)
 
 
 
