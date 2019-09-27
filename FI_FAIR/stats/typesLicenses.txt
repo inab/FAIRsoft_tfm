@@ -1,0 +1,11 @@
+GPL	1012
+AGPL	15
+artistic	391
+MIT	146
+apache	70
+LGPL	62
+other	79
+None	1558
+BSD	53
+CC	31
+CeCILL	7

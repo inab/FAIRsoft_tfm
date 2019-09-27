@@ -1,0 +1,93 @@
+fasta	103
+pdb	9
+netcdf	2
+image format	5
+fasta-aln	2
+sif	2
+fastqillumina	3
+fastqsanger	5
+bam	25
+bcf	5
+mage-ml	2
+plain text format (unformatted)	4
+rna	2
+fastq	14
+txt	7
+tabular	10
+gff3	6
+tsv	13
+mzml	3
+uniprotxml	1
+vcf	10
+gtf	13
+raw	1
+ontology format	4
+alignment format	2
+fasta-like (text)	7
+pdf	1
+blastxml	1
+twobit	1
+newick	4
+fasta-like	4
+sequence variation annotation format	2
+gff	5
+bai	2
+sam	4
+textual format	53
+fastq-like format (text)	4
+sequence annotation track format	2
+binary format	3
+mass spectrometry data format	2
+bed	17
+fastqsolexa	2
+alignment format (text)	4
+owl format	3
+obo	1
+owl	1
+thermo raw	3
+xml	3
+mgf	2
+csv	2
+uniprotkb format	1
+snaphmm	1
+augustus	1
+embl	1
+phylip	3
+phy	3
+fastq-sanger	1
+text	1
+sdf	1
+smi	1
+mol	1
+mol2	1
+cml	1
+inchi	2
+nhx	1
+genbank	2
+dat	2
+uniprot-like (text)	1
+dmnd	1
+daa	1
+sequence motif format	3
+biological pathway or network format	2
+matrix format	6
+ig	3
+blast xml results format	1
+phylip format	2
+sequence record format	1
+microarray experiment data format	2
+pileup	1
+nucleotide	1
+interval	1
+sequence range format	4
+sqlite format	2
+msf	4
+json	1
+bmp	2
+cram	1
+cel	2
+pepxml	1
+fcs	1
+bed12	2
+sql	1
+smiles	1
