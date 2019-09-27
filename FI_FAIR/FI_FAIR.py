@@ -6,8 +6,8 @@ with open('bioconductor2000.json') as fp:
 class instance(object):
 
     def __init__(self, name, type_, version):
-        
-        # TODO: restrict the format of properties 
+
+        # TODO: restrict the format of properties
 
         self.name = name
         self.description = None # string
@@ -212,7 +212,7 @@ class instance(object):
 
         return(False)
 
-    ##============== Anteroperability metrics computation functions ================
+    ##============== Interoperability metrics computation functions ================
     def compI1_1(self):
         for i in self.input:
             if 'format' in i.keys():
@@ -229,12 +229,12 @@ class instance(object):
     def compI1_3(self):
         for i in self.input:
             if 'format' in i.keys():
-                if 'biojason' in i['format']['term']:
+                if 'biojson' in i['format']['term']:
                     return(True)
 
         for i in self.output:
             if 'format' in i.keys():
-                if 'biojason' in i['format']['term']:
+                if 'biojson' in i['format']['term']:
                     return(True)
 
 
@@ -1118,7 +1118,7 @@ def integrateInstances(setsOfInsts):
                         else:
                             continue
 
-                newInst.input = newInputs # list of strings/dicts 
+                newInst.input = newInputs # list of strings/dicts
                 # TODO: fix this inconsistency with input as strings or dicts in the generators
 
                 newOutputs = []
